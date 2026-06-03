@@ -1,0 +1,3 @@
+# Put your crop photos in folders like:
+# images/crops/kale/2026-05-12.jpg
+# Then reference that path in js/data.js

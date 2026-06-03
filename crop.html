@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crop timeline — Oak Creek Dry Farming Greens</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-leaf" aria-hidden="true">🌿</span>
+        <span class="logo-text">Oak Creek Dry Farming Greens</span>
+      </a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="index.html#intro">About</a>
+        <a href="index.html#map">Garden Map</a>
+        <a href="index.html#crops">Crops</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="crop-page">
+  <!-- ============================================================
+       CROP TIMELINE PAGE — Content comes from js/data.js
+       URL format: crop.html?id=kale  (id must match crop id in data.js)
+       To add a photo: add an entry to that crop's "timeline" array in data.js
+       ============================================================ -->
+    <article id="crop-detail" class="container">
+      <!-- Filled by JavaScript -->
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p><a href="index.html#crops">← Back to all crops</a></p>
+    </div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/crop-page.js"></script>
+</body>
+</html>

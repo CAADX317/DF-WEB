@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Oak Creek Dry Farming Greens — garden map and crop timelines.">
+  <title>Oak Creek Dry Farming Greens</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/garden-map.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-leaf" aria-hidden="true">🌿</span>
+        <span class="logo-text">Oak Creek Dry Farming Greens</span>
+      </a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="#intro">About</a>
+        <a href="#map">Garden map</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============================================================
+         INTRO — Edit the paragraph below with your own words
+         ============================================================ -->
+    <section id="intro" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow">Oak Creek · Dry Farm</p>
+          <h1>Greens &amp; vegetable plots, season by season</h1>
+          <p class="lead">
+            Welcome to our growing diary. We photograph each crop
+            to track progress from seed to harvest. Explore the planting plan below —
+            hover any bed for photos, click for full timelines.
+          </p>
+          <a href="#map" class="btn btn-primary">Explore garden map</a>
+        </div>
+        <figure class="hero-image">
+          <!-- Replace src with your own farm photo: images/hero.jpg -->
+          <img
+            src="Work.jpg"
+            alt="Rows of leafy greens in morning light"
+            width="800"
+            height="600"
+          >
+        </figure>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         INTERACTIVE GARDEN MAP — 5-row planting layout
+         Edit beds: js/garden-data.js  |  Colors: css/garden-map.css
+         ============================================================ -->
+    <section id="map" class="section map-section backyard-map-section">
+      <header class="map-page-header container">
+        <h2 id="map-page-title">Interactive Garden Map</h2>
+        <p id="map-page-intro" class="map-page-intro">
+          Hover over each bed to preview growth photos. Click any section to open its crop timeline.
+        </p>
+        <p id="map-page-tip" class="map-page-tip">
+          Move your mouse over any bed — photos follow near your cursor.
+        </p>
+      </header>
+
+      <div class="map-stage container">
+        <div
+          id="garden-map"
+          class="garden-map"
+          role="group"
+          aria-label="Oak Creek garden plot map"
+        >
+          <!-- Rows & beds built by js/garden-map.js -->
+        </div>
+        <div id="map-filters" class="map-filters" aria-label="Filter crops on map">
+          <!-- Filter buttons built by js/garden-map.js -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Oak Creek Dry Farming Greens</p>
+      <p class="footer-note">Garden map: <code>js/garden-data.js</code> · Journal crops: <code>js/data.js</code></p>
+    </div>
+  </footer>
+
+  <script src="js/garden-data.js"></script>
+  <script src="js/garden-map.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
