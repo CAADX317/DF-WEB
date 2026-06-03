@@ -522,7 +522,7 @@ const gardenData = {
     },
     {
       "id": "bed-38",
-      "crop": "Spinach_America1",
+      "crop": "Spinach_American1",
       "bed": "Bed 38",
       "mapRow": 4,
       "colSpan": 1,
@@ -530,7 +530,7 @@ const gardenData = {
       "filter": "Future Crop",
       "color": "#d4d0c4",
       "images": [
-        "2026_Oak_Creek Greens_Polts/38.Spinach_America1/37.Spinach_America1.png"
+        "2026_Oak_Creek Greens_Polts/38.Spinach_American1/37.Spinach_American1.png"
       ]
     },
     {
@@ -561,7 +561,7 @@ const gardenData = {
     },
     {
       "id": "bed-41",
-      "crop": "Salad_Green_LettuceMix1",
+      "crop": "Salad_Greens_LettuceMix1",
       "bed": "Bed 41",
       "mapRow": 5,
       "colSpan": 1,
@@ -569,7 +569,7 @@ const gardenData = {
       "filter": "Future Crop",
       "color": "#d8d4c8",
       "images": [
-        "2026_Oak_Creek Greens_Polts/41.Salad_Green_LettuceMix1/40.Salad_Green_LettuceMix1.jpg"
+        "2026_Oak_Creek Greens_Polts/41.Salad_Greens_LettuceMix1/41.Salad_Greens_LettuceMix1.jpg"
       ]
     },
     {
@@ -1762,15 +1762,15 @@ const gardenData = {
       ]
     },
     "bed-38": {
-      "name": "Spinach_America1",
+      "name": "Spinach_American1",
       "bed": "Bed 38",
-      "description": "Spinach_America1 tracked in Bed 38.",
+      "description": "Spinach_American1 tracked in Bed 38.",
       "entries": [
         {
           "dayNumber": 25,
           "date": "May 26th",
-          "image": "2026_Oak_Creek Greens_Polts/38.Spinach_America1/37.Spinach_America1.png",
-          "alt": "Spinach_America1 in Bed 38",
+          "image": "2026_Oak_Creek Greens_Polts/38.Spinach_American1/37.Spinach_American1.png",
+          "alt": "Spinach_American1 in Bed 38",
           "note": "Day 25 growth photo."
         },
         {
@@ -1819,15 +1819,15 @@ const gardenData = {
       ]
     },
     "bed-41": {
-      "name": "Salad_Green_LettuceMix1",
+      "name": "Salad_Greens_LettuceMix1",
       "bed": "Bed 41",
-      "description": "Salad_Green_LettuceMix1 tracked in Bed 41.",
+      "description": "Salad_Greens_LettuceMix1 tracked in Bed 41.",
       "entries": [
         {
           "dayNumber": 25,
           "date": "May 26th",
-          "image": "2026_Oak_Creek Greens_Polts/41.Salad_Green_LettuceMix1/40.Salad_Green_LettuceMix1.jpg",
-          "alt": "Salad_Green_LettuceMix1 in Bed 41",
+          "image": "2026_Oak_Creek Greens_Polts/41.Salad_Greens_LettuceMix1/41.Salad_Greens_LettuceMix1.jpg",
+          "alt": "Salad_Greens_LettuceMix1 in Bed 41",
           "note": "Day 25 growth photo."
         },
         {

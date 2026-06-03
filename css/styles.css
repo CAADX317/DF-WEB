@@ -412,6 +412,10 @@ a:hover {
   padding-left: 0;
 }
 
+.bed-9-plus .timeline {
+  max-width: 960px;
+}
+
 .timeline::before {
   content: "";
   position: absolute;
@@ -520,6 +524,11 @@ a:hover {
   object-fit: contain;
   display: block;
   margin: 0 auto;
+}
+
+.bed-9-plus .timeline-photo img {
+  max-width: 630px;
+  max-height: 900px;
 }
 
 .timeline-note {

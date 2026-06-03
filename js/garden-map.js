@@ -269,7 +269,7 @@
       if (!seen.has(key)) {
         seen.set(key, {
           key,
-          label: formatCropNameForDisplay(getCropFilterLabel(bed.crop)),
+          label: key,
         });
       }
     });
@@ -283,13 +283,16 @@
   }
 
   function getCropFilterKey(bed) {
-    return getCropFilterLabel(bed.crop);
+    return normalizeCropForFilter(bed.crop);
   }
 
-  function getCropFilterLabel(name) {
+  function normalizeCropForFilter(name) {
     return String(name || "")
       .replace(/\([^)]*\)/g, "")
-      .replace(/[_\s]*\d+(?:\.\d+)?$/g, "")
+      .replace(/_/g, " ")
+      .trim()
+      .replace(/\s+/g, " ")
+      .replace(/\d+$/, "")
       .trim();
   }
 

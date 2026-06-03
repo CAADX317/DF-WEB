@@ -25,6 +25,10 @@
   }
 
   const displayName = formatCropNameForDisplay(crop.name);
+  const bedNumber = getBedNumber(crop);
+  if (bedNumber >= 9) {
+    container.classList.add("bed-9-plus");
+  }
   const title = crop.nameSecondary
     ? `${displayName} (${crop.nameSecondary})`
     : displayName;
@@ -101,6 +105,11 @@
 
   function formatCropNameForDisplay(name) {
     return String(name || "").replace(/_/g, " ");
+  }
+
+  function getBedNumber(cropData) {
+    const match = String(cropData.bed || "").match(/\d+/);
+    return match ? Number(match[0]) : 0;
   }
 
   function escapeAttr(text) {
