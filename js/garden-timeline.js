@@ -57,7 +57,7 @@
           <span class="timeline-date">${escapeHtml(entry.date)}</span>
         </div>
         <figure class="timeline-photo">
-          <img src="${escapeAttr(entry.image)}" alt="${escapeAttr(entry.alt)}" loading="lazy" width="800" height="600">
+          ${renderTimelineImages(entry)}
         </figure>
         <p class="timeline-note">${escapeHtml(entry.note)}</p>
       </div>
@@ -95,6 +95,23 @@
     });
 
     return hasEligibleBed ? { ...note, textOnly: true } : null;
+  }
+
+  function renderTimelineImages(entry) {
+    return getEntryImages(entry)
+      .map(
+        ({ src, alt }) =>
+          `<img src="${escapeAttr(src)}" alt="${escapeAttr(alt)}" loading="lazy" width="800" height="600">`
+      )
+      .join("");
+  }
+
+  function getEntryImages(entry) {
+    const images = [entry.image, ...(entry.images || [])].filter(Boolean);
+    return [...new Set(images)].map((src, index) => ({
+      src,
+      alt: index === 0 ? entry.alt : `${entry.alt} close-up ${index}`,
+    }));
   }
 
   function escapeHtml(text) {

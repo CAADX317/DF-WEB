@@ -974,6 +974,9 @@ const gardenData = {
           "dayNumber": 25,
           "date": "May 26th",
           "image": "2026_Oak_Creek Greens_Polts/15.Amaranth_Miriah_Leaf2/15.Amaranth_Miriah_Leaf2.jpg",
+          "images": [
+            "2026_Oak_Creek Greens_Polts/15.Amaranth_Miriah_Leaf2/15.Amaranth_Miriah_Leaf2.1.png"
+          ],
           "alt": "Amaranth_Miriah_Leaf2 in Bed 15",
           "note": "Day 25 growth photo."
         },
@@ -1090,6 +1093,13 @@ const gardenData = {
           "image": "2026_Oak_Creek Greens_Polts/21.French_Sorrel2/21.French_Sorrel2.jpg",
           "alt": "French_Sorrel2 in Bed 21",
           "note": "Day 25 growth photo."
+        },
+        {
+          "dayNumber": 45,
+          "date": "June 15",
+          "image": "2026_Oak_Creek Greens_Polts/21.French_Sorrel2/0615.jpeg",
+          "alt": "French_Sorrel2 in Bed 21 on June 15",
+          "note": "June 15 growth photo."
         },
         {
           "dayNumber": 0,
@@ -1256,6 +1266,13 @@ const gardenData = {
           "image": "2026_Oak_Creek Greens_Polts/29.Lettuce_Blade_Seeded_Simpson1/0605.jpeg",
           "alt": "Lettuce_Blade_Seeded_Simpson1 in Bed 29 on June 5",
           "note": "June 5 growth photo."
+        },
+        {
+          "dayNumber": 45,
+          "date": "June 15",
+          "image": "2026_Oak_Creek Greens_Polts/29.Lettuce_Blade_Seeded_Simpson1/0615.jpeg",
+          "alt": "Lettuce_Blade_Seeded_Simpson1 in Bed 29 on June 15",
+          "note": "June 15 growth photo."
         },
         {
           "dayNumber": 0,
@@ -1973,6 +1990,13 @@ const gardenData = {
           "image": "2026_Oak_Creek Greens_Polts/21.French_Sorrel2/21.French_Sorrel2.jpg",
           "alt": "French_Sorrel2 in Bed 21",
           "note": "Day 25 growth photo."
+        },
+        {
+          "dayNumber": 45,
+          "date": "June 15",
+          "image": "2026_Oak_Creek Greens_Polts/21.French_Sorrel2/0615.jpeg",
+          "alt": "French_Sorrel2 in Bed 21 on June 15",
+          "note": "June 15 growth photo."
         },
         {
           "dayNumber": 0,
