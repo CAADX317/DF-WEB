@@ -4,7 +4,7 @@
  * =============================================================================
  *
  *  Bed names, hover photos, and standardized timelines are generated from
- *  numbered folders in 2026_Oak_Creek Greens_Polts.
+ *  numbered crop image sources in 2026_Oak_Creek Greens_Polts and Sweet_Potato.
  *  To change row counts or layout, edit css/garden-map.css and the beds below.
  *
  * =============================================================================
@@ -50,7 +50,8 @@ const gardenData = {
     "Cabbage Primax",
     "Cabbage Amarant",
     "Cabbage Charleston Wakefield",
-    "Cabbage Early Round Dutch"
+    "Cabbage Early Round Dutch",
+    "Sweet Potato"
   ],
   "beds": [
     {
@@ -689,6 +690,201 @@ const gardenData = {
       "images": [
         "2026_Oak_Creek Greens_Polts/49.Cabbage_Amarant1/48.Cabbage_Amarant1.jpg"
       ]
+    },
+    {
+      "id": "bed-50",
+      "crop": "56660_1",
+      "bed": "Bed 50",
+      "mapRow": 6,
+      "colSpan": 1,
+      "link": "future-crop.html?bed=50",
+      "filter": "Sweet Potato",
+      "color": "#b59663",
+      "images": [
+        "Sweet_Potato/1.56660_1.jpeg"
+      ]
+    },
+    {
+      "id": "bed-51",
+      "crop": "Orleans1",
+      "bed": "Bed 51",
+      "mapRow": 6,
+      "colSpan": 1,
+      "link": "future-crop.html?bed=51",
+      "filter": "Sweet Potato",
+      "color": "#b59663",
+      "images": [
+        "Sweet_Potato/2.Orleans1.jpeg"
+      ]
+    },
+    {
+      "id": "bed-52",
+      "crop": "Purple_Magisty1",
+      "bed": "Bed 52",
+      "mapRow": 6,
+      "colSpan": 1,
+      "link": "future-crop.html?bed=52",
+      "filter": "Sweet Potato",
+      "color": "#b59663",
+      "images": [
+        "Sweet_Potato/3.Purple_Magisty1.jpeg"
+      ]
+    },
+    {
+      "id": "bed-53",
+      "crop": "628761_1",
+      "bed": "Bed 53",
+      "mapRow": 6,
+      "colSpan": 1,
+      "link": "future-crop.html?bed=53",
+      "filter": "Sweet Potato",
+      "color": "#b59663",
+      "images": [
+        "Sweet_Potato/4.628761_1.jpeg"
+      ]
+    },
+    {
+      "id": "bed-54",
+      "crop": "Ga_Jet1",
+      "bed": "Bed 54",
+      "mapRow": 6,
+      "colSpan": 1,
+      "link": "future-crop.html?bed=54",
+      "filter": "Sweet Potato",
+      "color": "#b59663",
+      "images": [
+        "Sweet_Potato/5.Ga_Jet1.jpeg"
+      ]
+    },
+    {
+      "id": "bed-55",
+      "crop": "Beauregard1",
+      "bed": "Bed 55",
+      "mapRow": 6,
+      "colSpan": 1,
+      "link": "future-crop.html?bed=55",
+      "filter": "Sweet Potato",
+      "color": "#b59663",
+      "images": [
+        "Sweet_Potato/6.Beauregard1.jpeg"
+      ]
+    },
+    {
+      "id": "bed-56",
+      "crop": "Vardaman1",
+      "bed": "Bed 56",
+      "mapRow": 6,
+      "colSpan": 1,
+      "link": "future-crop.html?bed=56",
+      "filter": "Sweet Potato",
+      "color": "#b59663",
+      "images": [
+        "Sweet_Potato/7.Vardaman1.jpeg"
+      ]
+    },
+    {
+      "id": "bed-57",
+      "crop": "566662",
+      "bed": "Bed 57",
+      "mapRow": 6,
+      "colSpan": 1,
+      "link": "future-crop.html?bed=57",
+      "filter": "Sweet Potato",
+      "color": "#b59663",
+      "images": [
+        "Sweet_Potato/8.566662.jpeg"
+      ]
+    },
+    {
+      "id": "bed-58",
+      "crop": "Orleans2",
+      "bed": "Bed 58",
+      "mapRow": 6,
+      "colSpan": 1,
+      "link": "future-crop.html?bed=58",
+      "filter": "Sweet Potato",
+      "color": "#b59663",
+      "images": [
+        "Sweet_Potato/9.Orleans2.jpeg"
+      ]
+    },
+    {
+      "id": "bed-59",
+      "crop": "56660_2",
+      "bed": "Bed 59",
+      "mapRow": 6,
+      "colSpan": 1,
+      "link": "future-crop.html?bed=59",
+      "filter": "Sweet Potato",
+      "color": "#b59663",
+      "images": [
+        "Sweet_Potato/10.56660_2.jpeg"
+      ]
+    },
+    {
+      "id": "bed-60",
+      "crop": "Purple_Magisty2",
+      "bed": "Bed 60",
+      "mapRow": 6,
+      "colSpan": 1,
+      "link": "future-crop.html?bed=60",
+      "filter": "Sweet Potato",
+      "color": "#b59663",
+      "images": [
+        "Sweet_Potato/11.Purple_Magisty2.jpeg"
+      ]
+    },
+    {
+      "id": "bed-61",
+      "crop": "Ga_Jet2",
+      "bed": "Bed 61",
+      "mapRow": 6,
+      "colSpan": 1,
+      "link": "future-crop.html?bed=61",
+      "filter": "Sweet Potato",
+      "color": "#b59663",
+      "images": [
+        "Sweet_Potato/12.Ga_Jet2.jpeg"
+      ]
+    },
+    {
+      "id": "bed-62",
+      "crop": "Beauregard2",
+      "bed": "Bed 62",
+      "mapRow": 6,
+      "colSpan": 1,
+      "link": "future-crop.html?bed=62",
+      "filter": "Sweet Potato",
+      "color": "#b59663",
+      "images": [
+        "Sweet_Potato/13.Beauregard2.jpeg"
+      ]
+    },
+    {
+      "id": "bed-63",
+      "crop": "Vardaman2",
+      "bed": "Bed 63",
+      "mapRow": 6,
+      "colSpan": 1,
+      "link": "future-crop.html?bed=63",
+      "filter": "Sweet Potato",
+      "color": "#b59663",
+      "images": [
+        "Sweet_Potato/14.Vardaman2.jpeg"
+      ]
+    },
+    {
+      "id": "bed-64",
+      "crop": "628761_2",
+      "bed": "Bed 64",
+      "mapRow": 6,
+      "colSpan": 1,
+      "link": "future-crop.html?bed=64",
+      "filter": "Sweet Potato",
+      "color": "#b59663",
+      "images": [
+        "Sweet_Potato/15.628761_2.jpeg"
+      ]
     }
   ],
   "timelines": {
@@ -959,6 +1155,11 @@ const gardenData = {
           "note": "Day 25 growth photo."
         },
         {
+          "dayNumber": 1,
+          "textOnly": true,
+          "text": "All plants died after transplanting. The bed was not replanted. Weather stress may have been a contributing factor."
+        },
+        {
           "dayNumber": 0,
           "textOnly": true,
           "text": "Transplanting on May 1st"
@@ -1074,6 +1275,11 @@ const gardenData = {
           "image": "2026_Oak_Creek Greens_Polts/20.Molokhia2/20.Molokhia2.png",
           "alt": "Molokhia2 in Bed 20",
           "note": "Day 25 growth photo."
+        },
+        {
+          "dayNumber": 1,
+          "textOnly": true,
+          "text": "All plants died after transplanting. The bed was not replanted. Weather stress may have been a contributing factor."
         },
         {
           "dayNumber": 0,
@@ -1973,6 +2179,11 @@ const gardenData = {
           "note": "Day 25 growth photo."
         },
         {
+          "dayNumber": 1,
+          "textOnly": true,
+          "text": "All plants died after transplanting. The bed was not replanted. Weather stress may have been a contributing factor."
+        },
+        {
           "dayNumber": 0,
           "textOnly": true,
           "text": "Transplanting on May 1st"
@@ -2066,6 +2277,216 @@ const gardenData = {
           "dayNumber": 0,
           "textOnly": true,
           "text": "Transplanting on May 1st"
+        }
+      ]
+    },
+    "bed-50": {
+      "name": "56660_1",
+      "bed": "Bed 50",
+      "description": "56660_1 tracked in Bed 50.",
+      "entries": [
+        {
+          "dayNumber": 1,
+          "date": "Jun 16",
+          "image": "Sweet_Potato/1.56660_1.jpeg",
+          "alt": "56660_1 in Bed 50 on Jun 16",
+          "note": "Transplanting on Jun 16th. Transplanted sweet potatoes during a warm and sunny week, with daytime highs ranging from 80°F to 90°F (25°C–35°C). The soil was loose and moist at transplanting. Beds were hilled to improve root-to-soil contact and help retain moisture."
+        }
+      ]
+    },
+    "bed-51": {
+      "name": "Orleans1",
+      "bed": "Bed 51",
+      "description": "Orleans1 tracked in Bed 51.",
+      "entries": [
+        {
+          "dayNumber": 1,
+          "date": "Jun 16",
+          "image": "Sweet_Potato/2.Orleans1.jpeg",
+          "alt": "Orleans1 in Bed 51 on Jun 16",
+          "note": "Transplanting on Jun 16th. Transplanted sweet potatoes during a warm and sunny week, with daytime highs ranging from 80°F to 90°F (25°C–35°C). The soil was loose and moist at transplanting. Beds were hilled to improve root-to-soil contact and help retain moisture."
+        }
+      ]
+    },
+    "bed-52": {
+      "name": "Purple_Magisty1",
+      "bed": "Bed 52",
+      "description": "Purple_Magisty1 tracked in Bed 52.",
+      "entries": [
+        {
+          "dayNumber": 1,
+          "date": "Jun 16",
+          "image": "Sweet_Potato/3.Purple_Magisty1.jpeg",
+          "alt": "Purple_Magisty1 in Bed 52 on Jun 16",
+          "note": "Transplanting on Jun 16th. Transplanted sweet potatoes during a warm and sunny week, with daytime highs ranging from 80°F to 90°F (25°C–35°C). The soil was loose and moist at transplanting. Beds were hilled to improve root-to-soil contact and help retain moisture."
+        }
+      ]
+    },
+    "bed-53": {
+      "name": "628761_1",
+      "bed": "Bed 53",
+      "description": "628761_1 tracked in Bed 53.",
+      "entries": [
+        {
+          "dayNumber": 1,
+          "date": "Jun 16",
+          "image": "Sweet_Potato/4.628761_1.jpeg",
+          "alt": "628761_1 in Bed 53 on Jun 16",
+          "note": "Transplanting on Jun 16th. Transplanted sweet potatoes during a warm and sunny week, with daytime highs ranging from 80°F to 90°F (25°C–35°C). The soil was loose and moist at transplanting. Beds were hilled to improve root-to-soil contact and help retain moisture."
+        }
+      ]
+    },
+    "bed-54": {
+      "name": "Ga_Jet1",
+      "bed": "Bed 54",
+      "description": "Ga_Jet1 tracked in Bed 54.",
+      "entries": [
+        {
+          "dayNumber": 1,
+          "date": "Jun 16",
+          "image": "Sweet_Potato/5.Ga_Jet1.jpeg",
+          "alt": "Ga_Jet1 in Bed 54 on Jun 16",
+          "note": "Transplanting on Jun 16th. Transplanted sweet potatoes during a warm and sunny week, with daytime highs ranging from 80°F to 90°F (25°C–35°C). The soil was loose and moist at transplanting. Beds were hilled to improve root-to-soil contact and help retain moisture."
+        }
+      ]
+    },
+    "bed-55": {
+      "name": "Beauregard1",
+      "bed": "Bed 55",
+      "description": "Beauregard1 tracked in Bed 55.",
+      "entries": [
+        {
+          "dayNumber": 1,
+          "date": "Jun 16",
+          "image": "Sweet_Potato/6.Beauregard1.jpeg",
+          "alt": "Beauregard1 in Bed 55 on Jun 16",
+          "note": "Transplanting on Jun 16th. Transplanted sweet potatoes during a warm and sunny week, with daytime highs ranging from 80°F to 90°F (25°C–35°C). The soil was loose and moist at transplanting. Beds were hilled to improve root-to-soil contact and help retain moisture."
+        }
+      ]
+    },
+    "bed-56": {
+      "name": "Vardaman1",
+      "bed": "Bed 56",
+      "description": "Vardaman1 tracked in Bed 56.",
+      "entries": [
+        {
+          "dayNumber": 1,
+          "date": "Jun 16",
+          "image": "Sweet_Potato/7.Vardaman1.jpeg",
+          "alt": "Vardaman1 in Bed 56 on Jun 16",
+          "note": "Transplanting on Jun 16th. Transplanted sweet potatoes during a warm and sunny week, with daytime highs ranging from 80°F to 90°F (25°C–35°C). The soil was loose and moist at transplanting. Beds were hilled to improve root-to-soil contact and help retain moisture."
+        }
+      ]
+    },
+    "bed-57": {
+      "name": "566662",
+      "bed": "Bed 57",
+      "description": "566662 tracked in Bed 57.",
+      "entries": [
+        {
+          "dayNumber": 1,
+          "date": "Jun 16",
+          "image": "Sweet_Potato/8.566662.jpeg",
+          "alt": "566662 in Bed 57 on Jun 16",
+          "note": "Transplanting on Jun 16th. Transplanted sweet potatoes during a warm and sunny week, with daytime highs ranging from 80°F to 90°F (25°C–35°C). The soil was loose and moist at transplanting. Beds were hilled to improve root-to-soil contact and help retain moisture."
+        }
+      ]
+    },
+    "bed-58": {
+      "name": "Orleans2",
+      "bed": "Bed 58",
+      "description": "Orleans2 tracked in Bed 58.",
+      "entries": [
+        {
+          "dayNumber": 1,
+          "date": "Jun 16",
+          "image": "Sweet_Potato/9.Orleans2.jpeg",
+          "alt": "Orleans2 in Bed 58 on Jun 16",
+          "note": "Transplanting on Jun 16th. Transplanted sweet potatoes during a warm and sunny week, with daytime highs ranging from 80°F to 90°F (25°C–35°C). The soil was loose and moist at transplanting. Beds were hilled to improve root-to-soil contact and help retain moisture."
+        }
+      ]
+    },
+    "bed-59": {
+      "name": "56660_2",
+      "bed": "Bed 59",
+      "description": "56660_2 tracked in Bed 59.",
+      "entries": [
+        {
+          "dayNumber": 1,
+          "date": "Jun 16",
+          "image": "Sweet_Potato/10.56660_2.jpeg",
+          "alt": "56660_2 in Bed 59 on Jun 16",
+          "note": "Transplanting on Jun 16th. Transplanted sweet potatoes during a warm and sunny week, with daytime highs ranging from 80°F to 90°F (25°C–35°C). The soil was loose and moist at transplanting. Beds were hilled to improve root-to-soil contact and help retain moisture."
+        }
+      ]
+    },
+    "bed-60": {
+      "name": "Purple_Magisty2",
+      "bed": "Bed 60",
+      "description": "Purple_Magisty2 tracked in Bed 60.",
+      "entries": [
+        {
+          "dayNumber": 1,
+          "date": "Jun 16",
+          "image": "Sweet_Potato/11.Purple_Magisty2.jpeg",
+          "alt": "Purple_Magisty2 in Bed 60 on Jun 16",
+          "note": "Transplanting on Jun 16th. Transplanted sweet potatoes during a warm and sunny week, with daytime highs ranging from 80°F to 90°F (25°C–35°C). The soil was loose and moist at transplanting. Beds were hilled to improve root-to-soil contact and help retain moisture."
+        }
+      ]
+    },
+    "bed-61": {
+      "name": "Ga_Jet2",
+      "bed": "Bed 61",
+      "description": "Ga_Jet2 tracked in Bed 61.",
+      "entries": [
+        {
+          "dayNumber": 1,
+          "date": "Jun 16",
+          "image": "Sweet_Potato/12.Ga_Jet2.jpeg",
+          "alt": "Ga_Jet2 in Bed 61 on Jun 16",
+          "note": "Transplanting on Jun 16th. Transplanted sweet potatoes during a warm and sunny week, with daytime highs ranging from 80°F to 90°F (25°C–35°C). The soil was loose and moist at transplanting. Beds were hilled to improve root-to-soil contact and help retain moisture."
+        }
+      ]
+    },
+    "bed-62": {
+      "name": "Beauregard2",
+      "bed": "Bed 62",
+      "description": "Beauregard2 tracked in Bed 62.",
+      "entries": [
+        {
+          "dayNumber": 1,
+          "date": "Jun 16",
+          "image": "Sweet_Potato/13.Beauregard2.jpeg",
+          "alt": "Beauregard2 in Bed 62 on Jun 16",
+          "note": "Transplanting on Jun 16th. Transplanted sweet potatoes during a warm and sunny week, with daytime highs ranging from 80°F to 90°F (25°C–35°C). The soil was loose and moist at transplanting. Beds were hilled to improve root-to-soil contact and help retain moisture."
+        }
+      ]
+    },
+    "bed-63": {
+      "name": "Vardaman2",
+      "bed": "Bed 63",
+      "description": "Vardaman2 tracked in Bed 63.",
+      "entries": [
+        {
+          "dayNumber": 1,
+          "date": "Jun 16",
+          "image": "Sweet_Potato/14.Vardaman2.jpeg",
+          "alt": "Vardaman2 in Bed 63 on Jun 16",
+          "note": "Transplanting on Jun 16th. Transplanted sweet potatoes during a warm and sunny week, with daytime highs ranging from 80°F to 90°F (25°C–35°C). The soil was loose and moist at transplanting. Beds were hilled to improve root-to-soil contact and help retain moisture."
+        }
+      ]
+    },
+    "bed-64": {
+      "name": "628761_2",
+      "bed": "Bed 64",
+      "description": "628761_2 tracked in Bed 64.",
+      "entries": [
+        {
+          "dayNumber": 1,
+          "date": "Jun 16",
+          "image": "Sweet_Potato/15.628761_2.jpeg",
+          "alt": "628761_2 in Bed 64 on Jun 16",
+          "note": "Transplanting on Jun 16th. Transplanted sweet potatoes during a warm and sunny week, with daytime highs ranging from 80°F to 90°F (25°C–35°C). The soil was loose and moist at transplanting. Beds were hilled to improve root-to-soil contact and help retain moisture."
         }
       ]
     }

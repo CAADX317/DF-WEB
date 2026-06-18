@@ -20,7 +20,7 @@
   if (!mapRoot || !beds?.length) return;
 
   // Add or remove row numbers here after defining their grid in garden-map.css.
-  const rows = [1, 2, 3, 4, 5];
+  const rows = [1, 2, 3, 4, 5, 6];
   mapRoot.innerHTML = rows
     .map((rowNum) => {
       const rowBeds = beds.filter((b) => b.mapRow === rowNum);
@@ -283,7 +283,7 @@
   }
 
   function getCropFilterKey(bed) {
-    return normalizeCropForFilter(bed.crop);
+    return bed.filter || normalizeCropForFilter(bed.crop);
   }
 
   function normalizeCropForFilter(name) {
