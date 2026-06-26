@@ -1,5 +1,5 @@
 /* =============================================================================
-   OAK CREEK DRY FARMING GREENS — Interactive Garden Map (6-row layout)
+   OAK CREEK DRY FARMING GREENS — Interactive Garden Map (7-row layout)
    =============================================================================
    COLORS: edit :root below
    BEDS:  edit js/garden-data.js
@@ -109,6 +109,11 @@
   grid-template-columns: repeat(15, minmax(0, 1fr));
 }
 
+.map-row.row-7 {
+  grid-template-columns: repeat(15, minmax(0, 1fr));
+  min-height: 82px;
+}
+
 .map-row.row-2 {
   min-height: 88px;
 }
@@ -118,6 +123,10 @@
 .map-row.row-5,
 .map-row.row-6 {
   min-height: 72px;
+}
+
+.row-7 .map-bed {
+  min-height: 82px;
 }
 
 /* Individual bed block */
@@ -339,6 +348,10 @@
 .crop-preview-float__slider img.is-active {
   opacity: 1;
   transform: translateX(0);
+}
+
+.crop-preview-float.is-contain .crop-preview-float__slider img {
+  object-fit: contain;
 }
 
 .crop-preview-float__empty {

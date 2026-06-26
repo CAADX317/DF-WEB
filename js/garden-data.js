@@ -51,7 +51,8 @@ const gardenData = {
     "Cabbage Amarant",
     "Cabbage Charleston Wakefield",
     "Cabbage Early Round Dutch",
-    "Sweet Potato"
+    "Sweet Potato",
+    "Barley"
   ],
   "beds": [
     {
@@ -885,6 +886,27 @@ const gardenData = {
       "images": [
         "Sweet_Potato/15.628761_2.jpeg"
       ]
+    },
+    {
+      "id": "barley-row",
+      "crop": "Barley",
+      "cropSecondary": "2-row & 6-row",
+      "bed": "Barley Row",
+      "mapRow": 7,
+      "colSpan": 15,
+      "link": "barley.html",
+      "filter": "Barley",
+      "color": "#b99655",
+      "previewTitle": "Barley",
+      "previewSubtitle": "2-row and 6-row maturity comparison",
+      "images": [
+        "Barley/0625_1.jpeg",
+        "Barley/0625_2.jpeg",
+        "Barley/0625.jpeg",
+        "Barley/2_Rows/IMG_6068.jpeg",
+        "Barley/6_Rows/IMG_6053.jpeg"
+      ],
+      "previewFit": "contain"
     }
   ],
   "timelines": {
@@ -901,9 +923,29 @@ const gardenData = {
           "note": "Day 25 growth photo."
         },
         {
+          "dayNumber": 47,
+          "date": "Jun 17",
+          "image": "2026_Oak_Creek Greens_Polts/1. Vltroacross_Okra2(DS)/0617_1.jpg",
+          "alt": "Vltroacross_Okra2(DS) in Bed 1 on Jun 17",
+          "note": "Jun 17 growth photo."
+        },
+        {
           "dayNumber": 0,
           "textOnly": true,
           "text": "Transplanting on May 1st"
+        },
+        {
+          "dayNumber": 53,
+          "date": "Jun 23",
+          "textOnly": true,
+          "text": "Overall rating: Not recorded. Field observations: A total of 25 direct-seeded okra plants emerged in this plot. Plants are approximately 3 inches tall and all appear healthy."
+        },
+        {
+          "dayNumber": 55,
+          "date": "Jun 25",
+          "image": "2026_Oak_Creek Greens_Polts/1. Vltroacross_Okra2(DS)/0625_1.jpg",
+          "alt": "Vltroacross_Okra2(DS) in Bed 1 on Jun 25",
+          "note": "Jun 25 growth photo."
         }
       ]
     },
@@ -920,9 +962,29 @@ const gardenData = {
           "note": "Day 25 growth photo."
         },
         {
+          "dayNumber": 47,
+          "date": "Jun 17",
+          "image": "2026_Oak_Creek Greens_Polts/2.Okra_Yalova_Akkoy(DS)/0617_1.jpg",
+          "alt": "Okra_Yalova_Akkoy(DS) in Bed 2 on Jun 17",
+          "note": "Jun 17 growth photo."
+        },
+        {
           "dayNumber": 0,
           "textOnly": true,
           "text": "Transplanting on May 1st"
+        },
+        {
+          "dayNumber": 53,
+          "date": "Jun 23",
+          "textOnly": true,
+          "text": "Overall rating: Not recorded. Field observations: A total of 25 direct-seeded okra plants emerged in this plot. Plants are approximately 1 inch tall and show signs of beetle damage."
+        },
+        {
+          "dayNumber": 55,
+          "date": "Jun 25",
+          "image": "2026_Oak_Creek Greens_Polts/2.Okra_Yalova_Akkoy(DS)/0625_1.jpg",
+          "alt": "Okra_Yalova_Akkoy(DS) in Bed 2 on Jun 25",
+          "note": "Jun 25 growth photo."
         }
       ]
     },
@@ -939,9 +1001,29 @@ const gardenData = {
           "note": "Day 25 growth photo."
         },
         {
+          "dayNumber": 47,
+          "date": "Jun 17",
+          "image": "2026_Oak_Creek Greens_Polts/3.Okra_Ciek(DS)/0617_1.jpg",
+          "alt": "Okra_Ciek(DS) in Bed 3 on Jun 17",
+          "note": "Jun 17 growth photo."
+        },
+        {
           "dayNumber": 0,
           "textOnly": true,
           "text": "Transplanting on May 1st"
+        },
+        {
+          "dayNumber": 53,
+          "date": "Jun 23",
+          "textOnly": true,
+          "text": "Overall rating: Not recorded. Field observations: A total of 20 direct-seeded okra plants emerged in this plot. Plants are approximately 1 inch tall and all appear healthy."
+        },
+        {
+          "dayNumber": 55,
+          "date": "Jun 25",
+          "image": "2026_Oak_Creek Greens_Polts/3.Okra_Ciek(DS)/0625_1.jpg",
+          "alt": "Okra_Ciek(DS) in Bed 3 on Jun 25",
+          "note": "Jun 25 growth photo."
         }
       ]
     },
@@ -958,9 +1040,29 @@ const gardenData = {
           "note": "Day 25 growth photo."
         },
         {
+          "dayNumber": 47,
+          "date": "Jun 17",
+          "image": "2026_Oak_Creek Greens_Polts/4.Okra_BURNOVA_KINALI(DS)/0617_1.jpg",
+          "alt": "Okra_BURNOVA_KINALI(DS) in Bed 4 on Jun 17",
+          "note": "Jun 17 growth photo."
+        },
+        {
           "dayNumber": 0,
           "textOnly": true,
           "text": "Transplanting on May 1st"
+        },
+        {
+          "dayNumber": 53,
+          "date": "Jun 23",
+          "textOnly": true,
+          "text": "Overall rating: Not recorded. Field observations: A total of 25 direct-seeded okra plants emerged in this plot. Plants are approximately 2 inches tall and all appear healthy."
+        },
+        {
+          "dayNumber": 55,
+          "date": "Jun 25",
+          "image": "2026_Oak_Creek Greens_Polts/4.Okra_BURNOVA_KINALI(DS)/0625_1.jpg",
+          "alt": "Okra_BURNOVA_KINALI(DS) in Bed 4 on Jun 25",
+          "note": "Jun 25 growth photo."
         }
       ]
     },
@@ -977,9 +1079,29 @@ const gardenData = {
           "note": "Day 25 growth photo."
         },
         {
+          "dayNumber": 47,
+          "date": "Jun 17",
+          "image": "2026_Oak_Creek Greens_Polts/5.Okra_Bagramic_White(DS)/0617_1.jpg",
+          "alt": "Okra_Bagramic_White(DS) in Bed 5 on Jun 17",
+          "note": "Jun 17 growth photo."
+        },
+        {
           "dayNumber": 0,
           "textOnly": true,
           "text": "Transplanting on May 1st"
+        },
+        {
+          "dayNumber": 53,
+          "date": "Jun 23",
+          "textOnly": true,
+          "text": "Overall rating: Not recorded. Field observations: A total of 25 direct-seeded okra plants emerged in this plot. Plants are approximately 2 inches tall and all appear healthy."
+        },
+        {
+          "dayNumber": 55,
+          "date": "Jun 25",
+          "image": "2026_Oak_Creek Greens_Polts/5.Okra_Bagramic_White(DS)/0625_1.jpg",
+          "alt": "Okra_Bagramic_White(DS) in Bed 5 on Jun 25",
+          "note": "Jun 25 growth photo."
         }
       ]
     },
@@ -996,9 +1118,45 @@ const gardenData = {
           "note": "Day 25 growth photo."
         },
         {
+          "dayNumber": 47,
+          "date": "Jun 17",
+          "image": "2026_Oak_Creek Greens_Polts/6.Green_Towels(DS)/0617_1.jpg",
+          "alt": "Green_Towels(DS) in Bed 6 on Jun 17",
+          "note": "Jun 17 growth photo.",
+          "images": [
+            "2026_Oak_Creek Greens_Polts/6.Green_Towels(DS)/0617_2.jpg"
+          ]
+        },
+        {
           "dayNumber": 0,
           "textOnly": true,
           "text": "Transplanting on May 1st"
+        },
+        {
+          "dayNumber": 52,
+          "date": "Jun 22",
+          "image": "2026_Oak_Creek Greens_Polts/6.Green_Towels(DS)/6022.jpeg",
+          "alt": "Green_Towels(DS) in Bed 6 on Jun 22",
+          "note": "Jun 22 growth photo."
+        },
+        {
+          "dayNumber": 49,
+          "date": "Jun 19",
+          "textOnly": true,
+          "text": "Overall rating: Not recorded. Field observations: Green Towers lettuce showed good germination, with about 85% of seeds emerging. No bolting was observed at this stage. Leaf edge damage was present in some lettuces and was likely caused by animals, since no insects were observed on the lettuce."
+        },
+        {
+          "dayNumber": 53,
+          "date": "Jun 23",
+          "textOnly": true,
+          "text": "Overall rating: 5/5. Field observations: Green Towels (DS) received an overall rating of 5/5. Plants exhibited vigorous growth, with healthy leaf color and good overall appearance. The largest plants reached approximately 6 inches in width."
+        },
+        {
+          "dayNumber": 55,
+          "date": "Jun 25",
+          "image": "2026_Oak_Creek Greens_Polts/6.Green_Towels(DS)/0625_1.jpg",
+          "alt": "Green_Towels(DS) in Bed 6 on Jun 25",
+          "note": "Jun 25 growth photo."
         }
       ]
     },
@@ -1015,9 +1173,24 @@ const gardenData = {
           "note": "Day 25 growth photo."
         },
         {
+          "dayNumber": 47,
+          "date": "Jun 17",
+          "image": "2026_Oak_Creek Greens_Polts/7.Red_Salad_Bowl(DS)/0617_1.jpg",
+          "alt": "Red_Salad_Bowl(DS) in Bed 7 on Jun 17",
+          "note": "Jun 17 growth photo."
+        },
+        {
           "dayNumber": 0,
           "textOnly": true,
           "text": "Transplanting on May 1st"
+        },
+        {
+          "dayNumber": 55,
+          "date": "Jun 25",
+          "textOnly": false,
+          "image": "2026_Oak_Creek Greens_Polts/7.Red_Salad_Bowl(DS)/0625_1.jpg",
+          "alt": "Red_Salad_Bowl(DS) in Bed 7 on Jun 25",
+          "note": "Overall rating: 4/5. Field observations: Largest plants reached approximately 15 cm in width. Leaf edge damage was observed."
         }
       ]
     },
@@ -1034,9 +1207,31 @@ const gardenData = {
           "note": "Day 25 growth photo."
         },
         {
+          "dayNumber": 47,
+          "date": "Jun 17",
+          "image": "2026_Oak_Creek Greens_Polts/8.Black_Seed_Simpsom(DS)/0617_1.jpg",
+          "alt": "Black_Seed_Simpsom(DS) in Bed 8 on Jun 17",
+          "note": "Jun 17 growth photo."
+        },
+        {
           "dayNumber": 0,
           "textOnly": true,
           "text": "Transplanting on May 1st"
+        },
+        {
+          "dayNumber": 55,
+          "date": "Jun 25",
+          "textOnly": false,
+          "image": "2026_Oak_Creek Greens_Polts/8.Black_Seed_Simpsom(DS)/0625_1.jpg",
+          "alt": "Black_Seed_Simpsom(DS) in Bed 8 on Jun 25",
+          "note": "Overall rating: 2/5. Field observations: Germination was uneven and plants began bolting at a small size."
+        },
+        {
+          "dayNumber": 54,
+          "date": "Jun 24",
+          "image": "2026_Oak_Creek Greens_Polts/8.Black_Seed_Simpsom(DS)/0624.jpeg",
+          "alt": "Black_Seed_Simpsom(DS) in Bed 8 on Jun 24",
+          "note": "Jun 24 growth photo."
         }
       ]
     },
@@ -1053,9 +1248,27 @@ const gardenData = {
           "note": "Day 25 growth photo."
         },
         {
+          "dayNumber": 47,
+          "date": "Jun 17",
+          "image": "2026_Oak_Creek Greens_Polts/9.Celosia_Lagos_Spinach1/0617_1.jpg",
+          "alt": "Celosia_Lagos_Spinach1 in Bed 9 on Jun 17",
+          "note": "Jun 17 growth photo."
+        },
+        {
           "dayNumber": 0,
           "textOnly": true,
           "text": "Transplanting on May 1st"
+        },
+        {
+          "dayNumber": 55,
+          "date": "Jun 25",
+          "textOnly": false,
+          "image": "2026_Oak_Creek Greens_Polts/9.Celosia_Lagos_Spinach1/0625_1.jpg",
+          "alt": "Celosia_Lagos_Spinach1 in Bed 9 on Jun 25",
+          "note": "Overall rating: 5/5. Field observations: Excellent overall growth and vigor.",
+          "images": [
+            "2026_Oak_Creek Greens_Polts/9.Celosia_Lagos_Spinach1/0625_2.jpg"
+          ]
         }
       ]
     },
@@ -1072,9 +1285,24 @@ const gardenData = {
           "note": "Day 25 growth photo."
         },
         {
+          "dayNumber": 47,
+          "date": "Jun 17",
+          "image": "2026_Oak_Creek Greens_Polts/10.N.2.Spinach1/0617_1.jpg",
+          "alt": "N.2.Spinach1 in Bed 10 on Jun 17",
+          "note": "Jun 17 growth photo."
+        },
+        {
           "dayNumber": 0,
           "textOnly": true,
           "text": "Transplanting on May 1st"
+        },
+        {
+          "dayNumber": 55,
+          "date": "Jun 25",
+          "textOnly": false,
+          "image": "2026_Oak_Creek Greens_Polts/10.N.2.Spinach1/0625_1.jpg",
+          "alt": "N.2.Spinach1 in Bed 10 on Jun 25",
+          "note": "Overall rating: 5/5. Field observations: Excellent overall growth and healthy appearance."
         }
       ]
     },
@@ -1091,9 +1319,27 @@ const gardenData = {
           "note": "Day 25 growth photo."
         },
         {
+          "dayNumber": 47,
+          "date": "Jun 17",
+          "image": "2026_Oak_Creek Greens_Polts/11.Red_Perilla2/0617_1.jpg",
+          "alt": "Red_Perilla2 in Bed 11 on Jun 17",
+          "note": "Jun 17 growth photo."
+        },
+        {
           "dayNumber": 0,
           "textOnly": true,
           "text": "Transplanting on May 1st"
+        },
+        {
+          "dayNumber": 55,
+          "date": "Jun 25",
+          "textOnly": false,
+          "image": "2026_Oak_Creek Greens_Polts/11.Red_Perilla2/0625_1.jpg",
+          "alt": "Red_Perilla2 in Bed 11 on Jun 25",
+          "note": "Overall rating: 5/5. Field observations: Plants showed excellent growth and vigor. Largest plants reached approximately 24 × 45 cm.",
+          "images": [
+            "2026_Oak_Creek Greens_Polts/11.Red_Perilla2/0625_2.jpg"
+          ]
         }
       ]
     },
@@ -1110,9 +1356,24 @@ const gardenData = {
           "note": "Day 25 growth photo."
         },
         {
+          "dayNumber": 47,
+          "date": "Jun 17",
+          "image": "2026_Oak_Creek Greens_Polts/12.Golden_Purslane2/0617_1.jpg",
+          "alt": "Golden_Purslane2 in Bed 12 on Jun 17",
+          "note": "Jun 17 growth photo."
+        },
+        {
           "dayNumber": 0,
           "textOnly": true,
           "text": "Transplanting on May 1st"
+        },
+        {
+          "dayNumber": 55,
+          "date": "Jun 25",
+          "textOnly": false,
+          "image": "2026_Oak_Creek Greens_Polts/12.Golden_Purslane2/0625_1.jpg",
+          "alt": "Golden_Purslane2 in Bed 12 on Jun 25",
+          "note": "Overall rating: 4/5. Field observations: Some leaf damage was observed."
         }
       ]
     },
@@ -1136,9 +1397,27 @@ const gardenData = {
           "note": "May 9 growth photo."
         },
         {
+          "dayNumber": 47,
+          "date": "Jun 17",
+          "image": "2026_Oak_Creek Greens_Polts/13.Celosia_Lagos_Spinach2/0617_1.jpg",
+          "alt": "Celosia_Lagos_Spinach2 in Bed 13 on Jun 17",
+          "note": "Jun 17 growth photo."
+        },
+        {
           "dayNumber": 0,
           "textOnly": true,
           "text": "Transplanting on May 1st"
+        },
+        {
+          "dayNumber": 55,
+          "date": "Jun 25",
+          "textOnly": false,
+          "image": "2026_Oak_Creek Greens_Polts/13.Celosia_Lagos_Spinach2/0625_1.jpg",
+          "alt": "Celosia_Lagos_Spinach2 in Bed 13 on Jun 25",
+          "note": "Overall rating: 5/5. Field observations: Excellent overall growth and healthy appearance.",
+          "images": [
+            "2026_Oak_Creek Greens_Polts/13.Celosia_Lagos_Spinach2/0625_2.jpg"
+          ]
         }
       ]
     },
@@ -1163,6 +1442,12 @@ const gardenData = {
           "dayNumber": 0,
           "textOnly": true,
           "text": "Transplanting on May 1st"
+        },
+        {
+          "dayNumber": 55,
+          "date": "Jun 25",
+          "textOnly": true,
+          "text": "Overall rating: 0/5. Field observations: All plants died after transplanting."
         }
       ]
     },
@@ -1182,9 +1467,28 @@ const gardenData = {
           "note": "Day 25 growth photo."
         },
         {
+          "dayNumber": 47,
+          "date": "Jun 17",
+          "image": "2026_Oak_Creek Greens_Polts/15.Amaranth_Miriah_Leaf2/0617_1.jpg",
+          "alt": "Amaranth_Miriah_Leaf2 in Bed 15 on Jun 17",
+          "note": "Jun 17 growth photo."
+        },
+        {
           "dayNumber": 0,
           "textOnly": true,
           "text": "Transplanting on May 1st"
+        },
+        {
+          "dayNumber": 55,
+          "date": "Jun 25",
+          "textOnly": false,
+          "image": "2026_Oak_Creek Greens_Polts/15.Amaranth_Miriah_Leaf2/0625_1.jpg",
+          "alt": "Amaranth_Miriah_Leaf2 in Bed 15 on Jun 25",
+          "note": "Overall rating: 5/5. Field observations: Plants performed well, although they were smaller than those in Bed 11.",
+          "images": [
+            "2026_Oak_Creek Greens_Polts/15.Amaranth_Miriah_Leaf2/0625_2.jpg",
+            "2026_Oak_Creek Greens_Polts/15.Amaranth_Miriah_Leaf2/0625_3.jpg"
+          ]
         }
       ]
     },
@@ -1201,9 +1505,24 @@ const gardenData = {
           "note": "Day 25 growth photo."
         },
         {
+          "dayNumber": 47,
+          "date": "Jun 17",
+          "image": "2026_Oak_Creek Greens_Polts/16.Red_Perilla1/0617_1.jpg",
+          "alt": "Red_Perilla1 in Bed 16 on Jun 17",
+          "note": "Jun 17 growth photo."
+        },
+        {
           "dayNumber": 0,
           "textOnly": true,
           "text": "Transplanting on May 1st"
+        },
+        {
+          "dayNumber": 55,
+          "date": "Jun 25",
+          "textOnly": false,
+          "image": "2026_Oak_Creek Greens_Polts/16.Red_Perilla1/0625_1.jpg",
+          "alt": "Red_Perilla1 in Bed 16 on Jun 25",
+          "note": "Overall rating: 5/5. Field observations: Plants exhibited excellent growth. Leaf vein coloration differed from surrounding tissue."
         }
       ]
     },
@@ -1220,9 +1539,24 @@ const gardenData = {
           "note": "Day 25 growth photo."
         },
         {
+          "dayNumber": 47,
+          "date": "Jun 17",
+          "image": "2026_Oak_Creek Greens_Polts/17.Golden_Purslane1/0617_1.jpg",
+          "alt": "Golden_Purslane1 in Bed 17 on Jun 17",
+          "note": "Jun 17 growth photo."
+        },
+        {
           "dayNumber": 0,
           "textOnly": true,
           "text": "Transplanting on May 1st"
+        },
+        {
+          "dayNumber": 55,
+          "date": "Jun 25",
+          "textOnly": false,
+          "image": "2026_Oak_Creek Greens_Polts/17.Golden_Purslane1/0625_1.jpg",
+          "alt": "Golden_Purslane1 in Bed 17 on Jun 25",
+          "note": "Overall rating: 4/5. Field observations: Some leaf damage was observed."
         }
       ]
     },
@@ -1239,9 +1573,24 @@ const gardenData = {
           "note": "Day 25 growth photo."
         },
         {
+          "dayNumber": 47,
+          "date": "Jun 17",
+          "image": "2026_Oak_Creek Greens_Polts/18.N.2.Spinach2/0617_1.jpg",
+          "alt": "N.2.Spinach2 in Bed 18 on Jun 17",
+          "note": "Jun 17 growth photo."
+        },
+        {
           "dayNumber": 0,
           "textOnly": true,
           "text": "Transplanting on May 1st"
+        },
+        {
+          "dayNumber": 55,
+          "date": "Jun 25",
+          "textOnly": false,
+          "image": "2026_Oak_Creek Greens_Polts/18.N.2.Spinach2/0625_1.jpg",
+          "alt": "N.2.Spinach2 in Bed 18 on Jun 25",
+          "note": "Overall rating: 5/5. Field observations: Excellent growth. Plants reached approximately 90 × 45 cm."
         }
       ]
     },
@@ -1258,9 +1607,35 @@ const gardenData = {
           "note": "Day 25 growth photo."
         },
         {
+          "dayNumber": 47,
+          "date": "Jun 17",
+          "image": "2026_Oak_Creek Greens_Polts/19.Amaranth_Miriah_Leaf1/0617_1.jpg",
+          "alt": "Amaranth_Miriah_Leaf1 in Bed 19 on Jun 17",
+          "note": "Jun 17 growth photo."
+        },
+        {
           "dayNumber": 0,
           "textOnly": true,
           "text": "Transplanting on May 1st"
+        },
+        {
+          "dayNumber": 55,
+          "date": "Jun 25",
+          "textOnly": false,
+          "image": "2026_Oak_Creek Greens_Polts/19.Amaranth_Miriah_Leaf1/0625_1.jpg",
+          "alt": "Amaranth_Miriah_Leaf1 in Bed 19 on Jun 25",
+          "note": "Overall rating: 5/5. Field observations: Plants exhibited vigorous growth and had started bolting.",
+          "images": [
+            "2026_Oak_Creek Greens_Polts/19.Amaranth_Miriah_Leaf1/0625_2.jpg",
+            "2026_Oak_Creek Greens_Polts/19.Amaranth_Miriah_Leaf1/0625_3.jpg"
+          ]
+        },
+        {
+          "dayNumber": 54,
+          "date": "Jun 24",
+          "image": "2026_Oak_Creek Greens_Polts/19.Amaranth_Miriah_Leaf1/0624.jpeg",
+          "alt": "Amaranth_Miriah_Leaf1 in Bed 19 on Jun 24",
+          "note": "Jun 24 growth photo."
         }
       ]
     },
@@ -1285,6 +1660,12 @@ const gardenData = {
           "dayNumber": 0,
           "textOnly": true,
           "text": "Transplanting on May 1st"
+        },
+        {
+          "dayNumber": 55,
+          "date": "Jun 25",
+          "textOnly": true,
+          "text": "Overall rating: 0/5. Field observations: All plants died after transplanting."
         }
       ]
     },
@@ -1308,9 +1689,24 @@ const gardenData = {
           "note": "June 15 growth photo."
         },
         {
+          "dayNumber": 47,
+          "date": "Jun 17",
+          "image": "2026_Oak_Creek Greens_Polts/21.French_Sorrel2/0617_1.jpg",
+          "alt": "French_Sorrel2 in Bed 21 on Jun 17",
+          "note": "Jun 17 growth photo."
+        },
+        {
           "dayNumber": 0,
           "textOnly": true,
           "text": "Transplanting on May 1st"
+        },
+        {
+          "dayNumber": 55,
+          "date": "Jun 25",
+          "textOnly": false,
+          "image": "2026_Oak_Creek Greens_Polts/21.French_Sorrel2/0625_1.jpg",
+          "alt": "French_Sorrel2 in Bed 21 on Jun 25",
+          "note": "Overall rating: 1/5. Field observations: Plants were in poor condition and had already started bolting."
         }
       ]
     },
@@ -1327,9 +1723,24 @@ const gardenData = {
           "note": "Day 25 growth photo."
         },
         {
+          "dayNumber": 47,
+          "date": "Jun 17",
+          "image": "2026_Oak_Creek Greens_Polts/22.Lettuce_Muir1/0617_1.jpg",
+          "alt": "Lettuce_Muir1 in Bed 22 on Jun 17",
+          "note": "Jun 17 growth photo."
+        },
+        {
           "dayNumber": 0,
           "textOnly": true,
           "text": "Transplanting on May 1st"
+        },
+        {
+          "dayNumber": 55,
+          "date": "Jun 25",
+          "textOnly": false,
+          "image": "2026_Oak_Creek Greens_Polts/22.Lettuce_Muir1/0625_1.jpg",
+          "alt": "Lettuce_Muir1 in Bed 22 on Jun 25",
+          "note": "Overall rating: 4/5. Field observations: Some leaf damage was observed."
         }
       ]
     },
@@ -1353,9 +1764,27 @@ const gardenData = {
           "note": "June 5 growth photo."
         },
         {
+          "dayNumber": 47,
+          "date": "Jun 17",
+          "image": "2026_Oak_Creek Greens_Polts/23.Lettuce_Blade_Seeded_Simpson2/0617_1.jpg",
+          "alt": "Lettuce_Blade_Seeded_Simpson2 in Bed 23 on Jun 17",
+          "note": "Jun 17 growth photo."
+        },
+        {
           "dayNumber": 0,
           "textOnly": true,
           "text": "Transplanting on May 1st"
+        },
+        {
+          "dayNumber": 55,
+          "date": "Jun 25",
+          "textOnly": false,
+          "image": "2026_Oak_Creek Greens_Polts/23.Lettuce_Blade_Seeded_Simpson2/0625_1.jpg",
+          "alt": "Lettuce_Blade_Seeded_Simpson2 in Bed 23 on Jun 25",
+          "note": "Overall rating: 5/5. Field observations: Plants showed excellent growth and had started bolting. Overall rating: 5/5. Field observations: Plants showed excellent growth and had started bolting. Early flowering stage (bolting with open flowers)",
+          "images": [
+            "2026_Oak_Creek Greens_Polts/23.Lettuce_Blade_Seeded_Simpson2/0625_2.jpg"
+          ]
         }
       ]
     },
@@ -1372,9 +1801,34 @@ const gardenData = {
           "note": "Day 25 growth photo."
         },
         {
+          "dayNumber": 47,
+          "date": "Jun 17",
+          "image": "2026_Oak_Creek Greens_Polts/24.Lettuce_Red_Salad_Bowl1/0617_1.jpg",
+          "alt": "Lettuce_Red_Salad_Bowl1 in Bed 24 on Jun 17",
+          "note": "Jun 17 growth photo."
+        },
+        {
           "dayNumber": 0,
           "textOnly": true,
           "text": "Transplanting on May 1st"
+        },
+        {
+          "dayNumber": 55,
+          "date": "Jun 25",
+          "textOnly": false,
+          "image": "2026_Oak_Creek Greens_Polts/24.Lettuce_Red_Salad_Bowl1/0625_1.jpg",
+          "alt": "Lettuce_Red_Salad_Bowl1 in Bed 24 on Jun 25",
+          "note": "Overall rating: 5/5. Field observations: Plants are vigorous and ready to bolt."
+        },
+        {
+          "dayNumber": 53,
+          "date": "Jun 23",
+          "image": "2026_Oak_Creek Greens_Polts/24.Lettuce_Red_Salad_Bowl1/0623_1.jpeg",
+          "alt": "Lettuce_Red_Salad_Bowl1 in Bed 24 on Jun 23",
+          "note": "Jun 23 growth photo.",
+          "images": [
+            "2026_Oak_Creek Greens_Polts/24.Lettuce_Red_Salad_Bowl1/0623_2.jpeg"
+          ]
         }
       ]
     },
@@ -1391,9 +1845,37 @@ const gardenData = {
           "note": "Day 25 growth photo."
         },
         {
+          "dayNumber": 47,
+          "date": "Jun 17",
+          "image": "2026_Oak_Creek Greens_Polts/25.Lettuce_Red_Salad_Bowl2/0617_1.jpg",
+          "alt": "Lettuce_Red_Salad_Bowl2 in Bed 25 on Jun 17",
+          "note": "Jun 17 growth photo."
+        },
+        {
           "dayNumber": 0,
           "textOnly": true,
           "text": "Transplanting on May 1st"
+        },
+        {
+          "dayNumber": 55,
+          "date": "Jun 25",
+          "textOnly": false,
+          "image": "2026_Oak_Creek Greens_Polts/25.Lettuce_Red_Salad_Bowl2/0625_1.jpg",
+          "alt": "Lettuce_Red_Salad_Bowl2 in Bed 25 on Jun 25",
+          "note": "Overall rating: 5/5. Field observations: Plants are vigorous and ready to bolt.",
+          "images": [
+            "2026_Oak_Creek Greens_Polts/25.Lettuce_Red_Salad_Bowl2/0625_2.jpg"
+          ]
+        },
+        {
+          "dayNumber": 53,
+          "date": "Jun 23",
+          "image": "2026_Oak_Creek Greens_Polts/25.Lettuce_Red_Salad_Bowl2/0623_1.jpeg",
+          "alt": "Lettuce_Red_Salad_Bowl2 in Bed 25 on Jun 23",
+          "note": "Jun 23 growth photo.",
+          "images": [
+            "2026_Oak_Creek Greens_Polts/25.Lettuce_Red_Salad_Bowl2/0623_2.jpeg"
+          ]
         }
       ]
     },
@@ -1410,9 +1892,48 @@ const gardenData = {
           "note": "Day 25 growth photo."
         },
         {
+          "dayNumber": 47,
+          "date": "Jun 17",
+          "image": "2026_Oak_Creek Greens_Polts/26.Salad_Greens_LettuceMix2/0617_1.jpg",
+          "alt": "Salad_Greens_LettuceMix2 in Bed 26 on Jun 17",
+          "note": "Jun 17 growth photo."
+        },
+        {
           "dayNumber": 0,
           "textOnly": true,
           "text": "Transplanting on May 1st"
+        },
+        {
+          "dayNumber": 55,
+          "date": "Jun 25",
+          "textOnly": false,
+          "image": "2026_Oak_Creek Greens_Polts/26.Salad_Greens_LettuceMix2/0625_1.jpg",
+          "alt": "Salad_Greens_LettuceMix2 in Bed 26 on Jun 25",
+          "note": "Overall rating: 5/5. Field observations: Two out of five plants had already started bolting.",
+          "images": [
+            "2026_Oak_Creek Greens_Polts/26.Salad_Greens_LettuceMix2/0625_2.jpg",
+            "2026_Oak_Creek Greens_Polts/26.Salad_Greens_LettuceMix2/0625_3.jpg",
+            "2026_Oak_Creek Greens_Polts/26.Salad_Greens_LettuceMix2/0625_4.jpg",
+            "2026_Oak_Creek Greens_Polts/26.Salad_Greens_LettuceMix2/0625_5.jpg"
+          ]
+        },
+        {
+          "dayNumber": 52,
+          "date": "Jun 22",
+          "image": "2026_Oak_Creek Greens_Polts/26.Salad_Greens_LettuceMix2/0622.jpg",
+          "alt": "Salad_Greens_LettuceMix2 in Bed 26 on Jun 22",
+          "note": "Jun 22 growth photo."
+        },
+        {
+          "dayNumber": 54,
+          "date": "Jun 24",
+          "image": "2026_Oak_Creek Greens_Polts/26.Salad_Greens_LettuceMix2/0624_1.jpeg",
+          "alt": "Salad_Greens_LettuceMix2 in Bed 26 on Jun 24",
+          "note": "Jun 24 growth photo.",
+          "images": [
+            "2026_Oak_Creek Greens_Polts/26.Salad_Greens_LettuceMix2/0624_2.jpeg",
+            "2026_Oak_Creek Greens_Polts/26.Salad_Greens_LettuceMix2/0624_3.jpeg"
+          ]
         }
       ]
     },
@@ -1429,9 +1950,31 @@ const gardenData = {
           "note": "Day 25 growth photo."
         },
         {
+          "dayNumber": 39,
+          "date": "Jun 9",
+          "image": "2026_Oak_Creek Greens_Polts/27.Orach_Red_Flash2/0609_1.jpg",
+          "alt": "Orach_Red_Flash2 in Bed 27 on Jun 9",
+          "note": "Jun 9 growth photo."
+        },
+        {
+          "dayNumber": 47,
+          "date": "Jun 17",
+          "image": "2026_Oak_Creek Greens_Polts/27.Orach_Red_Flash2/0617_1.jpg",
+          "alt": "Orach_Red_Flash2 in Bed 27 on Jun 17",
+          "note": "Jun 17 growth photo."
+        },
+        {
           "dayNumber": 0,
           "textOnly": true,
           "text": "Transplanting on May 1st"
+        },
+        {
+          "dayNumber": 55,
+          "date": "Jun 25",
+          "textOnly": false,
+          "image": "2026_Oak_Creek Greens_Polts/27.Orach_Red_Flash2/0625_1.jpg",
+          "alt": "Orach_Red_Flash2 in Bed 27 on Jun 25",
+          "note": "Overall rating: 5/5. Field observations: Most plants had red foliage, although one plant exhibited green leaves."
         }
       ]
     },
@@ -1448,9 +1991,27 @@ const gardenData = {
           "note": "Day 25 growth photo."
         },
         {
+          "dayNumber": 47,
+          "date": "Jun 17",
+          "image": "2026_Oak_Creek Greens_Polts/28.Lettuce_Green_Towers1/0617_1.jpg",
+          "alt": "Lettuce_Green_Towers1 in Bed 28 on Jun 17",
+          "note": "Jun 17 growth photo."
+        },
+        {
           "dayNumber": 0,
           "textOnly": true,
           "text": "Transplanting on May 1st"
+        },
+        {
+          "dayNumber": 55,
+          "date": "Jun 25",
+          "textOnly": false,
+          "image": "2026_Oak_Creek Greens_Polts/28.Lettuce_Green_Towers1/0625_1.jpg",
+          "alt": "Lettuce_Green_Towers1 in Bed 28 on Jun 25",
+          "note": "Overall rating: 5/5. Field observations: Leaf edge damage was observed.",
+          "images": [
+            "2026_Oak_Creek Greens_Polts/28.Lettuce_Green_Towers1/0625_2.jpg"
+          ]
         }
       ]
     },
@@ -1481,9 +2042,27 @@ const gardenData = {
           "note": "June 15 growth photo."
         },
         {
+          "dayNumber": 47,
+          "date": "Jun 17",
+          "image": "2026_Oak_Creek Greens_Polts/29.Lettuce_Blade_Seeded_Simpson1/0617_1.jpg",
+          "alt": "Lettuce_Blade_Seeded_Simpson1 in Bed 29 on Jun 17",
+          "note": "Jun 17 growth photo."
+        },
+        {
           "dayNumber": 0,
           "textOnly": true,
           "text": "Transplanting on May 1st"
+        },
+        {
+          "dayNumber": 55,
+          "date": "Jun 25",
+          "textOnly": false,
+          "image": "2026_Oak_Creek Greens_Polts/29.Lettuce_Blade_Seeded_Simpson1/0625_1.jpg",
+          "alt": "Lettuce_Blade_Seeded_Simpson1 in Bed 29 on Jun 25",
+          "note": "Overall rating: 5/5. Field observations: Plants had started bolting and yellow flowers were present.",
+          "images": [
+            "2026_Oak_Creek Greens_Polts/29.Lettuce_Blade_Seeded_Simpson1/0625_2.jpg"
+          ]
         }
       ]
     },
@@ -1507,9 +2086,31 @@ const gardenData = {
           "note": "June 9 growth photo."
         },
         {
+          "dayNumber": 47,
+          "date": "Jun 17",
+          "image": "2026_Oak_Creek Greens_Polts/30.Spinach_American2/0617_1.jpg",
+          "alt": "Spinach_American2 in Bed 30 on Jun 17",
+          "note": "Jun 17 growth photo."
+        },
+        {
           "dayNumber": 0,
           "textOnly": true,
           "text": "Transplanting on May 1st"
+        },
+        {
+          "dayNumber": 55,
+          "date": "Jun 25",
+          "textOnly": false,
+          "image": "2026_Oak_Creek Greens_Polts/30.Spinach_American2/0625_1.jpg",
+          "alt": "Spinach_American2 in Bed 30 on Jun 25",
+          "note": "Overall rating: 2/5. Field observations: Plants were in poor condition but had started bolting."
+        },
+        {
+          "dayNumber": 53,
+          "date": "Jun 23",
+          "image": "2026_Oak_Creek Greens_Polts/30.Spinach_American2/0623.jpeg",
+          "alt": "Spinach_American2 in Bed 30 on Jun 23",
+          "note": "Jun 23 growth photo."
         }
       ]
     },
@@ -1526,9 +2127,24 @@ const gardenData = {
           "note": "Day 25 growth photo."
         },
         {
+          "dayNumber": 47,
+          "date": "Jun 17",
+          "image": "2026_Oak_Creek Greens_Polts/31.Spinach_Bloomsdale_Longstanding2/0617_1.jpg",
+          "alt": "Spinach_Bloomsdale_Longstanding2 in Bed 31 on Jun 17",
+          "note": "Jun 17 growth photo."
+        },
+        {
           "dayNumber": 0,
           "textOnly": true,
           "text": "Transplanting on May 1st"
+        },
+        {
+          "dayNumber": 55,
+          "date": "Jun 25",
+          "textOnly": false,
+          "image": "2026_Oak_Creek Greens_Polts/31.Spinach_Bloomsdale_Longstanding2/0625_1.jpg",
+          "alt": "Spinach_Bloomsdale_Longstanding2 in Bed 31 on Jun 25",
+          "note": "Overall rating: 4/5. Field observations: Plants remained relatively small but had started bolting."
         }
       ]
     },
@@ -1545,9 +2161,24 @@ const gardenData = {
           "note": "Day 25 growth photo."
         },
         {
+          "dayNumber": 47,
+          "date": "Jun 17",
+          "image": "2026_Oak_Creek Greens_Polts/32.Lambsquarter_Magenta_Spreen2/0617_1.jpg",
+          "alt": "Lambsquarter_Magenta_Spreen2 in Bed 32 on Jun 17",
+          "note": "Jun 17 growth photo."
+        },
+        {
           "dayNumber": 0,
           "textOnly": true,
           "text": "Transplanting on May 1st"
+        },
+        {
+          "dayNumber": 55,
+          "date": "Jun 25",
+          "textOnly": false,
+          "image": "2026_Oak_Creek Greens_Polts/32.Lambsquarter_Magenta_Spreen2/0625_1.jpg",
+          "alt": "Lambsquarter_Magenta_Spreen2 in Bed 32 on Jun 25",
+          "note": "Overall rating: 4/5. Field observations: Four out of five plants survived and exhibited vigorous, tall growth."
         }
       ]
     },
@@ -1564,9 +2195,24 @@ const gardenData = {
           "note": "Day 25 growth photo."
         },
         {
+          "dayNumber": 47,
+          "date": "Jun 17",
+          "image": "2026_Oak_Creek Greens_Polts/33.Lettuce_Syphos2/0617_1.jpg",
+          "alt": "Lettuce_Syphos2 in Bed 33 on Jun 17",
+          "note": "Jun 17 growth photo."
+        },
+        {
           "dayNumber": 0,
           "textOnly": true,
           "text": "Transplanting on May 1st"
+        },
+        {
+          "dayNumber": 55,
+          "date": "Jun 25",
+          "textOnly": false,
+          "image": "2026_Oak_Creek Greens_Polts/33.Lettuce_Syphos2/0625_1.jpg",
+          "alt": "Lettuce_Syphos2 in Bed 33 on Jun 25",
+          "note": "Overall rating: 4/5. Field observations: Some leaf damage was observed."
         }
       ]
     },
@@ -1583,9 +2229,27 @@ const gardenData = {
           "note": "Day 25 growth photo."
         },
         {
+          "dayNumber": 47,
+          "date": "Jun 17",
+          "image": "2026_Oak_Creek Greens_Polts/34.Lettuce_Green_Towers2/0617_1.jpg",
+          "alt": "Lettuce_Green_Towers2 in Bed 34 on Jun 17",
+          "note": "Jun 17 growth photo."
+        },
+        {
           "dayNumber": 0,
           "textOnly": true,
           "text": "Transplanting on May 1st"
+        },
+        {
+          "dayNumber": 55,
+          "date": "Jun 25",
+          "textOnly": false,
+          "image": "2026_Oak_Creek Greens_Polts/34.Lettuce_Green_Towers2/0625_1.jpg",
+          "alt": "Lettuce_Green_Towers2 in Bed 34 on Jun 25",
+          "note": "Overall rating: 4/5. Field observations: Some leaf damage was observed.",
+          "images": [
+            "2026_Oak_Creek Greens_Polts/34.Lettuce_Green_Towers2/0625_2.jpg"
+          ]
         }
       ]
     },
@@ -1602,9 +2266,24 @@ const gardenData = {
           "note": "Day 25 growth photo."
         },
         {
+          "dayNumber": 47,
+          "date": "Jun 17",
+          "image": "2026_Oak_Creek Greens_Polts/35.Lettuce_Muir2/0617_1.jpg",
+          "alt": "Lettuce_Muir2 in Bed 35 on Jun 17",
+          "note": "Jun 17 growth photo."
+        },
+        {
           "dayNumber": 0,
           "textOnly": true,
           "text": "Transplanting on May 1st"
+        },
+        {
+          "dayNumber": 55,
+          "date": "Jun 25",
+          "textOnly": false,
+          "image": "2026_Oak_Creek Greens_Polts/35.Lettuce_Muir2/0625_1.jpg",
+          "alt": "Lettuce_Muir2 in Bed 35 on Jun 25",
+          "note": "Overall rating: 4/5. Field observations: Some leaf damage was observed."
         }
       ]
     },
@@ -1621,9 +2300,24 @@ const gardenData = {
           "note": "Day 25 growth photo."
         },
         {
+          "dayNumber": 47,
+          "date": "Jun 17",
+          "image": "2026_Oak_Creek Greens_Polts/36.Lambsquarter_Magenta_Spreen1/0617_1.jpg",
+          "alt": "Lambsquarter_Magenta_Spreen1 in Bed 36 on Jun 17",
+          "note": "Jun 17 growth photo."
+        },
+        {
           "dayNumber": 0,
           "textOnly": true,
           "text": "Transplanting on May 1st"
+        },
+        {
+          "dayNumber": 55,
+          "date": "Jun 25",
+          "textOnly": false,
+          "image": "2026_Oak_Creek Greens_Polts/36.Lambsquarter_Magenta_Spreen1/0625_1.jpg",
+          "alt": "Lambsquarter_Magenta_Spreen1 in Bed 36 on Jun 25",
+          "note": "Overall rating: 4/5. Field observations: Two out of five plants had started bolting. Plants were smaller than those in Bed 32."
         }
       ]
     },
@@ -1640,9 +2334,24 @@ const gardenData = {
           "note": "Day 25 growth photo."
         },
         {
+          "dayNumber": 47,
+          "date": "Jun 17",
+          "image": "2026_Oak_Creek Greens_Polts/37.Lettuce_Syphos1/0617_1.jpg",
+          "alt": "Lettuce_Syphos1 in Bed 37 on Jun 17",
+          "note": "Jun 17 growth photo."
+        },
+        {
           "dayNumber": 0,
           "textOnly": true,
           "text": "Transplanting on May 1st"
+        },
+        {
+          "dayNumber": 55,
+          "date": "Jun 25",
+          "textOnly": false,
+          "image": "2026_Oak_Creek Greens_Polts/37.Lettuce_Syphos1/0625_1.jpg",
+          "alt": "Lettuce_Syphos1 in Bed 37 on Jun 25",
+          "note": "Overall rating: 4/5. Field observations: Overall growth was good."
         }
       ]
     },
@@ -1659,9 +2368,24 @@ const gardenData = {
           "note": "Day 25 growth photo."
         },
         {
+          "dayNumber": 47,
+          "date": "Jun 17",
+          "image": "2026_Oak_Creek Greens_Polts/38.Spinach_American1/0617_1.jpg",
+          "alt": "Spinach_American1 in Bed 38 on Jun 17",
+          "note": "Jun 17 growth photo."
+        },
+        {
           "dayNumber": 0,
           "textOnly": true,
           "text": "Transplanting on May 1st"
+        },
+        {
+          "dayNumber": 55,
+          "date": "Jun 25",
+          "textOnly": false,
+          "image": "2026_Oak_Creek Greens_Polts/38.Spinach_American1/0625_1.jpg",
+          "alt": "Spinach_American1 in Bed 38 on Jun 25",
+          "note": "Overall rating: 1/5. Field observations: Only two plants survived and both had started bolting."
         }
       ]
     },
@@ -1678,9 +2402,24 @@ const gardenData = {
           "note": "Day 25 growth photo."
         },
         {
+          "dayNumber": 47,
+          "date": "Jun 17",
+          "image": "2026_Oak_Creek Greens_Polts/39.Spinach_Bloomsdale_Longstanding1/0617_1.jpg",
+          "alt": "Spinach_Bloomsdale_Longstanding1 in Bed 39 on Jun 17",
+          "note": "Jun 17 growth photo."
+        },
+        {
           "dayNumber": 0,
           "textOnly": true,
           "text": "Transplanting on May 1st"
+        },
+        {
+          "dayNumber": 55,
+          "date": "Jun 25",
+          "textOnly": false,
+          "image": "2026_Oak_Creek Greens_Polts/39.Spinach_Bloomsdale_Longstanding1/0625_1.jpg",
+          "alt": "Spinach_Bloomsdale_Longstanding1 in Bed 39 on Jun 25",
+          "note": "Overall rating: 4/5. Field observations: Five out of seven plants survived and all surviving plants had bolted."
         }
       ]
     },
@@ -1697,9 +2436,24 @@ const gardenData = {
           "note": "Day 25 growth photo."
         },
         {
+          "dayNumber": 47,
+          "date": "Jun 17",
+          "image": "2026_Oak_Creek Greens_Polts/40.French_Sorrel1/0617_1.jpg",
+          "alt": "French_Sorrel1 in Bed 40 on Jun 17",
+          "note": "Jun 17 growth photo."
+        },
+        {
           "dayNumber": 0,
           "textOnly": true,
           "text": "Transplanting on May 1st"
+        },
+        {
+          "dayNumber": 55,
+          "date": "Jun 25",
+          "textOnly": false,
+          "image": "2026_Oak_Creek Greens_Polts/40.French_Sorrel1/0625_1.jpg",
+          "alt": "French_Sorrel1 in Bed 40 on Jun 25",
+          "note": "Overall rating: 3/5. Field observations: Leaf holes were observed and one plant had started bolting."
         }
       ]
     },
@@ -1716,9 +2470,34 @@ const gardenData = {
           "note": "Day 25 growth photo."
         },
         {
+          "dayNumber": 47,
+          "date": "Jun 17",
+          "image": "2026_Oak_Creek Greens_Polts/41.Salad_Greens_LettuceMix1/0617_1.jpg",
+          "alt": "Salad_Greens_LettuceMix1 in Bed 41 on Jun 17",
+          "note": "Jun 17 growth photo."
+        },
+        {
           "dayNumber": 0,
           "textOnly": true,
           "text": "Transplanting on May 1st"
+        },
+        {
+          "dayNumber": 55,
+          "date": "Jun 25",
+          "textOnly": false,
+          "image": "2026_Oak_Creek Greens_Polts/41.Salad_Greens_LettuceMix1/0625_1.jpg",
+          "alt": "Salad_Greens_LettuceMix1 in Bed 41 on Jun 25",
+          "note": "Overall rating: 5/5. Field observations: Excellent overall growth. One plant had started bolting.",
+          "images": [
+            "2026_Oak_Creek Greens_Polts/41.Salad_Greens_LettuceMix1/0625_2.jpg"
+          ]
+        },
+        {
+          "dayNumber": 52,
+          "date": "Jun 22",
+          "image": "2026_Oak_Creek Greens_Polts/41.Salad_Greens_LettuceMix1/0622.jpg",
+          "alt": "Salad_Greens_LettuceMix1 in Bed 41 on Jun 22",
+          "note": "Jun 22 growth photo."
         }
       ]
     },
@@ -1735,9 +2514,31 @@ const gardenData = {
           "note": "Day 25 growth photo."
         },
         {
+          "dayNumber": 39,
+          "date": "Jun 9",
+          "image": "2026_Oak_Creek Greens_Polts/42.Orach_Red_Flash1/0609_1.jpg",
+          "alt": "Orach_Red_Flash1 in Bed 42 on Jun 9",
+          "note": "Jun 9 growth photo."
+        },
+        {
+          "dayNumber": 47,
+          "date": "Jun 17",
+          "image": "2026_Oak_Creek Greens_Polts/42.Orach_Red_Flash1/0617_1.jpg",
+          "alt": "Orach_Red_Flash1 in Bed 42 on Jun 17",
+          "note": "Jun 17 growth photo."
+        },
+        {
           "dayNumber": 0,
           "textOnly": true,
           "text": "Transplanting on May 1st"
+        },
+        {
+          "dayNumber": 55,
+          "date": "Jun 25",
+          "textOnly": false,
+          "image": "2026_Oak_Creek Greens_Polts/42.Orach_Red_Flash1/0625_1.jpg",
+          "alt": "Orach_Red_Flash1 in Bed 42 on Jun 25",
+          "note": "Overall rating: 5/5. Field observations: Excellent overall growth and vigor."
         }
       ]
     },
@@ -1754,9 +2555,24 @@ const gardenData = {
           "note": "Day 25 growth photo."
         },
         {
+          "dayNumber": 47,
+          "date": "Jun 17",
+          "image": "2026_Oak_Creek Greens_Polts/43.Cabbage_Primax2/0617_1.jpg",
+          "alt": "Cabbage_Primax2 in Bed 43 on Jun 17",
+          "note": "Jun 17 growth photo."
+        },
+        {
           "dayNumber": 0,
           "textOnly": true,
           "text": "Transplanting on May 1st"
+        },
+        {
+          "dayNumber": 55,
+          "date": "Jun 25",
+          "textOnly": false,
+          "image": "2026_Oak_Creek Greens_Polts/43.Cabbage_Primax2/0625_1.jpg",
+          "alt": "Cabbage_Primax2 in Bed 43 on Jun 25",
+          "note": "Overall rating: 3/5. Field observations: Plant density was low and leaves appeared stressed."
         }
       ]
     },
@@ -1773,9 +2589,24 @@ const gardenData = {
           "note": "Day 25 growth photo."
         },
         {
+          "dayNumber": 47,
+          "date": "Jun 17",
+          "image": "2026_Oak_Creek Greens_Polts/44.Cabbage_Amarant2/0617_1.jpg",
+          "alt": "Cabbage_Amarant2 in Bed 44 on Jun 17",
+          "note": "Jun 17 growth photo."
+        },
+        {
           "dayNumber": 0,
           "textOnly": true,
           "text": "Transplanting on May 1st"
+        },
+        {
+          "dayNumber": 55,
+          "date": "Jun 25",
+          "textOnly": false,
+          "image": "2026_Oak_Creek Greens_Polts/44.Cabbage_Amarant2/0625_1.jpg",
+          "alt": "Cabbage_Amarant2 in Bed 44 on Jun 25",
+          "note": "Overall rating: 3/5. Field observations: Plant density was low, although foliage quality remained acceptable."
         }
       ]
     },
@@ -1792,9 +2623,24 @@ const gardenData = {
           "note": "Day 25 growth photo."
         },
         {
+          "dayNumber": 47,
+          "date": "Jun 17",
+          "image": "2026_Oak_Creek Greens_Polts/45.Cabbage_Charleston_Wakefield2/0617_1.jpg",
+          "alt": "Cabbage_Charleston_Wakefield2 in Bed 45 on Jun 17",
+          "note": "Jun 17 growth photo."
+        },
+        {
           "dayNumber": 0,
           "textOnly": true,
           "text": "Transplanting on May 1st"
+        },
+        {
+          "dayNumber": 55,
+          "date": "Jun 25",
+          "textOnly": false,
+          "image": "2026_Oak_Creek Greens_Polts/45.Cabbage_Charleston_Wakefield2/0625_1.jpg",
+          "alt": "Cabbage_Charleston_Wakefield2 in Bed 45 on Jun 25",
+          "note": "Overall rating: 4/5. Field observations: No cabbage heads had formed."
         }
       ]
     },
@@ -1811,9 +2657,24 @@ const gardenData = {
           "note": "Day 25 growth photo."
         },
         {
+          "dayNumber": 47,
+          "date": "Jun 17",
+          "image": "2026_Oak_Creek Greens_Polts/46.Cabbage_Primax1/0617_1.jpg",
+          "alt": "Cabbage_Primax1 in Bed 46 on Jun 17",
+          "note": "Jun 17 growth photo."
+        },
+        {
           "dayNumber": 0,
           "textOnly": true,
           "text": "Transplanting on May 1st"
+        },
+        {
+          "dayNumber": 55,
+          "date": "Jun 25",
+          "textOnly": false,
+          "image": "2026_Oak_Creek Greens_Polts/46.Cabbage_Primax1/0625_1.jpg",
+          "alt": "Cabbage_Primax1 in Bed 46 on Jun 25",
+          "note": "Overall rating: 3/5. Field observations: Plants remained relatively small."
         }
       ]
     },
@@ -1830,9 +2691,24 @@ const gardenData = {
           "note": "Day 25 growth photo."
         },
         {
+          "dayNumber": 47,
+          "date": "Jun 17",
+          "image": "2026_Oak_Creek Greens_Polts/47.Cabbage_Charleston_Wakefield1/0617_1.jpg",
+          "alt": "Cabbage_Charleston_Wakefield1 in Bed 47 on Jun 17",
+          "note": "Jun 17 growth photo."
+        },
+        {
           "dayNumber": 0,
           "textOnly": true,
           "text": "Transplanting on May 1st"
+        },
+        {
+          "dayNumber": 55,
+          "date": "Jun 25",
+          "textOnly": false,
+          "image": "2026_Oak_Creek Greens_Polts/47.Cabbage_Charleston_Wakefield1/0625_1.jpg",
+          "alt": "Cabbage_Charleston_Wakefield1 in Bed 47 on Jun 25",
+          "note": "Overall rating: 3/5. Field observations: Moderate growth was observed."
         }
       ]
     },
@@ -1849,9 +2725,24 @@ const gardenData = {
           "note": "Day 25 growth photo."
         },
         {
+          "dayNumber": 47,
+          "date": "Jun 17",
+          "image": "2026_Oak_Creek Greens_Polts/48.Cabbage_Early_Round_Dutch1/0617_1.jpg",
+          "alt": "Cabbage_Early_Round_Dutch1 in Bed 48 on Jun 17",
+          "note": "Jun 17 growth photo."
+        },
+        {
           "dayNumber": 0,
           "textOnly": true,
           "text": "Transplanting on May 1st"
+        },
+        {
+          "dayNumber": 55,
+          "date": "Jun 25",
+          "textOnly": false,
+          "image": "2026_Oak_Creek Greens_Polts/48.Cabbage_Early_Round_Dutch1/0625_1.jpg",
+          "alt": "Cabbage_Early_Round_Dutch1 in Bed 48 on Jun 25",
+          "note": "Overall rating: 3/5. Field observations: Two plants did not establish well."
         }
       ]
     },
@@ -1868,9 +2759,24 @@ const gardenData = {
           "note": "Day 25 growth photo."
         },
         {
+          "dayNumber": 47,
+          "date": "Jun 17",
+          "image": "2026_Oak_Creek Greens_Polts/49.Cabbage_Amarant1/0617_1.jpg",
+          "alt": "Cabbage_Amarant1 in Bed 49 on Jun 17",
+          "note": "Jun 17 growth photo."
+        },
+        {
           "dayNumber": 0,
           "textOnly": true,
           "text": "Transplanting on May 1st"
+        },
+        {
+          "dayNumber": 55,
+          "date": "Jun 25",
+          "textOnly": false,
+          "image": "2026_Oak_Creek Greens_Polts/49.Cabbage_Amarant1/0625_1.jpg",
+          "alt": "Cabbage_Amarant1 in Bed 49 on Jun 25",
+          "note": "Overall rating: 2/5. Field observations: Most plants failed to establish successfully."
         }
       ]
     },
@@ -1887,9 +2793,29 @@ const gardenData = {
           "note": "Day 25 growth photo."
         },
         {
+          "dayNumber": 47,
+          "date": "Jun 17",
+          "image": "2026_Oak_Creek Greens_Polts/1. Vltroacross_Okra2(DS)/0617_1.jpg",
+          "alt": "Vltroacross_Okra2(DS) in Bed 1 on Jun 17",
+          "note": "Jun 17 growth photo."
+        },
+        {
           "dayNumber": 0,
           "textOnly": true,
           "text": "Transplanting on May 1st"
+        },
+        {
+          "dayNumber": 53,
+          "date": "Jun 23",
+          "textOnly": true,
+          "text": "Overall rating: Not recorded. Field observations: A total of 25 direct-seeded okra plants emerged in this plot. Plants are approximately 3 inches tall and all appear healthy."
+        },
+        {
+          "dayNumber": 55,
+          "date": "Jun 25",
+          "image": "2026_Oak_Creek Greens_Polts/1. Vltroacross_Okra2(DS)/0625_1.jpg",
+          "alt": "Vltroacross_Okra2(DS) in Bed 1 on Jun 25",
+          "note": "Jun 25 growth photo."
         }
       ]
     },
@@ -1906,9 +2832,29 @@ const gardenData = {
           "note": "Day 25 growth photo."
         },
         {
+          "dayNumber": 47,
+          "date": "Jun 17",
+          "image": "2026_Oak_Creek Greens_Polts/2.Okra_Yalova_Akkoy(DS)/0617_1.jpg",
+          "alt": "Okra_Yalova_Akkoy(DS) in Bed 2 on Jun 17",
+          "note": "Jun 17 growth photo."
+        },
+        {
           "dayNumber": 0,
           "textOnly": true,
           "text": "Transplanting on May 1st"
+        },
+        {
+          "dayNumber": 53,
+          "date": "Jun 23",
+          "textOnly": true,
+          "text": "Overall rating: Not recorded. Field observations: A total of 25 direct-seeded okra plants emerged in this plot. Plants are approximately 1 inch tall and show signs of beetle damage."
+        },
+        {
+          "dayNumber": 55,
+          "date": "Jun 25",
+          "image": "2026_Oak_Creek Greens_Polts/2.Okra_Yalova_Akkoy(DS)/0625_1.jpg",
+          "alt": "Okra_Yalova_Akkoy(DS) in Bed 2 on Jun 25",
+          "note": "Jun 25 growth photo."
         }
       ]
     },
@@ -1925,9 +2871,29 @@ const gardenData = {
           "note": "Day 25 growth photo."
         },
         {
+          "dayNumber": 47,
+          "date": "Jun 17",
+          "image": "2026_Oak_Creek Greens_Polts/3.Okra_Ciek(DS)/0617_1.jpg",
+          "alt": "Okra_Ciek(DS) in Bed 3 on Jun 17",
+          "note": "Jun 17 growth photo."
+        },
+        {
           "dayNumber": 0,
           "textOnly": true,
           "text": "Transplanting on May 1st"
+        },
+        {
+          "dayNumber": 53,
+          "date": "Jun 23",
+          "textOnly": true,
+          "text": "Overall rating: Not recorded. Field observations: A total of 20 direct-seeded okra plants emerged in this plot. Plants are approximately 1 inch tall and all appear healthy."
+        },
+        {
+          "dayNumber": 55,
+          "date": "Jun 25",
+          "image": "2026_Oak_Creek Greens_Polts/3.Okra_Ciek(DS)/0625_1.jpg",
+          "alt": "Okra_Ciek(DS) in Bed 3 on Jun 25",
+          "note": "Jun 25 growth photo."
         }
       ]
     },
@@ -1944,9 +2910,29 @@ const gardenData = {
           "note": "Day 25 growth photo."
         },
         {
+          "dayNumber": 47,
+          "date": "Jun 17",
+          "image": "2026_Oak_Creek Greens_Polts/4.Okra_BURNOVA_KINALI(DS)/0617_1.jpg",
+          "alt": "Okra_BURNOVA_KINALI(DS) in Bed 4 on Jun 17",
+          "note": "Jun 17 growth photo."
+        },
+        {
           "dayNumber": 0,
           "textOnly": true,
           "text": "Transplanting on May 1st"
+        },
+        {
+          "dayNumber": 53,
+          "date": "Jun 23",
+          "textOnly": true,
+          "text": "Overall rating: Not recorded. Field observations: A total of 25 direct-seeded okra plants emerged in this plot. Plants are approximately 2 inches tall and all appear healthy."
+        },
+        {
+          "dayNumber": 55,
+          "date": "Jun 25",
+          "image": "2026_Oak_Creek Greens_Polts/4.Okra_BURNOVA_KINALI(DS)/0625_1.jpg",
+          "alt": "Okra_BURNOVA_KINALI(DS) in Bed 4 on Jun 25",
+          "note": "Jun 25 growth photo."
         }
       ]
     },
@@ -1963,9 +2949,29 @@ const gardenData = {
           "note": "Day 25 growth photo."
         },
         {
+          "dayNumber": 47,
+          "date": "Jun 17",
+          "image": "2026_Oak_Creek Greens_Polts/5.Okra_Bagramic_White(DS)/0617_1.jpg",
+          "alt": "Okra_Bagramic_White(DS) in Bed 5 on Jun 17",
+          "note": "Jun 17 growth photo."
+        },
+        {
           "dayNumber": 0,
           "textOnly": true,
           "text": "Transplanting on May 1st"
+        },
+        {
+          "dayNumber": 53,
+          "date": "Jun 23",
+          "textOnly": true,
+          "text": "Overall rating: Not recorded. Field observations: A total of 25 direct-seeded okra plants emerged in this plot. Plants are approximately 2 inches tall and all appear healthy."
+        },
+        {
+          "dayNumber": 55,
+          "date": "Jun 25",
+          "image": "2026_Oak_Creek Greens_Polts/5.Okra_Bagramic_White(DS)/0625_1.jpg",
+          "alt": "Okra_Bagramic_White(DS) in Bed 5 on Jun 25",
+          "note": "Jun 25 growth photo."
         }
       ]
     },
@@ -1982,9 +2988,45 @@ const gardenData = {
           "note": "Day 25 growth photo."
         },
         {
+          "dayNumber": 47,
+          "date": "Jun 17",
+          "image": "2026_Oak_Creek Greens_Polts/6.Green_Towels(DS)/0617_1.jpg",
+          "alt": "Green_Towels(DS) in Bed 6 on Jun 17",
+          "note": "Jun 17 growth photo.",
+          "images": [
+            "2026_Oak_Creek Greens_Polts/6.Green_Towels(DS)/0617_2.jpg"
+          ]
+        },
+        {
           "dayNumber": 0,
           "textOnly": true,
           "text": "Transplanting on May 1st"
+        },
+        {
+          "dayNumber": 52,
+          "date": "Jun 22",
+          "image": "2026_Oak_Creek Greens_Polts/6.Green_Towels(DS)/6022.jpeg",
+          "alt": "Green_Towels(DS) in Bed 6 on Jun 22",
+          "note": "Jun 22 growth photo."
+        },
+        {
+          "dayNumber": 49,
+          "date": "Jun 19",
+          "textOnly": true,
+          "text": "Overall rating: Not recorded. Field observations: Green Towers lettuce showed good germination, with about 85% of seeds emerging. No bolting was observed at this stage. Leaf edge damage was present in some lettuces and was likely caused by animals, since no insects were observed on the lettuce."
+        },
+        {
+          "dayNumber": 53,
+          "date": "Jun 23",
+          "textOnly": true,
+          "text": "Overall rating: 5/5. Field observations: Green Towels (DS) received an overall rating of 5/5. Plants exhibited vigorous growth, with healthy leaf color and good overall appearance. The largest plants reached approximately 6 inches in width."
+        },
+        {
+          "dayNumber": 55,
+          "date": "Jun 25",
+          "image": "2026_Oak_Creek Greens_Polts/6.Green_Towels(DS)/0625_1.jpg",
+          "alt": "Green_Towels(DS) in Bed 6 on Jun 25",
+          "note": "Jun 25 growth photo."
         }
       ]
     },
@@ -2001,9 +3043,24 @@ const gardenData = {
           "note": "Day 25 growth photo."
         },
         {
+          "dayNumber": 47,
+          "date": "Jun 17",
+          "image": "2026_Oak_Creek Greens_Polts/7.Red_Salad_Bowl(DS)/0617_1.jpg",
+          "alt": "Red_Salad_Bowl(DS) in Bed 7 on Jun 17",
+          "note": "Jun 17 growth photo."
+        },
+        {
           "dayNumber": 0,
           "textOnly": true,
           "text": "Transplanting on May 1st"
+        },
+        {
+          "dayNumber": 55,
+          "date": "Jun 25",
+          "textOnly": false,
+          "image": "2026_Oak_Creek Greens_Polts/7.Red_Salad_Bowl(DS)/0625_1.jpg",
+          "alt": "Red_Salad_Bowl(DS) in Bed 7 on Jun 25",
+          "note": "Overall rating: 4/5. Field observations: Largest plants reached approximately 15 cm in width. Leaf edge damage was observed."
         }
       ]
     },
@@ -2020,9 +3077,31 @@ const gardenData = {
           "note": "Day 25 growth photo."
         },
         {
+          "dayNumber": 47,
+          "date": "Jun 17",
+          "image": "2026_Oak_Creek Greens_Polts/8.Black_Seed_Simpsom(DS)/0617_1.jpg",
+          "alt": "Black_Seed_Simpsom(DS) in Bed 8 on Jun 17",
+          "note": "Jun 17 growth photo."
+        },
+        {
           "dayNumber": 0,
           "textOnly": true,
           "text": "Transplanting on May 1st"
+        },
+        {
+          "dayNumber": 55,
+          "date": "Jun 25",
+          "textOnly": false,
+          "image": "2026_Oak_Creek Greens_Polts/8.Black_Seed_Simpsom(DS)/0625_1.jpg",
+          "alt": "Black_Seed_Simpsom(DS) in Bed 8 on Jun 25",
+          "note": "Overall rating: 2/5. Field observations: Germination was uneven and plants began bolting at a small size."
+        },
+        {
+          "dayNumber": 54,
+          "date": "Jun 24",
+          "image": "2026_Oak_Creek Greens_Polts/8.Black_Seed_Simpsom(DS)/0624.jpeg",
+          "alt": "Black_Seed_Simpsom(DS) in Bed 8 on Jun 24",
+          "note": "Jun 24 growth photo."
         }
       ]
     },
@@ -2039,9 +3118,27 @@ const gardenData = {
           "note": "Day 25 growth photo."
         },
         {
+          "dayNumber": 47,
+          "date": "Jun 17",
+          "image": "2026_Oak_Creek Greens_Polts/9.Celosia_Lagos_Spinach1/0617_1.jpg",
+          "alt": "Celosia_Lagos_Spinach1 in Bed 9 on Jun 17",
+          "note": "Jun 17 growth photo."
+        },
+        {
           "dayNumber": 0,
           "textOnly": true,
           "text": "Transplanting on May 1st"
+        },
+        {
+          "dayNumber": 55,
+          "date": "Jun 25",
+          "textOnly": false,
+          "image": "2026_Oak_Creek Greens_Polts/9.Celosia_Lagos_Spinach1/0625_1.jpg",
+          "alt": "Celosia_Lagos_Spinach1 in Bed 9 on Jun 25",
+          "note": "Overall rating: 5/5. Field observations: Excellent overall growth and vigor.",
+          "images": [
+            "2026_Oak_Creek Greens_Polts/9.Celosia_Lagos_Spinach1/0625_2.jpg"
+          ]
         }
       ]
     },
@@ -2058,9 +3155,24 @@ const gardenData = {
           "note": "Day 25 growth photo."
         },
         {
+          "dayNumber": 47,
+          "date": "Jun 17",
+          "image": "2026_Oak_Creek Greens_Polts/10.N.2.Spinach1/0617_1.jpg",
+          "alt": "N.2.Spinach1 in Bed 10 on Jun 17",
+          "note": "Jun 17 growth photo."
+        },
+        {
           "dayNumber": 0,
           "textOnly": true,
           "text": "Transplanting on May 1st"
+        },
+        {
+          "dayNumber": 55,
+          "date": "Jun 25",
+          "textOnly": false,
+          "image": "2026_Oak_Creek Greens_Polts/10.N.2.Spinach1/0625_1.jpg",
+          "alt": "N.2.Spinach1 in Bed 10 on Jun 25",
+          "note": "Overall rating: 5/5. Field observations: Excellent overall growth and healthy appearance."
         }
       ]
     },
@@ -2077,9 +3189,27 @@ const gardenData = {
           "note": "Day 25 growth photo."
         },
         {
+          "dayNumber": 47,
+          "date": "Jun 17",
+          "image": "2026_Oak_Creek Greens_Polts/11.Red_Perilla2/0617_1.jpg",
+          "alt": "Red_Perilla2 in Bed 11 on Jun 17",
+          "note": "Jun 17 growth photo."
+        },
+        {
           "dayNumber": 0,
           "textOnly": true,
           "text": "Transplanting on May 1st"
+        },
+        {
+          "dayNumber": 55,
+          "date": "Jun 25",
+          "textOnly": false,
+          "image": "2026_Oak_Creek Greens_Polts/11.Red_Perilla2/0625_1.jpg",
+          "alt": "Red_Perilla2 in Bed 11 on Jun 25",
+          "note": "Overall rating: 5/5. Field observations: Plants showed excellent growth and vigor. Largest plants reached approximately 24 × 45 cm.",
+          "images": [
+            "2026_Oak_Creek Greens_Polts/11.Red_Perilla2/0625_2.jpg"
+          ]
         }
       ]
     },
@@ -2096,9 +3226,24 @@ const gardenData = {
           "note": "Day 25 growth photo."
         },
         {
+          "dayNumber": 47,
+          "date": "Jun 17",
+          "image": "2026_Oak_Creek Greens_Polts/12.Golden_Purslane2/0617_1.jpg",
+          "alt": "Golden_Purslane2 in Bed 12 on Jun 17",
+          "note": "Jun 17 growth photo."
+        },
+        {
           "dayNumber": 0,
           "textOnly": true,
           "text": "Transplanting on May 1st"
+        },
+        {
+          "dayNumber": 55,
+          "date": "Jun 25",
+          "textOnly": false,
+          "image": "2026_Oak_Creek Greens_Polts/12.Golden_Purslane2/0625_1.jpg",
+          "alt": "Golden_Purslane2 in Bed 12 on Jun 25",
+          "note": "Overall rating: 4/5. Field observations: Some leaf damage was observed."
         }
       ]
     },
@@ -2122,9 +3267,27 @@ const gardenData = {
           "note": "May 9 growth photo."
         },
         {
+          "dayNumber": 47,
+          "date": "Jun 17",
+          "image": "2026_Oak_Creek Greens_Polts/13.Celosia_Lagos_Spinach2/0617_1.jpg",
+          "alt": "Celosia_Lagos_Spinach2 in Bed 13 on Jun 17",
+          "note": "Jun 17 growth photo."
+        },
+        {
           "dayNumber": 0,
           "textOnly": true,
           "text": "Transplanting on May 1st"
+        },
+        {
+          "dayNumber": 55,
+          "date": "Jun 25",
+          "textOnly": false,
+          "image": "2026_Oak_Creek Greens_Polts/13.Celosia_Lagos_Spinach2/0625_1.jpg",
+          "alt": "Celosia_Lagos_Spinach2 in Bed 13 on Jun 25",
+          "note": "Overall rating: 5/5. Field observations: Excellent overall growth and healthy appearance.",
+          "images": [
+            "2026_Oak_Creek Greens_Polts/13.Celosia_Lagos_Spinach2/0625_2.jpg"
+          ]
         }
       ]
     },
@@ -2141,9 +3304,24 @@ const gardenData = {
           "note": "Day 25 growth photo."
         },
         {
+          "dayNumber": 47,
+          "date": "Jun 17",
+          "image": "2026_Oak_Creek Greens_Polts/16.Red_Perilla1/0617_1.jpg",
+          "alt": "Red_Perilla1 in Bed 16 on Jun 17",
+          "note": "Jun 17 growth photo."
+        },
+        {
           "dayNumber": 0,
           "textOnly": true,
           "text": "Transplanting on May 1st"
+        },
+        {
+          "dayNumber": 55,
+          "date": "Jun 25",
+          "textOnly": false,
+          "image": "2026_Oak_Creek Greens_Polts/16.Red_Perilla1/0625_1.jpg",
+          "alt": "Red_Perilla1 in Bed 16 on Jun 25",
+          "note": "Overall rating: 5/5. Field observations: Plants exhibited excellent growth. Leaf vein coloration differed from surrounding tissue."
         }
       ]
     },
@@ -2160,9 +3338,35 @@ const gardenData = {
           "note": "Day 25 growth photo."
         },
         {
+          "dayNumber": 47,
+          "date": "Jun 17",
+          "image": "2026_Oak_Creek Greens_Polts/19.Amaranth_Miriah_Leaf1/0617_1.jpg",
+          "alt": "Amaranth_Miriah_Leaf1 in Bed 19 on Jun 17",
+          "note": "Jun 17 growth photo."
+        },
+        {
           "dayNumber": 0,
           "textOnly": true,
           "text": "Transplanting on May 1st"
+        },
+        {
+          "dayNumber": 55,
+          "date": "Jun 25",
+          "textOnly": false,
+          "image": "2026_Oak_Creek Greens_Polts/19.Amaranth_Miriah_Leaf1/0625_1.jpg",
+          "alt": "Amaranth_Miriah_Leaf1 in Bed 19 on Jun 25",
+          "note": "Overall rating: 5/5. Field observations: Plants exhibited vigorous growth and had started bolting.",
+          "images": [
+            "2026_Oak_Creek Greens_Polts/19.Amaranth_Miriah_Leaf1/0625_2.jpg",
+            "2026_Oak_Creek Greens_Polts/19.Amaranth_Miriah_Leaf1/0625_3.jpg"
+          ]
+        },
+        {
+          "dayNumber": 54,
+          "date": "Jun 24",
+          "image": "2026_Oak_Creek Greens_Polts/19.Amaranth_Miriah_Leaf1/0624.jpeg",
+          "alt": "Amaranth_Miriah_Leaf1 in Bed 19 on Jun 24",
+          "note": "Jun 24 growth photo."
         }
       ]
     },
@@ -2187,6 +3391,12 @@ const gardenData = {
           "dayNumber": 0,
           "textOnly": true,
           "text": "Transplanting on May 1st"
+        },
+        {
+          "dayNumber": 55,
+          "date": "Jun 25",
+          "textOnly": true,
+          "text": "Overall rating: 0/5. Field observations: All plants died after transplanting."
         }
       ]
     },
@@ -2210,9 +3420,24 @@ const gardenData = {
           "note": "June 15 growth photo."
         },
         {
+          "dayNumber": 47,
+          "date": "Jun 17",
+          "image": "2026_Oak_Creek Greens_Polts/21.French_Sorrel2/0617_1.jpg",
+          "alt": "French_Sorrel2 in Bed 21 on Jun 17",
+          "note": "Jun 17 growth photo."
+        },
+        {
           "dayNumber": 0,
           "textOnly": true,
           "text": "Transplanting on May 1st"
+        },
+        {
+          "dayNumber": 55,
+          "date": "Jun 25",
+          "textOnly": false,
+          "image": "2026_Oak_Creek Greens_Polts/21.French_Sorrel2/0625_1.jpg",
+          "alt": "French_Sorrel2 in Bed 21 on Jun 25",
+          "note": "Overall rating: 1/5. Field observations: Plants were in poor condition and had already started bolting."
         }
       ]
     },
@@ -2229,9 +3454,24 @@ const gardenData = {
           "note": "Day 25 growth photo."
         },
         {
+          "dayNumber": 47,
+          "date": "Jun 17",
+          "image": "2026_Oak_Creek Greens_Polts/22.Lettuce_Muir1/0617_1.jpg",
+          "alt": "Lettuce_Muir1 in Bed 22 on Jun 17",
+          "note": "Jun 17 growth photo."
+        },
+        {
           "dayNumber": 0,
           "textOnly": true,
           "text": "Transplanting on May 1st"
+        },
+        {
+          "dayNumber": 55,
+          "date": "Jun 25",
+          "textOnly": false,
+          "image": "2026_Oak_Creek Greens_Polts/22.Lettuce_Muir1/0625_1.jpg",
+          "alt": "Lettuce_Muir1 in Bed 22 on Jun 25",
+          "note": "Overall rating: 4/5. Field observations: Some leaf damage was observed."
         }
       ]
     },
@@ -2255,9 +3495,27 @@ const gardenData = {
           "note": "June 5 growth photo."
         },
         {
+          "dayNumber": 47,
+          "date": "Jun 17",
+          "image": "2026_Oak_Creek Greens_Polts/23.Lettuce_Blade_Seeded_Simpson2/0617_1.jpg",
+          "alt": "Lettuce_Blade_Seeded_Simpson2 in Bed 23 on Jun 17",
+          "note": "Jun 17 growth photo."
+        },
+        {
           "dayNumber": 0,
           "textOnly": true,
           "text": "Transplanting on May 1st"
+        },
+        {
+          "dayNumber": 55,
+          "date": "Jun 25",
+          "textOnly": false,
+          "image": "2026_Oak_Creek Greens_Polts/23.Lettuce_Blade_Seeded_Simpson2/0625_1.jpg",
+          "alt": "Lettuce_Blade_Seeded_Simpson2 in Bed 23 on Jun 25",
+          "note": "Overall rating: 5/5. Field observations: Plants showed excellent growth and had started bolting. Overall rating: 5/5. Field observations: Plants showed excellent growth and had started bolting. Early flowering stage (bolting with open flowers)",
+          "images": [
+            "2026_Oak_Creek Greens_Polts/23.Lettuce_Blade_Seeded_Simpson2/0625_2.jpg"
+          ]
         }
       ]
     },
@@ -2274,9 +3532,34 @@ const gardenData = {
           "note": "Day 25 growth photo."
         },
         {
+          "dayNumber": 47,
+          "date": "Jun 17",
+          "image": "2026_Oak_Creek Greens_Polts/24.Lettuce_Red_Salad_Bowl1/0617_1.jpg",
+          "alt": "Lettuce_Red_Salad_Bowl1 in Bed 24 on Jun 17",
+          "note": "Jun 17 growth photo."
+        },
+        {
           "dayNumber": 0,
           "textOnly": true,
           "text": "Transplanting on May 1st"
+        },
+        {
+          "dayNumber": 55,
+          "date": "Jun 25",
+          "textOnly": false,
+          "image": "2026_Oak_Creek Greens_Polts/24.Lettuce_Red_Salad_Bowl1/0625_1.jpg",
+          "alt": "Lettuce_Red_Salad_Bowl1 in Bed 24 on Jun 25",
+          "note": "Overall rating: 5/5. Field observations: Plants are vigorous and ready to bolt."
+        },
+        {
+          "dayNumber": 53,
+          "date": "Jun 23",
+          "image": "2026_Oak_Creek Greens_Polts/24.Lettuce_Red_Salad_Bowl1/0623_1.jpeg",
+          "alt": "Lettuce_Red_Salad_Bowl1 in Bed 24 on Jun 23",
+          "note": "Jun 23 growth photo.",
+          "images": [
+            "2026_Oak_Creek Greens_Polts/24.Lettuce_Red_Salad_Bowl1/0623_2.jpeg"
+          ]
         }
       ]
     },
@@ -2291,6 +3574,12 @@ const gardenData = {
           "image": "Sweet_Potato/1.56660_1.jpeg",
           "alt": "56660_1 in Bed 50 on Jun 16",
           "note": "Transplanting on Jun 16th. Transplanted sweet potatoes during a warm and sunny week, with daytime highs ranging from 80°F to 90°F (25°C–35°C). The soil was loose and moist at transplanting. Beds were hilled to improve root-to-soil contact and help retain moisture."
+        },
+        {
+          "dayNumber": 9,
+          "date": "Jun 25",
+          "textOnly": true,
+          "text": "Overall rating: 5/5. Field observations: Excellent establishment, vigor, and overall growth."
         }
       ]
     },
@@ -2305,6 +3594,12 @@ const gardenData = {
           "image": "Sweet_Potato/2.Orleans1.jpeg",
           "alt": "Orleans1 in Bed 51 on Jun 16",
           "note": "Transplanting on Jun 16th. Transplanted sweet potatoes during a warm and sunny week, with daytime highs ranging from 80°F to 90°F (25°C–35°C). The soil was loose and moist at transplanting. Beds were hilled to improve root-to-soil contact and help retain moisture."
+        },
+        {
+          "dayNumber": 9,
+          "date": "Jun 25",
+          "textOnly": true,
+          "text": "Overall rating: 5/5. Field observations: Excellent establishment, vigor, and overall growth."
         }
       ]
     },
@@ -2319,6 +3614,12 @@ const gardenData = {
           "image": "Sweet_Potato/3.Purple_Magisty1.jpeg",
           "alt": "Purple_Magisty1 in Bed 52 on Jun 16",
           "note": "Transplanting on Jun 16th. Transplanted sweet potatoes during a warm and sunny week, with daytime highs ranging from 80°F to 90°F (25°C–35°C). The soil was loose and moist at transplanting. Beds were hilled to improve root-to-soil contact and help retain moisture."
+        },
+        {
+          "dayNumber": 9,
+          "date": "Jun 25",
+          "textOnly": true,
+          "text": "Overall rating: 5/5. Field observations: Excellent establishment, vigor, and overall growth."
         }
       ]
     },
@@ -2333,6 +3634,12 @@ const gardenData = {
           "image": "Sweet_Potato/4.628761_1.jpeg",
           "alt": "628761_1 in Bed 53 on Jun 16",
           "note": "Transplanting on Jun 16th. Transplanted sweet potatoes during a warm and sunny week, with daytime highs ranging from 80°F to 90°F (25°C–35°C). The soil was loose and moist at transplanting. Beds were hilled to improve root-to-soil contact and help retain moisture."
+        },
+        {
+          "dayNumber": 9,
+          "date": "Jun 25",
+          "textOnly": true,
+          "text": "Overall rating: 5/5. Field observations: Excellent establishment, vigor, and overall growth."
         }
       ]
     },
@@ -2347,6 +3654,12 @@ const gardenData = {
           "image": "Sweet_Potato/5.Ga_Jet1.jpeg",
           "alt": "Ga_Jet1 in Bed 54 on Jun 16",
           "note": "Transplanting on Jun 16th. Transplanted sweet potatoes during a warm and sunny week, with daytime highs ranging from 80°F to 90°F (25°C–35°C). The soil was loose and moist at transplanting. Beds were hilled to improve root-to-soil contact and help retain moisture."
+        },
+        {
+          "dayNumber": 9,
+          "date": "Jun 25",
+          "textOnly": true,
+          "text": "Overall rating: 3/5. Field observations: Four out of six plants survived. Missing plants were replanted on Jun 25."
         }
       ]
     },
@@ -2361,6 +3674,12 @@ const gardenData = {
           "image": "Sweet_Potato/6.Beauregard1.jpeg",
           "alt": "Beauregard1 in Bed 55 on Jun 16",
           "note": "Transplanting on Jun 16th. Transplanted sweet potatoes during a warm and sunny week, with daytime highs ranging from 80°F to 90°F (25°C–35°C). The soil was loose and moist at transplanting. Beds were hilled to improve root-to-soil contact and help retain moisture."
+        },
+        {
+          "dayNumber": 9,
+          "date": "Jun 25",
+          "textOnly": true,
+          "text": "Overall rating: 5/5. Field observations: Excellent establishment, vigor, and overall growth."
         }
       ]
     },
@@ -2375,6 +3694,12 @@ const gardenData = {
           "image": "Sweet_Potato/7.Vardaman1.jpeg",
           "alt": "Vardaman1 in Bed 56 on Jun 16",
           "note": "Transplanting on Jun 16th. Transplanted sweet potatoes during a warm and sunny week, with daytime highs ranging from 80°F to 90°F (25°C–35°C). The soil was loose and moist at transplanting. Beds were hilled to improve root-to-soil contact and help retain moisture."
+        },
+        {
+          "dayNumber": 9,
+          "date": "Jun 25",
+          "textOnly": true,
+          "text": "Overall rating: 5/5. Field observations: Excellent establishment, vigor, and overall growth."
         }
       ]
     },
@@ -2389,6 +3714,12 @@ const gardenData = {
           "image": "Sweet_Potato/8.566662.jpeg",
           "alt": "566662 in Bed 57 on Jun 16",
           "note": "Transplanting on Jun 16th. Transplanted sweet potatoes during a warm and sunny week, with daytime highs ranging from 80°F to 90°F (25°C–35°C). The soil was loose and moist at transplanting. Beds were hilled to improve root-to-soil contact and help retain moisture."
+        },
+        {
+          "dayNumber": 9,
+          "date": "Jun 25",
+          "textOnly": true,
+          "text": "Overall rating: 5/5. Field observations: Excellent establishment, vigor, and overall growth."
         }
       ]
     },
@@ -2403,6 +3734,12 @@ const gardenData = {
           "image": "Sweet_Potato/9.Orleans2.jpeg",
           "alt": "Orleans2 in Bed 58 on Jun 16",
           "note": "Transplanting on Jun 16th. Transplanted sweet potatoes during a warm and sunny week, with daytime highs ranging from 80°F to 90°F (25°C–35°C). The soil was loose and moist at transplanting. Beds were hilled to improve root-to-soil contact and help retain moisture."
+        },
+        {
+          "dayNumber": 9,
+          "date": "Jun 25",
+          "textOnly": true,
+          "text": "Overall rating: 5/5. Field observations: Excellent establishment, vigor, and overall growth."
         }
       ]
     },
@@ -2417,6 +3754,12 @@ const gardenData = {
           "image": "Sweet_Potato/10.56660_2.jpeg",
           "alt": "56660_2 in Bed 59 on Jun 16",
           "note": "Transplanting on Jun 16th. Transplanted sweet potatoes during a warm and sunny week, with daytime highs ranging from 80°F to 90°F (25°C–35°C). The soil was loose and moist at transplanting. Beds were hilled to improve root-to-soil contact and help retain moisture."
+        },
+        {
+          "dayNumber": 9,
+          "date": "Jun 25",
+          "textOnly": true,
+          "text": "Overall rating: 5/5. Field observations: Excellent establishment, vigor, and overall growth."
         }
       ]
     },
@@ -2431,6 +3774,12 @@ const gardenData = {
           "image": "Sweet_Potato/11.Purple_Magisty2.jpeg",
           "alt": "Purple_Magisty2 in Bed 60 on Jun 16",
           "note": "Transplanting on Jun 16th. Transplanted sweet potatoes during a warm and sunny week, with daytime highs ranging from 80°F to 90°F (25°C–35°C). The soil was loose and moist at transplanting. Beds were hilled to improve root-to-soil contact and help retain moisture."
+        },
+        {
+          "dayNumber": 9,
+          "date": "Jun 25",
+          "textOnly": true,
+          "text": "Overall rating: 5/5. Field observations: Excellent establishment, vigor, and overall growth."
         }
       ]
     },
@@ -2445,6 +3794,12 @@ const gardenData = {
           "image": "Sweet_Potato/12.Ga_Jet2.jpeg",
           "alt": "Ga_Jet2 in Bed 61 on Jun 16",
           "note": "Transplanting on Jun 16th. Transplanted sweet potatoes during a warm and sunny week, with daytime highs ranging from 80°F to 90°F (25°C–35°C). The soil was loose and moist at transplanting. Beds were hilled to improve root-to-soil contact and help retain moisture."
+        },
+        {
+          "dayNumber": 9,
+          "date": "Jun 25",
+          "textOnly": true,
+          "text": "Overall rating: 5/5. Field observations: Excellent establishment, vigor, and overall growth."
         }
       ]
     },
@@ -2459,6 +3814,12 @@ const gardenData = {
           "image": "Sweet_Potato/13.Beauregard2.jpeg",
           "alt": "Beauregard2 in Bed 62 on Jun 16",
           "note": "Transplanting on Jun 16th. Transplanted sweet potatoes during a warm and sunny week, with daytime highs ranging from 80°F to 90°F (25°C–35°C). The soil was loose and moist at transplanting. Beds were hilled to improve root-to-soil contact and help retain moisture."
+        },
+        {
+          "dayNumber": 9,
+          "date": "Jun 25",
+          "textOnly": true,
+          "text": "Overall rating: 5/5. Field observations: Excellent establishment, vigor, and overall growth."
         }
       ]
     },
@@ -2473,6 +3834,12 @@ const gardenData = {
           "image": "Sweet_Potato/14.Vardaman2.jpeg",
           "alt": "Vardaman2 in Bed 63 on Jun 16",
           "note": "Transplanting on Jun 16th. Transplanted sweet potatoes during a warm and sunny week, with daytime highs ranging from 80°F to 90°F (25°C–35°C). The soil was loose and moist at transplanting. Beds were hilled to improve root-to-soil contact and help retain moisture."
+        },
+        {
+          "dayNumber": 9,
+          "date": "Jun 25",
+          "textOnly": true,
+          "text": "Overall rating: 5/5. Field observations: Excellent establishment, vigor, and overall growth."
         }
       ]
     },
@@ -2487,6 +3854,58 @@ const gardenData = {
           "image": "Sweet_Potato/15.628761_2.jpeg",
           "alt": "628761_2 in Bed 64 on Jun 16",
           "note": "Transplanting on Jun 16th. Transplanted sweet potatoes during a warm and sunny week, with daytime highs ranging from 80°F to 90°F (25°C–35°C). The soil was loose and moist at transplanting. Beds were hilled to improve root-to-soil contact and help retain moisture."
+        },
+        {
+          "dayNumber": 9,
+          "date": "Jun 25",
+          "textOnly": true,
+          "text": "Overall rating: 5/5. Field observations: Excellent establishment, vigor, and overall growth."
+        }
+      ]
+    },
+    "barley": {
+      "name": "Barley",
+      "bed": "Barley Row",
+      "description": "2-row and 6-row maturity comparison.",
+      "entries": [
+        {
+          "dayNumber": 55,
+          "date": "Jun 25",
+          "image": "Barley/0625_1.jpeg",
+          "images": [
+            "Barley/0625_2.jpeg",
+            "Barley/0625.jpeg"
+          ],
+          "alt": "Barley overview on Jun 25",
+          "note": "Field observations: June 25: I observed the single 90-ft barley row. Overall plant height ranged from approximately 15 to 28 inches. The two-row barley appeared shorter overall and more mature, whereas the six-row barley was generally taller and remained mostly green to blue-green. Maturity was uneven across the row, but the trend was clear: the two-row barley was further advanced, with some heads turning yellow to golden and one plant already fully yellow, dry, and hard. In contrast, the six-row barley was generally less mature, with most heads still green or blue-green and showing little obvious yellowing. Kernel firmness also varied with maturity. The fully yellow two-row plant felt dry and hard, whereas greener heads were still relatively soft. Grain firmness will continue to be monitored over the next several days, particularly in the more mature two-row plants, to avoid missing the optimal seed harvest window.",
+          "sections": [
+            {
+              "title": "Two-row barley",
+              "images": [
+                "Barley/2_Rows/IMG_6068.jpeg",
+                "Barley/2_Rows/IMG_6069.jpeg",
+                "Barley/2_Rows/IMG_6070.jpeg",
+                "Barley/2_Rows/IMG_6071.jpeg",
+                "Barley/2_Rows/IMG_6072.jpeg",
+                "Barley/2_Rows/IMG_6073.jpeg",
+                "Barley/2_Rows/IMG_6074.jpeg"
+              ],
+              "alt": "Two-row barley on Jun 25"
+            },
+            {
+              "title": "Six-row barley",
+              "images": [
+                "Barley/6_Rows/IMG_6053.jpeg",
+                "Barley/6_Rows/IMG_6054.jpeg",
+                "Barley/6_Rows/IMG_6059.jpeg",
+                "Barley/6_Rows/IMG_6060.jpeg",
+                "Barley/6_Rows/IMG_6066.jpeg",
+                "Barley/6_Rows/IMG_6067.jpeg",
+                "Barley/6_Rows/IMG_6075.jpeg"
+              ],
+              "alt": "Six-row barley on Jun 25"
+            }
+          ]
         }
       ]
     }

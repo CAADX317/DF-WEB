@@ -416,6 +416,15 @@ a:hover {
   max-width: 960px;
 }
 
+.has-comparison-sections .timeline {
+  max-width: 1040px;
+}
+
+.has-comparison-sections .timeline::before {
+  left: 1.1rem;
+  transform: none;
+}
+
 .timeline::before {
   content: "";
   position: absolute;
@@ -462,6 +471,19 @@ a:hover {
     padding-right: 0;
     padding-left: 2.5rem;
     text-align: left;
+  }
+
+  .has-comparison-sections .timeline-entry {
+    width: 100%;
+    margin-left: 0;
+    padding-left: 3rem;
+    padding-right: 0;
+    text-align: left;
+  }
+
+  .has-comparison-sections .timeline-marker {
+    left: -0.55rem;
+    right: auto;
   }
 }
 
@@ -529,6 +551,108 @@ a:hover {
 .bed-9-plus .timeline-photo img {
   max-width: 630px;
   max-height: 900px;
+}
+
+.timeline-photo-section {
+  margin-top: 1rem;
+}
+
+.timeline-photo-section h2 {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  color: var(--color-primary-dark);
+  margin: 0 0 0.55rem;
+}
+
+.timeline-photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 0.5rem;
+  padding: 0.5rem;
+}
+
+.timeline-photo-grid img,
+.bed-9-plus .timeline-photo-grid img {
+  max-width: 100%;
+  max-height: none;
+}
+
+.timeline-image img,
+.timeline-photo img,
+.timeline-gallery img,
+.barley-card img {
+  cursor: zoom-in;
+}
+
+.image-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: rgba(18, 24, 18, 0.82);
+}
+
+.image-lightbox.is-open {
+  display: flex;
+}
+
+.image-lightbox__content {
+  position: relative;
+  max-width: 92vw;
+  max-height: 92vh;
+  text-align: center;
+}
+
+.image-lightbox__image {
+  width: auto;
+  height: auto;
+  max-width: 90vw;
+  max-height: 86vh;
+  object-fit: contain;
+  border-radius: 14px;
+  background: #fff;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.45);
+}
+
+.image-lightbox__caption {
+  margin-top: 10px;
+  color: #f4f0e6;
+  font-size: 0.95rem;
+}
+
+.image-lightbox__close {
+  position: absolute;
+  top: -14px;
+  right: -14px;
+  width: 36px;
+  height: 36px;
+  border: 0;
+  border-radius: 999px;
+  background: #f7f3ea;
+  color: #24452f;
+  font-size: 22px;
+  line-height: 1;
+  cursor: pointer;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.28);
+}
+
+@media (max-width: 560px) {
+  .image-lightbox {
+    padding: 16px;
+  }
+
+  .image-lightbox__image {
+    max-width: 94vw;
+    max-height: 82vh;
+  }
+
+  .image-lightbox__close {
+    top: -10px;
+    right: -10px;
+  }
 }
 
 .timeline-note {

@@ -20,7 +20,7 @@
   if (!mapRoot || !beds?.length) return;
 
   // Add or remove row numbers here after defining their grid in garden-map.css.
-  const rows = [1, 2, 3, 4, 5, 6];
+  const rows = [1, 2, 3, 4, 5, 6, 7];
   mapRoot.innerHTML = rows
     .map((rowNum) => {
       const rowBeds = beds.filter((b) => b.mapRow === rowNum);
@@ -157,10 +157,11 @@
 
       images = data.images || [];
       index = 0;
+      floatEl.classList.toggle("is-contain", data.previewFit === "contain");
 
       const sub = data.cropSecondary ? ` · ${data.cropSecondary}` : "";
-      titleEl.textContent = formatCropNameForDisplay(data.crop) + sub;
-      bedEl.textContent = data.bed;
+      titleEl.textContent = data.previewTitle || (formatCropNameForDisplay(data.crop) + sub);
+      bedEl.textContent = data.previewSubtitle || data.bed;
 
       renderSlider();
       clearInterval(slideTimer);
@@ -207,7 +208,7 @@
       if (activeBed) activeBed.classList.remove("is-lit");
       activeBed = null;
       clearInterval(slideTimer);
-      floatEl.classList.remove("is-visible");
+      floatEl.classList.remove("is-visible", "is-contain");
     }
 
     if (!window.matchMedia("(hover: hover)").matches) {
@@ -301,6 +302,8 @@
   }
 
   function getColorClassFromName(bed) {
+    if (bed.id === "barley-row") return "";
+
     const bedNumber = Number(String(bed.id || "").replace("bed-", ""));
     if (bedNumber <= 11) return "";
 

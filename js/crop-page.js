@@ -66,6 +66,7 @@
       ${timelineHtml || "<p>No photos yet. Add entries to this crop's timeline in js/data.js.</p>"}
     </section>
   `;
+  setupImageLightbox();
 
   function escapeHtml(text) {
     const div = document.createElement("div");
@@ -82,5 +83,70 @@
       .replace(/&/g, "&amp;")
       .replace(/"/g, "&quot;")
       .replace(/</g, "&lt;");
+  }
+
+  function setupImageLightbox() {
+    let lightbox = document.getElementById("imageLightbox");
+    if (!lightbox) {
+      lightbox = document.createElement("div");
+      lightbox.id = "imageLightbox";
+      lightbox.className = "image-lightbox";
+      lightbox.setAttribute("aria-hidden", "true");
+      lightbox.innerHTML = `
+        <div class="image-lightbox__content">
+          <button class="image-lightbox__close" type="button" aria-label="Close image preview">×</button>
+          <img class="image-lightbox__image" src="" alt="">
+          <div class="image-lightbox__caption"></div>
+        </div>
+      `;
+      document.body.appendChild(lightbox);
+    }
+
+    if (lightbox.dataset.ready === "true") return;
+    lightbox.dataset.ready = "true";
+
+    const lightboxImg = lightbox.querySelector(".image-lightbox__image");
+    const caption = lightbox.querySelector(".image-lightbox__caption");
+    const closeButton = lightbox.querySelector(".image-lightbox__close");
+
+    function openLightbox(img) {
+      lightboxImg.src = img.currentSrc || img.src;
+      lightboxImg.alt = img.alt || "";
+      caption.textContent = img.alt || "";
+      lightbox.classList.add("is-open");
+      lightbox.setAttribute("aria-hidden", "false");
+      document.body.style.overflow = "hidden";
+    }
+
+    function closeLightbox() {
+      lightbox.classList.remove("is-open");
+      lightbox.setAttribute("aria-hidden", "true");
+      lightboxImg.src = "";
+      caption.textContent = "";
+      document.body.style.overflow = "";
+    }
+
+    document.addEventListener("click", (event) => {
+      const img = event.target.closest(
+        ".timeline-image img, .timeline-photo img, .timeline-gallery img, .barley-card img"
+      );
+
+      if (img && !img.closest(".crop-preview-float")) {
+        openLightbox(img);
+        return;
+      }
+
+      if (event.target === lightbox) {
+        closeLightbox();
+      }
+    });
+
+    closeButton.addEventListener("click", closeLightbox);
+
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape" && lightbox.classList.contains("is-open")) {
+        closeLightbox();
+      }
+    });
   }
 })();

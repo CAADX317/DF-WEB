@@ -29,6 +29,9 @@
   if (bedNumber >= 9) {
     container.classList.add("bed-9-plus");
   }
+  if ((crop.entries || []).some((entry) => entry.sections?.length)) {
+    container.classList.add("has-comparison-sections");
+  }
   const title = crop.nameSecondary
     ? `${displayName} (${crop.nameSecondary})`
     : displayName;
@@ -46,6 +49,12 @@
         ? `
       <div class="timeline-entry">
         <span class="timeline-marker" aria-hidden="true"></span>
+        ${entry.date ? `
+        <div class="timeline-date-block">
+          <span class="timeline-day">Day ${entry.dayNumber}</span>
+          <span class="timeline-date">${escapeHtml(entry.date)}</span>
+        </div>
+        ` : ""}
         <p class="timeline-note">${escapeHtml(entry.text)}</p>
       </div>
     `
@@ -60,6 +69,7 @@
           ${renderTimelineImages(entry)}
         </figure>
         <p class="timeline-note">${escapeHtml(entry.note)}</p>
+        ${renderTimelineSections(entry)}
       </div>
     `
     )
@@ -79,6 +89,7 @@
       ${timelineHtml || "<p>No photos yet — add entries in js/garden-data.js</p>"}
     </section>
   `;
+  setupImageLightbox();
 
   function getTimelineStartNote(data, id, currentEntries) {
     const note = data.timelineStartNote;
@@ -106,11 +117,40 @@
       .join("");
   }
 
+  function renderTimelineSections(entry) {
+    if (!entry.sections?.length) return "";
+
+    return entry.sections
+      .map(
+        (section) => `
+        <section class="timeline-photo-section">
+          <h2>${escapeHtml(section.title)}</h2>
+          <figure class="timeline-photo timeline-photo-grid">
+            ${getSectionImages(section)
+              .map(
+                ({ src, alt }) =>
+                  `<img src="${escapeAttr(src)}" alt="${escapeAttr(alt)}" loading="lazy" width="800" height="600">`
+              )
+              .join("")}
+          </figure>
+        </section>
+      `
+      )
+      .join("");
+  }
+
   function getEntryImages(entry) {
     const images = [entry.image, ...(entry.images || [])].filter(Boolean);
     return [...new Set(images)].map((src, index) => ({
       src,
       alt: index === 0 ? entry.alt : `${entry.alt} close-up ${index}`,
+    }));
+  }
+
+  function getSectionImages(section) {
+    return [...new Set(section.images || [])].map((src, index) => ({
+      src,
+      alt: index === 0 ? section.alt : `${section.alt} ${index + 1}`,
     }));
   }
 
@@ -134,5 +174,70 @@
       .replace(/&/g, "&amp;")
       .replace(/"/g, "&quot;")
       .replace(/</g, "&lt;");
+  }
+
+  function setupImageLightbox() {
+    let lightbox = document.getElementById("imageLightbox");
+    if (!lightbox) {
+      lightbox = document.createElement("div");
+      lightbox.id = "imageLightbox";
+      lightbox.className = "image-lightbox";
+      lightbox.setAttribute("aria-hidden", "true");
+      lightbox.innerHTML = `
+        <div class="image-lightbox__content">
+          <button class="image-lightbox__close" type="button" aria-label="Close image preview">×</button>
+          <img class="image-lightbox__image" src="" alt="">
+          <div class="image-lightbox__caption"></div>
+        </div>
+      `;
+      document.body.appendChild(lightbox);
+    }
+
+    if (lightbox.dataset.ready === "true") return;
+    lightbox.dataset.ready = "true";
+
+    const lightboxImg = lightbox.querySelector(".image-lightbox__image");
+    const caption = lightbox.querySelector(".image-lightbox__caption");
+    const closeButton = lightbox.querySelector(".image-lightbox__close");
+
+    function openLightbox(img) {
+      lightboxImg.src = img.currentSrc || img.src;
+      lightboxImg.alt = img.alt || "";
+      caption.textContent = img.alt || "";
+      lightbox.classList.add("is-open");
+      lightbox.setAttribute("aria-hidden", "false");
+      document.body.style.overflow = "hidden";
+    }
+
+    function closeLightbox() {
+      lightbox.classList.remove("is-open");
+      lightbox.setAttribute("aria-hidden", "true");
+      lightboxImg.src = "";
+      caption.textContent = "";
+      document.body.style.overflow = "";
+    }
+
+    document.addEventListener("click", (event) => {
+      const img = event.target.closest(
+        ".timeline-image img, .timeline-photo img, .timeline-gallery img, .barley-card img"
+      );
+
+      if (img && !img.closest(".crop-preview-float")) {
+        openLightbox(img);
+        return;
+      }
+
+      if (event.target === lightbox) {
+        closeLightbox();
+      }
+    });
+
+    closeButton.addEventListener("click", closeLightbox);
+
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape" && lightbox.classList.contains("is-open")) {
+        closeLightbox();
+      }
+    });
   }
 })();

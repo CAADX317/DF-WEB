@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Barley timeline — Oak Creek Dry Farming Greens</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    .barley-page {
+      padding: 2rem 0 4rem;
+    }
+
+    .barley-header {
+      max-width: 46rem;
+      margin: 0 auto 2.25rem;
+      text-align: center;
+    }
+
+    .barley-header .bed-tag {
+      display: inline-block;
+      margin-bottom: 0.5rem;
+      color: var(--color-accent);
+      font-size: 0.8rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    .barley-header h1 {
+      margin: 0 0 0.75rem;
+      color: var(--color-primary-dark);
+      font-family: var(--font-display);
+      font-size: clamp(2rem, 5vw, 2.65rem);
+    }
+
+    .barley-header p {
+      margin: 0;
+      color: var(--color-text-muted);
+    }
+
+    .barley-timeline {
+      max-width: 1180px;
+      margin: 0 auto;
+    }
+
+    .barley-entry-header {
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+
+    .barley-entry-header .timeline-day {
+      font-family: var(--font-display);
+      font-size: 1.65rem;
+      font-weight: 600;
+      color: var(--color-primary);
+      line-height: 1.2;
+    }
+
+    .barley-entry-header .timeline-date {
+      display: block;
+      color: var(--color-text-muted);
+      font-size: 0.95rem;
+    }
+
+    .barley-top-grid,
+    .barley-comparison-grid {
+      display: grid;
+      gap: 18px;
+    }
+
+    .barley-top-grid {
+      grid-template-columns: 1.6fr 1fr;
+      align-items: stretch;
+    }
+
+    .barley-comparison-grid {
+      grid-template-columns: 1fr 1fr;
+      margin-top: 18px;
+    }
+
+    .barley-card {
+      padding: 18px;
+      border: 1px solid rgba(45, 75, 55, 0.16);
+      border-radius: 14px;
+      background: rgba(255, 255, 248, 0.88);
+      box-shadow: 0 10px 24px rgba(41, 56, 39, 0.08);
+    }
+
+    .barley-card h2 {
+      margin: 0 0 0.85rem;
+      color: var(--color-primary-dark);
+      font-family: var(--font-display);
+      font-size: 1.35rem;
+      font-weight: 600;
+    }
+
+    .barley-observation {
+      color: var(--color-text);
+      font-size: 0.95rem;
+      line-height: 1.65;
+    }
+
+    .barley-observation p {
+      margin: 0 0 0.85rem;
+    }
+
+    .barley-observation p:last-child {
+      margin-bottom: 0;
+    }
+
+    .barley-overview-grid,
+    .barley-detail-grid {
+      display: grid;
+      gap: 12px;
+    }
+
+    .barley-overview-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    .barley-detail-grid {
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+
+    .barley-photo {
+      margin: 0;
+    }
+
+    .barley-photo img {
+      display: block;
+      width: 100%;
+      border: 1px solid rgba(45, 75, 55, 0.18);
+      background: #fffef9;
+      object-fit: cover;
+    }
+
+    .barley-overview-grid img {
+      height: 260px;
+      border-color: rgba(45, 75, 55, 0.22);
+      border-radius: 10px;
+    }
+
+    .barley-detail-grid img {
+      height: 230px;
+      border-radius: 9px;
+    }
+
+    @media (max-width: 900px) {
+      .barley-top-grid,
+      .barley-comparison-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .barley-overview-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .barley-overview-grid img,
+      .barley-detail-grid img {
+        height: auto;
+        max-height: 520px;
+        object-fit: contain;
+      }
+    }
+
+    @media (max-width: 560px) {
+      .barley-card {
+        padding: 0.8rem;
+      }
+
+      .barley-detail-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo"><span class="logo-leaf" aria-hidden="true">🌿</span><span class="logo-text">Oak Creek Dry Farming Greens</span></a>
+      <nav class="site-nav"><a href="index.html#map">Garden map</a></nav>
+    </div>
+  </header>
+
+  <main class="barley-page">
+    <article class="container">
+      <header class="barley-header">
+        <span class="bed-tag">Barley Row</span>
+        <h1>Barley</h1>
+        <p>2-row and 6-row maturity comparison.</p>
+      </header>
+
+      <section class="barley-timeline" aria-label="Barley timeline">
+        <header class="barley-entry-header">
+          <span class="timeline-day">Day 55</span>
+          <span class="timeline-date">Jun 25</span>
+        </header>
+
+        <div class="barley-top-grid">
+          <section class="barley-card" aria-labelledby="barley-overview-heading">
+            <h2 id="barley-overview-heading">Overview</h2>
+            <div class="barley-overview-grid">
+              <figure class="barley-photo">
+                <img src="Barley/0625_1.jpeg" alt="Barley row overview on Jun 25" loading="lazy" width="800" height="600">
+              </figure>
+              <figure class="barley-photo">
+                <img src="Barley/0625_2.jpeg" alt="Barley row overview on Jun 25" loading="lazy" width="800" height="600">
+              </figure>
+              <figure class="barley-photo">
+                <img src="Barley/0625.jpeg" alt="Barley row overview on Jun 25" loading="lazy" width="800" height="600">
+              </figure>
+            </div>
+          </section>
+
+          <section class="barley-card barley-observation" aria-labelledby="barley-observation-heading">
+            <h2 id="barley-observation-heading">Field observation</h2>
+            <p>June 25: I observed the single 90-ft barley row. Overall plant height ranged from approximately 15 to 28 inches. The two-row barley appeared shorter overall and more mature, whereas the six-row barley was generally taller and remained mostly green to blue-green.</p>
+            <p>Maturity was uneven across the row, but the trend was clear: the two-row barley was further advanced, with some heads turning yellow to golden and one plant already fully yellow, dry, and hard. In contrast, the six-row barley was generally less mature, with most heads still green or blue-green and showing little obvious yellowing.</p>
+            <p>Kernel firmness also varied with maturity. The fully yellow two-row plant felt dry and hard, whereas greener heads were still relatively soft. Grain firmness will continue to be monitored over the next several days, particularly in the more mature two-row plants, to avoid missing the optimal seed harvest window.</p>
+          </section>
+        </div>
+
+        <div class="barley-comparison-grid">
+          <section class="barley-card" aria-labelledby="two-row-heading">
+            <h2 id="two-row-heading">Two-row barley</h2>
+            <div class="barley-detail-grid">
+              <figure class="barley-photo"><img src="Barley/2_Rows/IMG_6068.jpeg" alt="Two-row barley on Jun 25" loading="lazy" width="800" height="600"></figure>
+              <figure class="barley-photo"><img src="Barley/2_Rows/IMG_6069.jpeg" alt="Two-row barley on Jun 25" loading="lazy" width="800" height="600"></figure>
+              <figure class="barley-photo"><img src="Barley/2_Rows/IMG_6070.jpeg" alt="Two-row barley on Jun 25" loading="lazy" width="800" height="600"></figure>
+              <figure class="barley-photo"><img src="Barley/2_Rows/IMG_6071.jpeg" alt="Two-row barley on Jun 25" loading="lazy" width="800" height="600"></figure>
+              <figure class="barley-photo"><img src="Barley/2_Rows/IMG_6072.jpeg" alt="Two-row barley on Jun 25" loading="lazy" width="800" height="600"></figure>
+              <figure class="barley-photo"><img src="Barley/2_Rows/IMG_6073.jpeg" alt="Two-row barley on Jun 25" loading="lazy" width="800" height="600"></figure>
+              <figure class="barley-photo"><img src="Barley/2_Rows/IMG_6074.jpeg" alt="Two-row barley on Jun 25" loading="lazy" width="800" height="600"></figure>
+            </div>
+          </section>
+
+          <section class="barley-card" aria-labelledby="six-row-heading">
+            <h2 id="six-row-heading">Six-row barley</h2>
+            <div class="barley-detail-grid">
+              <figure class="barley-photo"><img src="Barley/6_Rows/IMG_6053.jpeg" alt="Six-row barley on Jun 25" loading="lazy" width="800" height="600"></figure>
+              <figure class="barley-photo"><img src="Barley/6_Rows/IMG_6054.jpeg" alt="Six-row barley on Jun 25" loading="lazy" width="800" height="600"></figure>
+              <figure class="barley-photo"><img src="Barley/6_Rows/IMG_6059.jpeg" alt="Six-row barley on Jun 25" loading="lazy" width="800" height="600"></figure>
+              <figure class="barley-photo"><img src="Barley/6_Rows/IMG_6060.jpeg" alt="Six-row barley on Jun 25" loading="lazy" width="800" height="600"></figure>
+              <figure class="barley-photo"><img src="Barley/6_Rows/IMG_6066.jpeg" alt="Six-row barley on Jun 25" loading="lazy" width="800" height="600"></figure>
+              <figure class="barley-photo"><img src="Barley/6_Rows/IMG_6067.jpeg" alt="Six-row barley on Jun 25" loading="lazy" width="800" height="600"></figure>
+              <figure class="barley-photo"><img src="Barley/6_Rows/IMG_6075.jpeg" alt="Six-row barley on Jun 25" loading="lazy" width="800" height="600"></figure>
+            </div>
+          </section>
+        </div>
+      </section>
+    </article>
+  </main>
+
+  <footer class="site-footer"><div class="container"><p><a href="index.html#map">← Garden map</a></p></div></footer>
+  <script>
+    (function () {
+      const lightbox = document.createElement("div");
+      lightbox.id = "imageLightbox";
+      lightbox.className = "image-lightbox";
+      lightbox.setAttribute("aria-hidden", "true");
+      lightbox.innerHTML = `
+        <div class="image-lightbox__content">
+          <button class="image-lightbox__close" type="button" aria-label="Close image preview">×</button>
+          <img class="image-lightbox__image" src="" alt="">
+          <div class="image-lightbox__caption"></div>
+        </div>
+      `;
+      document.body.appendChild(lightbox);
+
+      const lightboxImg = lightbox.querySelector(".image-lightbox__image");
+      const caption = lightbox.querySelector(".image-lightbox__caption");
+      const closeButton = lightbox.querySelector(".image-lightbox__close");
+
+      function openLightbox(img) {
+        lightboxImg.src = img.currentSrc || img.src;
+        lightboxImg.alt = img.alt || "";
+        caption.textContent = img.alt || "";
+        lightbox.classList.add("is-open");
+        lightbox.setAttribute("aria-hidden", "false");
+        document.body.style.overflow = "hidden";
+      }
+
+      function closeLightbox() {
+        lightbox.classList.remove("is-open");
+        lightbox.setAttribute("aria-hidden", "true");
+        lightboxImg.src = "";
+        caption.textContent = "";
+        document.body.style.overflow = "";
+      }
+
+      document.addEventListener("click", function (event) {
+        const img = event.target.closest(".barley-card img");
+
+        if (img) {
+          openLightbox(img);
+          return;
+        }
+
+        if (event.target === lightbox) {
+          closeLightbox();
+        }
+      });
+
+      closeButton.addEventListener("click", closeLightbox);
+
+      document.addEventListener("keydown", function (event) {
+        if (event.key === "Escape" && lightbox.classList.contains("is-open")) {
+          closeLightbox();
+        }
+      });
+    })();
+  </script>
+</body>
+</html>
