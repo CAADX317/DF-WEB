@@ -107,6 +107,7 @@
 
 .map-row.row-6 {
   grid-template-columns: repeat(15, minmax(0, 1fr));
+  margin-bottom: 70px;
 }
 
 .map-row.row-7 {
@@ -234,6 +235,7 @@
 }
 
 .bed-num {
+  display: none;
   font-size: 0.62rem;
   font-weight: 600;
   text-transform: uppercase;
@@ -314,6 +316,7 @@
 }
 
 .crop-preview-float__bed {
+  display: none;
   margin: 0.15rem 0 0.5rem;
   font-size: 0.78rem;
   font-weight: 600;

@@ -1,7 +1,0 @@
-0619:
-Overall rating: Not recorded.
-Field observations: Green Towers lettuce showed good germination, with about 85% of seeds emerging. No bolting was observed at this stage. Leaf edge damage was present in some lettuces and was likely caused by animals, since no insects were observed on the lettuce.
-
-0623:
-Overall rating: 5/5.
-Field observations: Green Towels (DS) received an overall rating of 5/5. Plants exhibited vigorous growth, with healthy leaf color and good overall appearance. The largest plants reached approximately 6 inches in width.

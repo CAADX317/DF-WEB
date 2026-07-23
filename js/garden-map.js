@@ -19,8 +19,8 @@
 
   if (!mapRoot || !beds?.length) return;
 
-  // Add or remove row numbers here after defining their grid in garden-map.css.
-  const rows = [1, 2, 3, 4, 5, 6, 7];
+  // Sweet potatoes lead the map; all other rows retain their existing order.
+  const rows = [6, 1, 2, 3, 4, 5, 7];
   mapRoot.innerHTML = rows
     .map((rowNum) => {
       const rowBeds = beds.filter((b) => b.mapRow === rowNum);
