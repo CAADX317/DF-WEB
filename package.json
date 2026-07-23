@@ -1,0 +1,10 @@
+{
+  "name": "oak-creek-dry-farming-greens",
+  "private": true,
+  "scripts": {
+    "thumbnails": "node scripts/generate-thumbnails.js"
+  },
+  "dependencies": {
+    "sharp": "^0.34.5"
+  }
+}

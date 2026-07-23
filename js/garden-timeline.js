@@ -112,7 +112,7 @@
     return getEntryImages(entry)
       .map(
         ({ src, alt }) =>
-          `<img src="${escapeAttr(src)}" alt="${escapeAttr(alt)}" loading="lazy" width="800" height="600">`
+          `<img src="${escapeAttr(getThumbnailSrc(src))}" data-full-src="${escapeAttr(src)}" alt="${escapeAttr(alt)}" loading="lazy" decoding="async" width="800" height="600">`
       )
       .join("");
   }
@@ -129,7 +129,7 @@
             ${getSectionImages(section)
               .map(
                 ({ src, alt }) =>
-                  `<img src="${escapeAttr(src)}" alt="${escapeAttr(alt)}" loading="lazy" width="800" height="600">`
+                  `<img src="${escapeAttr(getThumbnailSrc(src))}" data-full-src="${escapeAttr(src)}" alt="${escapeAttr(alt)}" loading="lazy" decoding="async" width="800" height="600">`
               )
               .join("")}
           </figure>
@@ -152,6 +152,12 @@
       src,
       alt: index === 0 ? section.alt : `${section.alt} ${index + 1}`,
     }));
+  }
+
+  function getThumbnailSrc(src) {
+    return /^(?:https?:|data:|blob:)/i.test(src)
+      ? src
+      : `assets/thumbnails/${src}.webp`;
   }
 
   function escapeHtml(text) {
@@ -199,9 +205,16 @@
     const lightboxImg = lightbox.querySelector(".image-lightbox__image");
     const caption = lightbox.querySelector(".image-lightbox__caption");
     const closeButton = lightbox.querySelector(".image-lightbox__close");
+    lightboxImg.addEventListener("load", () => {
+      lightbox.classList.remove("is-loading");
+    });
+    lightboxImg.addEventListener("error", () => {
+      lightbox.classList.remove("is-loading");
+    });
 
     function openLightbox(img) {
-      lightboxImg.src = img.currentSrc || img.src;
+      lightbox.classList.add("is-loading");
+      lightboxImg.src = img.dataset.fullSrc || img.currentSrc || img.src;
       lightboxImg.alt = img.alt || "";
       caption.textContent = img.alt || "";
       lightbox.classList.add("is-open");
@@ -211,6 +224,7 @@
 
     function closeLightbox() {
       lightbox.classList.remove("is-open");
+      lightbox.classList.remove("is-loading");
       lightbox.setAttribute("aria-hidden", "true");
       lightboxImg.src = "";
       caption.textContent = "";

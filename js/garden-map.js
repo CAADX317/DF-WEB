@@ -181,14 +181,7 @@
         sliderEl.innerHTML = '<p class="crop-preview-float__empty">Add images in garden-data.js</p>';
         return;
       }
-      const slides = images
-        .map(
-          (src, i) =>
-            `<img src="${escapeAttr(src)}" alt="" class="${i === index ? "is-active" : ""}" loading="lazy">`
-        )
-        .join("");
-      sliderEl.innerHTML = slides;
-      sliderEl.style.setProperty("--slide-index", index);
+      sliderEl.innerHTML = `<img src="${escapeAttr(getThumbnailSrc(images[index]))}" alt="" class="is-active" loading="lazy" decoding="async">`;
     }
 
     function onMove(e) {
@@ -299,6 +292,12 @@
 
   function formatCropNameForDisplay(name) {
     return String(name || "").replace(/_/g, " ");
+  }
+
+  function getThumbnailSrc(src) {
+    return /^(?:https?:|data:|blob:)/i.test(src)
+      ? src
+      : `assets/thumbnails/${src}.webp`;
   }
 
   function getColorClassFromName(bed) {

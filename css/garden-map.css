@@ -107,7 +107,7 @@
 
 .map-row.row-6 {
   grid-template-columns: repeat(15, minmax(0, 1fr));
-  margin-bottom: 70px;
+  margin-bottom: 28px;
 }
 
 .map-row.row-7 {
