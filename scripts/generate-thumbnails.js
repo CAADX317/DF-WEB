@@ -70,7 +70,7 @@ async function generateOne(originalPath, outputPath) {
     await writeWebp(originalPath, outputPath);
   } catch (error) {
     if (path.extname(originalPath).toLowerCase() !== ".heic") throw error;
-    await generateHeicWithMacOsFallback(originalPath, outputPath, error);
+    await generateHeicWithFallback(originalPath, outputPath, error);
   }
 }
 
@@ -86,7 +86,7 @@ async function writeWebp(inputPath, outputPath) {
     .toFile(outputPath);
 }
 
-async function generateHeicWithMacOsFallback(originalPath, outputPath, sharpError) {
+async function generateHeicWithFallback(originalPath, outputPath, sharpError) {
   let jpegBuffer;
   try {
     jpegBuffer = await convertHeic({
@@ -131,10 +131,11 @@ async function main() {
     const previous = manifest.files[relativePath];
     summary.originalBytes += source.size;
 
+    const outputExists = fs.existsSync(outputPath);
     const unchanged =
-      fs.existsSync(outputPath) &&
-      previous &&
-      previous.sha256 === source.sha256;
+      outputExists &&
+      ((previous && previous.sha256 === source.sha256) ||
+        (!previous && fs.statSync(outputPath).mtimeMs >= source.mtimeMs));
 
     if (unchanged) {
       summary.skipped += 1;
