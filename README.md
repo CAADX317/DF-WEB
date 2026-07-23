@@ -12,6 +12,29 @@ python3 -m http.server 8000
 
 Visit http://localhost:8000
 
+## Generate mobile-friendly thumbnails
+
+The website displays lightweight WebP thumbnails and downloads an original
+full-resolution photo only when a visitor opens it in the lightbox.
+
+Install the thumbnail generator once:
+
+```bash
+npm install
+```
+
+After adding or replacing photos, run:
+
+```bash
+npm run thumbnails
+```
+
+The generator scans JPG, JPEG, PNG, and HEIC files and writes 720 px-wide,
+orientation-corrected WebP files beneath `assets/thumbnails/`, mirroring each
+original path. It never changes an original. A manifest records each source
+fingerprint, so unchanged thumbnails are skipped and replaced originals are
+regenerated automatically.
+
 ## Garden map layout
 
 | Row | Layout |

@@ -3,6 +3,7 @@
 const crypto = require("crypto");
 const fs = require("fs");
 const path = require("path");
+const convertHeic = require("heic-convert");
 const sharp = require("sharp");
 
 const ROOT = path.resolve(__dirname, "..");
@@ -65,7 +66,40 @@ function thumbnailRelativePath(originalRelativePath) {
 
 async function generateOne(originalPath, outputPath) {
   fs.mkdirSync(path.dirname(outputPath), { recursive: true });
-  await sharp(originalPath, { failOn: "none" })
+  try {
+    await writeWebp(originalPath, outputPath);
+  } catch (error) {
+    if (path.extname(originalPath).toLowerCase() !== ".heic") throw error;
+    await generateHeicWithMacOsFallback(originalPath, outputPath, error);
+  }
+}
+
+async function writeWebp(inputPath, outputPath) {
+  await sharp(inputPath, { failOn: "none" })
+    .rotate()
+    .resize({
+      width: MAX_WIDTH,
+      withoutEnlargement: true,
+      fit: "inside",
+    })
+    .webp({ quality: QUALITY, effort: 5 })
+    .toFile(outputPath);
+}
+
+async function generateHeicWithMacOsFallback(originalPath, outputPath, sharpError) {
+  let jpegBuffer;
+  try {
+    jpegBuffer = await convertHeic({
+      buffer: fs.readFileSync(originalPath),
+      format: "JPEG",
+      quality: 0.9,
+    });
+  } catch (fallbackError) {
+    throw new Error(
+      `${sharpError.message}\nHEIC fallback failed: ${fallbackError.message}`
+    );
+  }
+  await sharp(jpegBuffer)
     .rotate()
     .resize({
       width: MAX_WIDTH,

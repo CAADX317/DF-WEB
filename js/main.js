@@ -9,7 +9,9 @@
   // Garden map image (optional override from data.js)
   const mapImg = document.getElementById("garden-map-image");
   if (mapImg && gardenMap.image) {
-    mapImg.src = gardenMap.image;
+    mapImg.src = getThumbnailSrc(gardenMap.image);
+    mapImg.loading = "lazy";
+    mapImg.decoding = "async";
   }
 
   // Garden bed list
@@ -34,7 +36,7 @@
         return `
           <a class="crop-card" href="crop.html?id=${encodeURIComponent(crop.id)}">
             <div class="crop-card-image">
-              <img src="${escapeAttr(crop.cardImage)}" alt="${escapeAttr(formatCropNameForDisplay(crop.name))}">
+              <img src="${escapeAttr(getThumbnailSrc(crop.cardImage))}" alt="${escapeAttr(formatCropNameForDisplay(crop.name))}" loading="lazy" decoding="async">
             </div>
             <div class="crop-card-body">
               <p class="crop-card-bed">${escapeHtml(crop.bed)}</p>
@@ -56,6 +58,12 @@
 
   function formatCropNameForDisplay(name) {
     return String(name || "").replace(/_/g, " ");
+  }
+
+  function getThumbnailSrc(src) {
+    return /^(?:https?:|data:|blob:)/i.test(src)
+      ? src
+      : `assets/thumbnails/${src}.webp`;
   }
 
   function escapeAttr(text) {
