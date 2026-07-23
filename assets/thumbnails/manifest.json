@@ -1,0 +1,1755 @@
+{
+  "version": 1,
+  "files": {
+    "1. Vltroacross_Okra2(DS).jpg": {
+      "size": 3106321,
+      "mtimeMs": 1779840684000,
+      "sha256": "0e8565a9c49bdb8ff9e2218e6dab2fd9c8ca2e5a93f394b4e6c798bc0fc489c2",
+      "thumbnail": "assets/thumbnails/1. Vltroacross_Okra2(DS).jpg.webp",
+      "thumbnailBytes": 252808
+    },
+    "2.Okra_Yalova_Akkoy(DS).jpg": {
+      "size": 3643637,
+      "mtimeMs": 1779840685000,
+      "sha256": "6479624f95dbb9a30fc347de862628afa80a0b7d9b3389debf4c6c9f6dabe608",
+      "thumbnail": "assets/thumbnails/2.Okra_Yalova_Akkoy(DS).jpg.webp",
+      "thumbnailBytes": 297154
+    },
+    "2026_Oak_Creek Greens_Polts/1. Vltroacross_Okra2(DS)/0617_1.jpg": {
+      "size": 6190590,
+      "mtimeMs": 1782248588000,
+      "sha256": "d72e56cdbf133f819455aeea84911e72a881a39bb8f8abed3db34528a158c4b6",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/1. Vltroacross_Okra2(DS)/0617_1.jpg.webp",
+      "thumbnailBytes": 164840
+    },
+    "2026_Oak_Creek Greens_Polts/1. Vltroacross_Okra2(DS)/0625_1.jpg": {
+      "size": 3465781,
+      "mtimeMs": 1782492272000,
+      "sha256": "a24be2b78854c16d324d478f9490ae9f81aa700619df15e7be92dc01b903b239",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/1. Vltroacross_Okra2(DS)/0625_1.jpg.webp",
+      "thumbnailBytes": 114420
+    },
+    "2026_Oak_Creek Greens_Polts/1. Vltroacross_Okra2(DS)/1. Vltroacross_Okra2(DS).jpg": {
+      "size": 3106321,
+      "mtimeMs": 1779840684000,
+      "sha256": "0e8565a9c49bdb8ff9e2218e6dab2fd9c8ca2e5a93f394b4e6c798bc0fc489c2",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/1. Vltroacross_Okra2(DS)/1. Vltroacross_Okra2(DS).jpg.webp",
+      "thumbnailBytes": 252808
+    },
+    "2026_Oak_Creek Greens_Polts/10.N.2.Spinach1/0617_1.jpg": {
+      "size": 8006655,
+      "mtimeMs": 1782248568000,
+      "sha256": "10b8528f3c32930ef44f72d837873c2610dfd488c2c8f70b1a597fa69757482e",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/10.N.2.Spinach1/0617_1.jpg.webp",
+      "thumbnailBytes": 179574
+    },
+    "2026_Oak_Creek Greens_Polts/10.N.2.Spinach1/0625_1.jpg": {
+      "size": 4516490,
+      "mtimeMs": 1782491240000,
+      "sha256": "8f40fddf7b94c53bdebb2ffea974b901f0a1cae0d8811526c04e1b8faaa8022c",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/10.N.2.Spinach1/0625_1.jpg.webp",
+      "thumbnailBytes": 124772
+    },
+    "2026_Oak_Creek Greens_Polts/10.N.2.Spinach1/10.N.2. Spinach1.jpg": {
+      "size": 2224629,
+      "mtimeMs": 1779988019000,
+      "sha256": "43f00b26d57704513581c65feeba27ca73e8e932172595d1d5c360242f6aba2b",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/10.N.2.Spinach1/10.N.2. Spinach1.jpg.webp",
+      "thumbnailBytes": 115308
+    },
+    "2026_Oak_Creek Greens_Polts/11.Red_Perilla2/0617_1.jpg": {
+      "size": 8150267,
+      "mtimeMs": 1782248566000,
+      "sha256": "f40fb90088554da411ac43a2cda6f1b5ef0b152d4d6ff346a4cfb4787f06ce35",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/11.Red_Perilla2/0617_1.jpg.webp",
+      "thumbnailBytes": 165472
+    },
+    "2026_Oak_Creek Greens_Polts/11.Red_Perilla2/0625_1.jpg": {
+      "size": 4440035,
+      "mtimeMs": 1782491240000,
+      "sha256": "b6268c9ad22f126da1f3e5514df1a0cacffd6f3817cf56742df53c76e92f49d7",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/11.Red_Perilla2/0625_1.jpg.webp",
+      "thumbnailBytes": 123836
+    },
+    "2026_Oak_Creek Greens_Polts/11.Red_Perilla2/0625_2.jpg": {
+      "size": 2987661,
+      "mtimeMs": 1782491240000,
+      "sha256": "66bc10ea5307918a4b4cadac43a88bd684e08cb897d620e18be37032540794fe",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/11.Red_Perilla2/0625_2.jpg.webp",
+      "thumbnailBytes": 261562
+    },
+    "2026_Oak_Creek Greens_Polts/11.Red_Perilla2/11.Red_Perilla2.jpg": {
+      "size": 2141403,
+      "mtimeMs": 1779988018000,
+      "sha256": "3d74792b0ed0e969410d0ad4932522eac6bf8ec32b6e2ca8d54c55274ae83880",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/11.Red_Perilla2/11.Red_Perilla2.jpg.webp",
+      "thumbnailBytes": 115260
+    },
+    "2026_Oak_Creek Greens_Polts/12.Golden_Purslane2/0617_1.jpg": {
+      "size": 8821099,
+      "mtimeMs": 1782248579000,
+      "sha256": "16074a1f982c5933d68211e1d523a9bee268ade44c062781ac8031950636ca2f",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/12.Golden_Purslane2/0617_1.jpg.webp",
+      "thumbnailBytes": 182220
+    },
+    "2026_Oak_Creek Greens_Polts/12.Golden_Purslane2/0625_1.jpg": {
+      "size": 4349553,
+      "mtimeMs": 1782491241000,
+      "sha256": "9681eb4898963e5286e142a40e93a276226f42b0659247a53569c2e229dcfcde",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/12.Golden_Purslane2/0625_1.jpg.webp",
+      "thumbnailBytes": 128624
+    },
+    "2026_Oak_Creek Greens_Polts/12.Golden_Purslane2/12.Golden_Purslane2.jpg": {
+      "size": 2147008,
+      "mtimeMs": 1779988062000,
+      "sha256": "2ce14a1aad2674fc0f953e0069124e4d7d0cd7c761734f2d3fa085f26211e5ed",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/12.Golden_Purslane2/12.Golden_Purslane2.jpg.webp",
+      "thumbnailBytes": 118690
+    },
+    "2026_Oak_Creek Greens_Polts/13.Celosia_Lagos_Spinach2/0509.jpeg": {
+      "size": 8071849,
+      "mtimeMs": 1781033112000,
+      "sha256": "8abbd3bab83c733e051b81b2a71ebbcba852402c85616ce9dd3a297b8e5c0c58",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/13.Celosia_Lagos_Spinach2/0509.jpeg.webp",
+      "thumbnailBytes": 152992
+    },
+    "2026_Oak_Creek Greens_Polts/13.Celosia_Lagos_Spinach2/0617_1.jpg": {
+      "size": 8848464,
+      "mtimeMs": 1782248560000,
+      "sha256": "04eed6e849c9a895ac614502fa70a1d77aafcdfbd4771e3a399eb4ab67f39089",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/13.Celosia_Lagos_Spinach2/0617_1.jpg.webp",
+      "thumbnailBytes": 176554
+    },
+    "2026_Oak_Creek Greens_Polts/13.Celosia_Lagos_Spinach2/0625_1.jpg": {
+      "size": 4734560,
+      "mtimeMs": 1782491241000,
+      "sha256": "3a31139b6f738608330ff3568c197d7c0cc9b4663535f4a7173551780ab4a144",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/13.Celosia_Lagos_Spinach2/0625_1.jpg.webp",
+      "thumbnailBytes": 121722
+    },
+    "2026_Oak_Creek Greens_Polts/13.Celosia_Lagos_Spinach2/0625_2.jpg": {
+      "size": 3029068,
+      "mtimeMs": 1782491242000,
+      "sha256": "f306b99fc2d9dc9172fc3de02f6b5ec29044d8d3d463ee2cf7eeb376294d5f0a",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/13.Celosia_Lagos_Spinach2/0625_2.jpg.webp",
+      "thumbnailBytes": 228964
+    },
+    "2026_Oak_Creek Greens_Polts/13.Celosia_Lagos_Spinach2/13.Celosia_Lagos_Spinach2.jpg": {
+      "size": 4537897,
+      "mtimeMs": 1779840683000,
+      "sha256": "0e13baa90601b776f2d303feb9708f946e04f9db083280f9729ae149afb25836",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/13.Celosia_Lagos_Spinach2/13.Celosia_Lagos_Spinach2.jpg.webp",
+      "thumbnailBytes": 111482
+    },
+    "2026_Oak_Creek Greens_Polts/14.Molokhia1/14.Molokhia1.jpg": {
+      "size": 2172143,
+      "mtimeMs": 1779988053000,
+      "sha256": "c1c2b0ddac22df8d569c8fe1f498a4b9db09ce0590663fe05a688f483f051d7b",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/14.Molokhia1/14.Molokhia1.jpg.webp",
+      "thumbnailBytes": 112262
+    },
+    "2026_Oak_Creek Greens_Polts/15.Amaranth_Miriah_Leaf2/0617_1.jpg": {
+      "size": 8291219,
+      "mtimeMs": 1782248556000,
+      "sha256": "f812265c14cdcb2688a52ffdc44434abdae0e25e6b0713f7b47d3a01977e8037",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/15.Amaranth_Miriah_Leaf2/0617_1.jpg.webp",
+      "thumbnailBytes": 168212
+    },
+    "2026_Oak_Creek Greens_Polts/15.Amaranth_Miriah_Leaf2/0625_1.jpg": {
+      "size": 4470194,
+      "mtimeMs": 1782491243000,
+      "sha256": "03ad2c2c8407b3714c47292f42f4ac631eae6293eab6f6059aa79edc39748ad5",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/15.Amaranth_Miriah_Leaf2/0625_1.jpg.webp",
+      "thumbnailBytes": 119748
+    },
+    "2026_Oak_Creek Greens_Polts/15.Amaranth_Miriah_Leaf2/0625_2.jpg": {
+      "size": 2838208,
+      "mtimeMs": 1782491243000,
+      "sha256": "9acb6f0175187f0af4fb5e3f3ba1e0bbf8d04d1402afce918bce2f44b756f139",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/15.Amaranth_Miriah_Leaf2/0625_2.jpg.webp",
+      "thumbnailBytes": 226932
+    },
+    "2026_Oak_Creek Greens_Polts/15.Amaranth_Miriah_Leaf2/0625_3.jpg": {
+      "size": 1669918,
+      "mtimeMs": 1782491244000,
+      "sha256": "def2e62649dd5b18979e1e72c9c3b3104cb9b7d084b6b9928141196e1f0e5f07",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/15.Amaranth_Miriah_Leaf2/0625_3.jpg.webp",
+      "thumbnailBytes": 87448
+    },
+    "2026_Oak_Creek Greens_Polts/15.Amaranth_Miriah_Leaf2/15.Amaranth_Miriah_Leaf2.1.png": {
+      "size": 9445632,
+      "mtimeMs": 1780434192000,
+      "sha256": "fb8fe02ca6294e23dbde06e5a855bdde4725bdacc18cb72867b35ac18fd4c286",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/15.Amaranth_Miriah_Leaf2/15.Amaranth_Miriah_Leaf2.1.png.webp",
+      "thumbnailBytes": 133224
+    },
+    "2026_Oak_Creek Greens_Polts/15.Amaranth_Miriah_Leaf2/15.Amaranth_Miriah_Leaf2.jpg": {
+      "size": 4718564,
+      "mtimeMs": 1779840682000,
+      "sha256": "e8022a4f5e2fa1d85948820a3d4fa62bce42bb110650eac5a04f459ede08f03a",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/15.Amaranth_Miriah_Leaf2/15.Amaranth_Miriah_Leaf2.jpg.webp",
+      "thumbnailBytes": 113154
+    },
+    "2026_Oak_Creek Greens_Polts/16.Red_Perilla1/0617_1.jpg": {
+      "size": 8658725,
+      "mtimeMs": 1782248558000,
+      "sha256": "478d719b0e094be5f6e34b1ddc00dc789c645ba17498003543bbcc47aeae7087",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/16.Red_Perilla1/0617_1.jpg.webp",
+      "thumbnailBytes": 172220
+    },
+    "2026_Oak_Creek Greens_Polts/16.Red_Perilla1/0625_1.jpg": {
+      "size": 4510764,
+      "mtimeMs": 1782491242000,
+      "sha256": "5c86baf3b6ea7dc62f00bf301ca9cce988ddfdefb77f510d25d6491f36f7e966",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/16.Red_Perilla1/0625_1.jpg.webp",
+      "thumbnailBytes": 121260
+    },
+    "2026_Oak_Creek Greens_Polts/16.Red_Perilla1/16.Red_Perilla1.jpg": {
+      "size": 2058115,
+      "mtimeMs": 1779988050000,
+      "sha256": "434f737464caa9f2ff9e192a2a6df1b31489fb0d07f2edd805a0ff512e8487eb",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/16.Red_Perilla1/16.Red_Perilla1.jpg.webp",
+      "thumbnailBytes": 108342
+    },
+    "2026_Oak_Creek Greens_Polts/17.Golden_Purslane1/0617_1.jpg": {
+      "size": 8107774,
+      "mtimeMs": 1782248554000,
+      "sha256": "37030c415333a6d90c41ac281989c3e639bd813366362edb8066cb146c5b1235",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/17.Golden_Purslane1/0617_1.jpg.webp",
+      "thumbnailBytes": 178060
+    },
+    "2026_Oak_Creek Greens_Polts/17.Golden_Purslane1/0625_1.jpg": {
+      "size": 4162893,
+      "mtimeMs": 1782491244000,
+      "sha256": "5cdeeb956a8a72934e8f6b2ac3cb93380fc23aaf14df14a65ec291ff8b9abc86",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/17.Golden_Purslane1/0625_1.jpg.webp",
+      "thumbnailBytes": 124712
+    },
+    "2026_Oak_Creek Greens_Polts/17.Golden_Purslane1/17.Golden_Purslane1.png": {
+      "size": 9471601,
+      "mtimeMs": 1780434069000,
+      "sha256": "8ed8ab3c14051b344d75f9ce0a5c58594c10d3b95c37a2a69eca6eeaa1127c9b",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/17.Golden_Purslane1/17.Golden_Purslane1.png.webp",
+      "thumbnailBytes": 129786
+    },
+    "2026_Oak_Creek Greens_Polts/18.N.2.Spinach2/0617_1.jpg": {
+      "size": 8173312,
+      "mtimeMs": 1782248552000,
+      "sha256": "c6797bcf1a499e81219503909d65a416501314ec33ed377b0a7b3934926eca73",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/18.N.2.Spinach2/0617_1.jpg.webp",
+      "thumbnailBytes": 171190
+    },
+    "2026_Oak_Creek Greens_Polts/18.N.2.Spinach2/0625_1.jpg": {
+      "size": 4115589,
+      "mtimeMs": 1782491245000,
+      "sha256": "91d36bb7b40e3dfb8dd46007388d5ec38ffa31b736290cb493c852a40083aa36",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/18.N.2.Spinach2/0625_1.jpg.webp",
+      "thumbnailBytes": 124984
+    },
+    "2026_Oak_Creek Greens_Polts/18.N.2.Spinach2/18.N.2.Spinach2.jpg": {
+      "size": 4502856,
+      "mtimeMs": 1779840678000,
+      "sha256": "e7b161b7d3f2605aed2171516f2dd28f006a62f9db6447d300b78085e4cdbfe7",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/18.N.2.Spinach2/18.N.2.Spinach2.jpg.webp",
+      "thumbnailBytes": 109814
+    },
+    "2026_Oak_Creek Greens_Polts/19.Amaranth_Miriah_Leaf1/0617_1.jpg": {
+      "size": 8637267,
+      "mtimeMs": 1782248536000,
+      "sha256": "d23e7078de9731451b49a18e82273b2b5df684060aa59e906bfb611a8b2b9d8d",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/19.Amaranth_Miriah_Leaf1/0617_1.jpg.webp",
+      "thumbnailBytes": 170582
+    },
+    "2026_Oak_Creek Greens_Polts/19.Amaranth_Miriah_Leaf1/0624.jpeg": {
+      "size": 2471107,
+      "mtimeMs": 1782311912000,
+      "sha256": "8ce5bb1fc19863a9f58c0090fda4dc688913f0852a334bde70e7c61d617318ea",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/19.Amaranth_Miriah_Leaf1/0624.jpeg.webp",
+      "thumbnailBytes": 112926
+    },
+    "2026_Oak_Creek Greens_Polts/19.Amaranth_Miriah_Leaf1/0625_1.jpg": {
+      "size": 4608508,
+      "mtimeMs": 1782491245000,
+      "sha256": "80bc5a98debb9b32a5125e2050452ac0df06bb74faeac40f47807abd20ed2689",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/19.Amaranth_Miriah_Leaf1/0625_1.jpg.webp",
+      "thumbnailBytes": 120584
+    },
+    "2026_Oak_Creek Greens_Polts/19.Amaranth_Miriah_Leaf1/0625_2.jpg": {
+      "size": 2748964,
+      "mtimeMs": 1782491246000,
+      "sha256": "0842cdc7e7ed401ff2425f9b2ebf5c942cd43a0dc5ff817e741dca6ae30bb92e",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/19.Amaranth_Miriah_Leaf1/0625_2.jpg.webp",
+      "thumbnailBytes": 209332
+    },
+    "2026_Oak_Creek Greens_Polts/19.Amaranth_Miriah_Leaf1/0625_3.jpg": {
+      "size": 1903303,
+      "mtimeMs": 1782491246000,
+      "sha256": "64fca87298e9fbb067e8eb86e3cd9c3dedeaf02dd624bb153709a5355b643973",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/19.Amaranth_Miriah_Leaf1/0625_3.jpg.webp",
+      "thumbnailBytes": 149448
+    },
+    "2026_Oak_Creek Greens_Polts/19.Amaranth_Miriah_Leaf1/19.Amaranth_Miriah_Leaf1.jpg": {
+      "size": 2241548,
+      "mtimeMs": 1779988018000,
+      "sha256": "fb92ee75b794fca43616abb2fcd5a1ed383fc28e4e03d104eec3dc995b16a56b",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/19.Amaranth_Miriah_Leaf1/19.Amaranth_Miriah_Leaf1.jpg.webp",
+      "thumbnailBytes": 111030
+    },
+    "2026_Oak_Creek Greens_Polts/2.Okra_Yalova_Akkoy(DS)/0617_1.jpg": {
+      "size": 8435627,
+      "mtimeMs": 1782248587000,
+      "sha256": "f8c5a02d9c45bc012ed6863c04cc49943e9322564f4edb5a361ac830a5edf4a3",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/2.Okra_Yalova_Akkoy(DS)/0617_1.jpg.webp",
+      "thumbnailBytes": 177120
+    },
+    "2026_Oak_Creek Greens_Polts/2.Okra_Yalova_Akkoy(DS)/0625_1.jpg": {
+      "size": 1107146,
+      "mtimeMs": 1782493447000,
+      "sha256": "9aec9acb978c6c7b3a193bea391a194a4c388f55990a5c5eda0555a2ad2ed938",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/2.Okra_Yalova_Akkoy(DS)/0625_1.jpg.webp",
+      "thumbnailBytes": 151204
+    },
+    "2026_Oak_Creek Greens_Polts/2.Okra_Yalova_Akkoy(DS)/2.Okra_Yalova_Akkoy(DS).jpg": {
+      "size": 3643637,
+      "mtimeMs": 1779840685000,
+      "sha256": "6479624f95dbb9a30fc347de862628afa80a0b7d9b3389debf4c6c9f6dabe608",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/2.Okra_Yalova_Akkoy(DS)/2.Okra_Yalova_Akkoy(DS).jpg.webp",
+      "thumbnailBytes": 297154
+    },
+    "2026_Oak_Creek Greens_Polts/2.Okra_Yalova_Akkoy(DS)/Scan from 2026-07-17 02_22_47 PM.jpg": {
+      "size": 1899695,
+      "mtimeMs": 1784324209000,
+      "sha256": "427be9fdfccae014e77be472db6d7e019bbe8e2b56f3399b98099a858f3bfc5b",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/2.Okra_Yalova_Akkoy(DS)/Scan from 2026-07-17 02_22_47 PM.jpg.webp",
+      "thumbnailBytes": 27984
+    },
+    "2026_Oak_Creek Greens_Polts/20.Molokhia2/20.Molokhia2.png": {
+      "size": 9605971,
+      "mtimeMs": 1780434117000,
+      "sha256": "0ef0391980b13d42e7d0d056e44cbe153bf36566ac597ea47ac6270a72aa1d9a",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/20.Molokhia2/20.Molokhia2.png.webp",
+      "thumbnailBytes": 136270
+    },
+    "2026_Oak_Creek Greens_Polts/21.French_Sorrel2/0615.jpeg": {
+      "size": 8656691,
+      "mtimeMs": 1781564035000,
+      "sha256": "6233a7370ae3781fa94e6b7df6002a20f314f8fc5e7a374e5841db9e532b6621",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/21.French_Sorrel2/0615.jpeg.webp",
+      "thumbnailBytes": 169070
+    },
+    "2026_Oak_Creek Greens_Polts/21.French_Sorrel2/0617_1.jpg": {
+      "size": 9152882,
+      "mtimeMs": 1782248538000,
+      "sha256": "6165220951fc4c6a31893486ad4d3cc5aa98980193a422d7b61a0a04630a761e",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/21.French_Sorrel2/0617_1.jpg.webp",
+      "thumbnailBytes": 181512
+    },
+    "2026_Oak_Creek Greens_Polts/21.French_Sorrel2/0625_1.jpg": {
+      "size": 4569203,
+      "mtimeMs": 1782491247000,
+      "sha256": "363f65828b8db626906ff9489e79c86cd481d3c9a86670495accd8c78cf8ae58",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/21.French_Sorrel2/0625_1.jpg.webp",
+      "thumbnailBytes": 122694
+    },
+    "2026_Oak_Creek Greens_Polts/21.French_Sorrel2/21.French_Sorrel2.jpg": {
+      "size": 4307919,
+      "mtimeMs": 1779840679000,
+      "sha256": "b19c48179d8e4bc2d05e5f5eef3c2b133fe7b60a3551de4c3a74c2cf1d39cb6e",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/21.French_Sorrel2/21.French_Sorrel2.jpg.webp",
+      "thumbnailBytes": 113416
+    },
+    "2026_Oak_Creek Greens_Polts/21.French_Sorrel2/IMG_6528.jpeg": {
+      "size": 2681488,
+      "mtimeMs": 1784646029000,
+      "sha256": "d115d26d6e19210498ff892a16aa3e440a5dc4b2d33ec2e506c303e3ff149473",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/21.French_Sorrel2/IMG_6528.jpeg.webp",
+      "thumbnailBytes": 100404
+    },
+    "2026_Oak_Creek Greens_Polts/22.Lettuce_Muir1/0617_1.jpg": {
+      "size": 8613532,
+      "mtimeMs": 1782248540000,
+      "sha256": "082ef41d00f0b2ea48fa734daed6e3767ea2e30c34578fbab60d32d0c236a276",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/22.Lettuce_Muir1/0617_1.jpg.webp",
+      "thumbnailBytes": 180252
+    },
+    "2026_Oak_Creek Greens_Polts/22.Lettuce_Muir1/0625_1.jpg": {
+      "size": 4164801,
+      "mtimeMs": 1782491246000,
+      "sha256": "231704afa391a4b7396abfbd23cd3d44239757debb7c6dd330e8d1b5bb30778c",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/22.Lettuce_Muir1/0625_1.jpg.webp",
+      "thumbnailBytes": 122278
+    },
+    "2026_Oak_Creek Greens_Polts/22.Lettuce_Muir1/22.Lettuce_Muir1.jpg": {
+      "size": 2409830,
+      "mtimeMs": 1779987938000,
+      "sha256": "daa92691c2d3de6d21284e09a07c0f95106e9444a3843ffe7a94680299a93d85",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/22.Lettuce_Muir1/22.Lettuce_Muir1.jpg.webp",
+      "thumbnailBytes": 119216
+    },
+    "2026_Oak_Creek Greens_Polts/23.Lettuce_Blade_Seeded_Simpson2/0605.jpg": {
+      "size": 6083645,
+      "mtimeMs": 1781560976000,
+      "sha256": "27e99cdbee498f6c58c7a20f5263e63e088bb1a403dbec84761eb492c5784f38",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/23.Lettuce_Blade_Seeded_Simpson2/0605.jpg.webp",
+      "thumbnailBytes": 145786
+    },
+    "2026_Oak_Creek Greens_Polts/23.Lettuce_Blade_Seeded_Simpson2/0617_1.jpg": {
+      "size": 8197227,
+      "mtimeMs": 1782248542000,
+      "sha256": "142dddc2cd8da03f2f183c29ec061878207c3f809b0d01e08d827a074a4fc4d5",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/23.Lettuce_Blade_Seeded_Simpson2/0617_1.jpg.webp",
+      "thumbnailBytes": 162416
+    },
+    "2026_Oak_Creek Greens_Polts/23.Lettuce_Blade_Seeded_Simpson2/0625_1.jpg": {
+      "size": 2176446,
+      "mtimeMs": 1782486256000,
+      "sha256": "6d075fb2390d9b61f9fe789fc60f272bfafbed24c6a847afe703c695e84d5961",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/23.Lettuce_Blade_Seeded_Simpson2/0625_1.jpg.webp",
+      "thumbnailBytes": 96592
+    },
+    "2026_Oak_Creek Greens_Polts/23.Lettuce_Blade_Seeded_Simpson2/0625_2.jpg": {
+      "size": 4455807,
+      "mtimeMs": 1782491248000,
+      "sha256": "4178aa7567cc0465c56ab2adedce922f2c6469352ed0447026b21257f7155e0a",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/23.Lettuce_Blade_Seeded_Simpson2/0625_2.jpg.webp",
+      "thumbnailBytes": 121216
+    },
+    "2026_Oak_Creek Greens_Polts/23.Lettuce_Blade_Seeded_Simpson2/0629.jpeg": {
+      "size": 1783861,
+      "mtimeMs": 1782744033000,
+      "sha256": "6ea1a5174c8380471d497307d4cf27d752a1251706ec68214bbe524b220ae5e5",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/23.Lettuce_Blade_Seeded_Simpson2/0629.jpeg.webp",
+      "thumbnailBytes": 62060
+    },
+    "2026_Oak_Creek Greens_Polts/23.Lettuce_Blade_Seeded_Simpson2/0702.jpg": {
+      "size": 1839939,
+      "mtimeMs": 1783026260000,
+      "sha256": "a69afbdc0173dff12c65a7e4fb7d0a25921ab1ebfe1ba1a30f3280c0859e8633",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/23.Lettuce_Blade_Seeded_Simpson2/0702.jpg.webp",
+      "thumbnailBytes": 120256
+    },
+    "2026_Oak_Creek Greens_Polts/23.Lettuce_Blade_Seeded_Simpson2/23.Lettuce_Blade_Seeded_Simpson2.jpg": {
+      "size": 2382130,
+      "mtimeMs": 1779987965000,
+      "sha256": "70992067a65762bc1e088330c129a0df605bb060491cfd4d9261679d3a26c3e7",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/23.Lettuce_Blade_Seeded_Simpson2/23.Lettuce_Blade_Seeded_Simpson2.jpg.webp",
+      "thumbnailBytes": 110262
+    },
+    "2026_Oak_Creek Greens_Polts/23.Lettuce_Blade_Seeded_Simpson2/Scan from 2026-07-13 09_21_05 AM.jpg": {
+      "size": 3625637,
+      "mtimeMs": 1783961457000,
+      "sha256": "b3ebf928b75a075d0308973393e9e6590e75e7adb5c832c349d05fd588d157d9",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/23.Lettuce_Blade_Seeded_Simpson2/Scan from 2026-07-13 09_21_05 AM.jpg.webp",
+      "thumbnailBytes": 314212
+    },
+    "2026_Oak_Creek Greens_Polts/23.Lettuce_Blade_Seeded_Simpson2/Scan from 2026-07-13 09_21_42 AM.jpg": {
+      "size": 2066132,
+      "mtimeMs": 1783961457000,
+      "sha256": "d0134b666eb77fc0df3567f70b8ae34052793885b8f6b55dd582ce55310999d9",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/23.Lettuce_Blade_Seeded_Simpson2/Scan from 2026-07-13 09_21_42 AM.jpg.webp",
+      "thumbnailBytes": 166258
+    },
+    "2026_Oak_Creek Greens_Polts/24.Lettuce_Red_Salad_Bowl1/0617_1.jpg": {
+      "size": 7753719,
+      "mtimeMs": 1782248546000,
+      "sha256": "ccf300306cc04f2b08810095be8ee3b64f556ca47234b90860c753357f356319",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/24.Lettuce_Red_Salad_Bowl1/0617_1.jpg.webp",
+      "thumbnailBytes": 170636
+    },
+    "2026_Oak_Creek Greens_Polts/24.Lettuce_Red_Salad_Bowl1/0623_1.jpeg": {
+      "size": 7489605,
+      "mtimeMs": 1782311977000,
+      "sha256": "246625533b1751d76b9a1bdff725bb307fe1272bd648ae7437a173f8d749f70f",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/24.Lettuce_Red_Salad_Bowl1/0623_1.jpeg.webp",
+      "thumbnailBytes": 158724
+    },
+    "2026_Oak_Creek Greens_Polts/24.Lettuce_Red_Salad_Bowl1/0623_2.jpeg": {
+      "size": 2713715,
+      "mtimeMs": 1782311985000,
+      "sha256": "8c165df10561abe8359cfb466b367f259124457751813f8822bc25dcb91b2d71",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/24.Lettuce_Red_Salad_Bowl1/0623_2.jpeg.webp",
+      "thumbnailBytes": 136970
+    },
+    "2026_Oak_Creek Greens_Polts/24.Lettuce_Red_Salad_Bowl1/0625_1.jpg": {
+      "size": 4570497,
+      "mtimeMs": 1782491250000,
+      "sha256": "b04c1500d7a1a504622c0885ceccd177ce75b1b262e3d6c482441af0736fcc6d",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/24.Lettuce_Red_Salad_Bowl1/0625_1.jpg.webp",
+      "thumbnailBytes": 121990
+    },
+    "2026_Oak_Creek Greens_Polts/24.Lettuce_Red_Salad_Bowl1/0702_1.jpg": {
+      "size": 4529275,
+      "mtimeMs": 1783026261000,
+      "sha256": "6d5f54483d0ae09ba2955b53b10696eaeff0810550a748916b944ad0a76e8a30",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/24.Lettuce_Red_Salad_Bowl1/0702_1.jpg.webp",
+      "thumbnailBytes": 114530
+    },
+    "2026_Oak_Creek Greens_Polts/24.Lettuce_Red_Salad_Bowl1/0702_2.jpg": {
+      "size": 2326243,
+      "mtimeMs": 1783026261000,
+      "sha256": "5ad6089b85973af65764e34c2d130e60460baa4a706e2bd9b7feed33863e8f17",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/24.Lettuce_Red_Salad_Bowl1/0702_2.jpg.webp",
+      "thumbnailBytes": 171090
+    },
+    "2026_Oak_Creek Greens_Polts/24.Lettuce_Red_Salad_Bowl1/24.Lettuce_Red_Salad_Bowl1.jpg": {
+      "size": 4216596,
+      "mtimeMs": 1779839430000,
+      "sha256": "1ca4886a59f04173d766f0d92253476f93c032b82fa72ca85c298e07ec021b99",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/24.Lettuce_Red_Salad_Bowl1/24.Lettuce_Red_Salad_Bowl1.jpg.webp",
+      "thumbnailBytes": 112608
+    },
+    "2026_Oak_Creek Greens_Polts/25.Lettuce_Red_Salad_Bowl2/0617_1.jpg": {
+      "size": 8401825,
+      "mtimeMs": 1782248492000,
+      "sha256": "cf51355e120291982f67cdf8a200ca6ec0f4c5d6634caf6c3b6cd2f12775c301",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/25.Lettuce_Red_Salad_Bowl2/0617_1.jpg.webp",
+      "thumbnailBytes": 170372
+    },
+    "2026_Oak_Creek Greens_Polts/25.Lettuce_Red_Salad_Bowl2/0623_1.jpeg": {
+      "size": 7524040,
+      "mtimeMs": 1782312045000,
+      "sha256": "388d76fd1caf0576e8fdac59c69fc92434f8c96cba96dc7cd51314eb3829dfca",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/25.Lettuce_Red_Salad_Bowl2/0623_1.jpeg.webp",
+      "thumbnailBytes": 166696
+    },
+    "2026_Oak_Creek Greens_Polts/25.Lettuce_Red_Salad_Bowl2/0623_2.jpeg": {
+      "size": 2808534,
+      "mtimeMs": 1782312052000,
+      "sha256": "224d5e8c56458e21cb50885e8a668b437bd041d5588ef92a767240d0dd12fc36",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/25.Lettuce_Red_Salad_Bowl2/0623_2.jpeg.webp",
+      "thumbnailBytes": 147458
+    },
+    "2026_Oak_Creek Greens_Polts/25.Lettuce_Red_Salad_Bowl2/0625_1.jpg": {
+      "size": 4455292,
+      "mtimeMs": 1782491249000,
+      "sha256": "31e80aa30f31bf0ce25f66f9bbfa06231c849498c5ee3967b81f90fae46b314c",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/25.Lettuce_Red_Salad_Bowl2/0625_1.jpg.webp",
+      "thumbnailBytes": 120558
+    },
+    "2026_Oak_Creek Greens_Polts/25.Lettuce_Red_Salad_Bowl2/0625_2.jpg": {
+      "size": 2631916,
+      "mtimeMs": 1782491250000,
+      "sha256": "93e75dcf2c46624ffc005e4a12ef0aacf1c93d1cd73fd8fe4ad2fcc028498144",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/25.Lettuce_Red_Salad_Bowl2/0625_2.jpg.webp",
+      "thumbnailBytes": 230262
+    },
+    "2026_Oak_Creek Greens_Polts/25.Lettuce_Red_Salad_Bowl2/25.Lettuce_Red_Salad_Bowl2.jpg": {
+      "size": 4201393,
+      "mtimeMs": 1779838828000,
+      "sha256": "8ee3212f5ee1cf9ea6ed2a92ce872c3ce676e272a07ead0dd624a46b59ba31d2",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/25.Lettuce_Red_Salad_Bowl2/25.Lettuce_Red_Salad_Bowl2.jpg.webp",
+      "thumbnailBytes": 109832
+    },
+    "2026_Oak_Creek Greens_Polts/25.Lettuce_Red_Salad_Bowl2/Scan from 2026-07-13 09_28_09 AM.jpg": {
+      "size": 4714588,
+      "mtimeMs": 1783961461000,
+      "sha256": "63d4e793fd2c3a5e54381045c9f234637e9dbad751610c8234478afa0ba2f428",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/25.Lettuce_Red_Salad_Bowl2/Scan from 2026-07-13 09_28_09 AM.jpg.webp",
+      "thumbnailBytes": 124376
+    },
+    "2026_Oak_Creek Greens_Polts/26.Salad_Greens_LettuceMix2/0617_1.jpg": {
+      "size": 8451656,
+      "mtimeMs": 1782248496000,
+      "sha256": "6a43a0cc4fc0530e461b3a36fc56adbb7ba48f7d161951c2b166171fe0b2ca71",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/26.Salad_Greens_LettuceMix2/0617_1.jpg.webp",
+      "thumbnailBytes": 169688
+    },
+    "2026_Oak_Creek Greens_Polts/26.Salad_Greens_LettuceMix2/0622.jpg": {
+      "size": 5742456,
+      "mtimeMs": 1782245733000,
+      "sha256": "94a24b938edd190924077fb1e93082b17796a86e0ac096436101bcd42ead542b",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/26.Salad_Greens_LettuceMix2/0622.jpg.webp",
+      "thumbnailBytes": 229230
+    },
+    "2026_Oak_Creek Greens_Polts/26.Salad_Greens_LettuceMix2/0624_1.jpeg": {
+      "size": 2265905,
+      "mtimeMs": 1782312088000,
+      "sha256": "7cca34bf2bcb530794ce8fe11f3e6a5e067059d5e89c28bfcdbd6af52620ca67",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/26.Salad_Greens_LettuceMix2/0624_1.jpeg.webp",
+      "thumbnailBytes": 103250
+    },
+    "2026_Oak_Creek Greens_Polts/26.Salad_Greens_LettuceMix2/0624_2.jpeg": {
+      "size": 2210859,
+      "mtimeMs": 1782312093000,
+      "sha256": "f27af9ab157876675d85f7400e0b60cca1b393cc4770d71f04c825b98a6f9610",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/26.Salad_Greens_LettuceMix2/0624_2.jpeg.webp",
+      "thumbnailBytes": 96064
+    },
+    "2026_Oak_Creek Greens_Polts/26.Salad_Greens_LettuceMix2/0624_3.jpeg": {
+      "size": 2519600,
+      "mtimeMs": 1782312098000,
+      "sha256": "3162770af997b5a0ae5e0d64ba13ff707b66c8dd1f4e6ee535ee90ff95c0c9af",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/26.Salad_Greens_LettuceMix2/0624_3.jpeg.webp",
+      "thumbnailBytes": 127560
+    },
+    "2026_Oak_Creek Greens_Polts/26.Salad_Greens_LettuceMix2/0625_1.jpg": {
+      "size": 4346943,
+      "mtimeMs": 1782491249000,
+      "sha256": "2135fafea06799272eafdf3df46c6abf09fda5029ed3e0923741312b30137e20",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/26.Salad_Greens_LettuceMix2/0625_1.jpg.webp",
+      "thumbnailBytes": 114968
+    },
+    "2026_Oak_Creek Greens_Polts/26.Salad_Greens_LettuceMix2/0625_2.jpg": {
+      "size": 2092655,
+      "mtimeMs": 1782491250000,
+      "sha256": "05df8174e229d02a1810f89ccfcd48411de95dc5ef34f4dd83823b90d31eef0a",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/26.Salad_Greens_LettuceMix2/0625_2.jpg.webp",
+      "thumbnailBytes": 155774
+    },
+    "2026_Oak_Creek Greens_Polts/26.Salad_Greens_LettuceMix2/0625_3.jpg": {
+      "size": 3020971,
+      "mtimeMs": 1782491250000,
+      "sha256": "0d489ee3f4d31efa0a4662bcf00e2fbe1e0048cf3243077b5ea4810fa8360c87",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/26.Salad_Greens_LettuceMix2/0625_3.jpg.webp",
+      "thumbnailBytes": 279738
+    },
+    "2026_Oak_Creek Greens_Polts/26.Salad_Greens_LettuceMix2/0625_4.jpg": {
+      "size": 2682057,
+      "mtimeMs": 1782491251000,
+      "sha256": "654e5e37ffa87295e016f673bcee0e2928b3b357f537bda03241f98dbdfa0480",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/26.Salad_Greens_LettuceMix2/0625_4.jpg.webp",
+      "thumbnailBytes": 232432
+    },
+    "2026_Oak_Creek Greens_Polts/26.Salad_Greens_LettuceMix2/0625_5.jpg": {
+      "size": 2738324,
+      "mtimeMs": 1782491251000,
+      "sha256": "cb947881b4a2e2e15ff284142ea2ab20cd2291b689630af15384457962f09910",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/26.Salad_Greens_LettuceMix2/0625_5.jpg.webp",
+      "thumbnailBytes": 101624
+    },
+    "2026_Oak_Creek Greens_Polts/26.Salad_Greens_LettuceMix2/26.Salad_Greens_LettuceMix2.jpg": {
+      "size": 4130665,
+      "mtimeMs": 1779838856000,
+      "sha256": "e5c44de61cb377b217bd8815b82ede5ef8302d05228e22b0c925c362538269f7",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/26.Salad_Greens_LettuceMix2/26.Salad_Greens_LettuceMix2.jpg.webp",
+      "thumbnailBytes": 109142
+    },
+    "2026_Oak_Creek Greens_Polts/26.Salad_Greens_LettuceMix2/Scan from 2026-07-13 09_28_35 AM.jpg": {
+      "size": 4644322,
+      "mtimeMs": 1783961463000,
+      "sha256": "b02aa498469f0ebbd9fe5cc1b4512b3907270e8411b8791242a1e3de752523f2",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/26.Salad_Greens_LettuceMix2/Scan from 2026-07-13 09_28_35 AM.jpg.webp",
+      "thumbnailBytes": 121120
+    },
+    "2026_Oak_Creek Greens_Polts/27.Orach_Red_Flash2/0609_1.jpg": {
+      "size": 7664656,
+      "mtimeMs": 1781033134000,
+      "sha256": "46813be8c0406c7a4bce7903f43d06dbf341145cf0a6a0f3c512cac6fd410073",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/27.Orach_Red_Flash2/0609_1.jpg.webp",
+      "thumbnailBytes": 147726
+    },
+    "2026_Oak_Creek Greens_Polts/27.Orach_Red_Flash2/0617_1.jpg": {
+      "size": 8488734,
+      "mtimeMs": 1781713740000,
+      "sha256": "b5ae0af9c86b51124b41906b1632208dff72dd3b05e2e04918cc5af1afd510d3",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/27.Orach_Red_Flash2/0617_1.jpg.webp",
+      "thumbnailBytes": 166818
+    },
+    "2026_Oak_Creek Greens_Polts/27.Orach_Red_Flash2/0625_1.jpg": {
+      "size": 4612631,
+      "mtimeMs": 1782491253000,
+      "sha256": "ee13b37d8139bbffd85c2069f743ac3432e9a0cdb3aa5abdfe590584ddcc9a09",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/27.Orach_Red_Flash2/0625_1.jpg.webp",
+      "thumbnailBytes": 118248
+    },
+    "2026_Oak_Creek Greens_Polts/27.Orach_Red_Flash2/27.Orach_Red_Flash2.jpg": {
+      "size": 4675965,
+      "mtimeMs": 1779838905000,
+      "sha256": "3577e731da940c3eeef77902cd8f93fb63de1b51ac23aee3b118d9f26197a010",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/27.Orach_Red_Flash2/27.Orach_Red_Flash2.jpg.webp",
+      "thumbnailBytes": 118050
+    },
+    "2026_Oak_Creek Greens_Polts/28.Lettuce_Green_Towers1/0617_1.jpg": {
+      "size": 7826612,
+      "mtimeMs": 1782248511000,
+      "sha256": "fd43a62230c00229663739ce851b4a78dfd28d61fe294ea398b907f5a63bf034",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/28.Lettuce_Green_Towers1/0617_1.jpg.webp",
+      "thumbnailBytes": 166466
+    },
+    "2026_Oak_Creek Greens_Polts/28.Lettuce_Green_Towers1/0625_1.jpg": {
+      "size": 4337184,
+      "mtimeMs": 1782491254000,
+      "sha256": "1e9ccb3a7781db0715e9332ddc83bb176aee8c7bcb4a9244bcc76c2665ee56d8",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/28.Lettuce_Green_Towers1/0625_1.jpg.webp",
+      "thumbnailBytes": 117156
+    },
+    "2026_Oak_Creek Greens_Polts/28.Lettuce_Green_Towers1/0625_2.jpg": {
+      "size": 2882239,
+      "mtimeMs": 1782491253000,
+      "sha256": "176a2b9b4b07f3c6a110324238f8d1e776f57d7c803f9e23ea8934a986d470d7",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/28.Lettuce_Green_Towers1/0625_2.jpg.webp",
+      "thumbnailBytes": 255108
+    },
+    "2026_Oak_Creek Greens_Polts/28.Lettuce_Green_Towers1/0629.jpeg": {
+      "size": 6942104,
+      "mtimeMs": 1782744629000,
+      "sha256": "2502ecdddb838722e48b133b22fefac5b9d86f47a609b46c0c81095f7c1c6a81",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/28.Lettuce_Green_Towers1/0629.jpeg.webp",
+      "thumbnailBytes": 262506
+    },
+    "2026_Oak_Creek Greens_Polts/28.Lettuce_Green_Towers1/28.Lettuce_Green_Towers1.jpg": {
+      "size": 3906195,
+      "mtimeMs": 1779838978000,
+      "sha256": "db4f84ea804f4cac9de2c36f853222b42e878a4400a34c9d2c410685932a1146",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/28.Lettuce_Green_Towers1/28.Lettuce_Green_Towers1.jpg.webp",
+      "thumbnailBytes": 102870
+    },
+    "2026_Oak_Creek Greens_Polts/28.Lettuce_Green_Towers1/Scan from 2026-07-13 09_27_12 AM.jpg": {
+      "size": 4717889,
+      "mtimeMs": 1783961461000,
+      "sha256": "1299d431e553f4324e4a61f4e8f6068d55c5169348bcd196e1a0ec9b31f05783",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/28.Lettuce_Green_Towers1/Scan from 2026-07-13 09_27_12 AM.jpg.webp",
+      "thumbnailBytes": 124688
+    },
+    "2026_Oak_Creek Greens_Polts/29.Lettuce_Blade_Seeded_Simpson1/0605.jpeg": {
+      "size": 7260328,
+      "mtimeMs": 1781565572000,
+      "sha256": "80516f598b28b827341900fab4f9e156c31edcead31722d7390eb31ffe7c1fd3",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/29.Lettuce_Blade_Seeded_Simpson1/0605.jpeg.webp",
+      "thumbnailBytes": 149892
+    },
+    "2026_Oak_Creek Greens_Polts/29.Lettuce_Blade_Seeded_Simpson1/0615.jpeg": {
+      "size": 5921721,
+      "mtimeMs": 1781563994000,
+      "sha256": "5277a0cc709cfc7a93913911d739ea87e0487d0178ee1600926366792729a7ab",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/29.Lettuce_Blade_Seeded_Simpson1/0615.jpeg.webp",
+      "thumbnailBytes": 149262
+    },
+    "2026_Oak_Creek Greens_Polts/29.Lettuce_Blade_Seeded_Simpson1/0617_1.jpg": {
+      "size": 8164696,
+      "mtimeMs": 1782248506000,
+      "sha256": "e40740cb1ce312b929885e8e1f874becb983e81d3cfb16ae14040e3c771f3916",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/29.Lettuce_Blade_Seeded_Simpson1/0617_1.jpg.webp",
+      "thumbnailBytes": 163830
+    },
+    "2026_Oak_Creek Greens_Polts/29.Lettuce_Blade_Seeded_Simpson1/0625_1.jpg": {
+      "size": 3971809,
+      "mtimeMs": 1782491254000,
+      "sha256": "d1cc4114b16fe0b79326969cf621ba4123e849c0347ec3db1dbbd4a1a08a89e1",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/29.Lettuce_Blade_Seeded_Simpson1/0625_1.jpg.webp",
+      "thumbnailBytes": 118874
+    },
+    "2026_Oak_Creek Greens_Polts/29.Lettuce_Blade_Seeded_Simpson1/0625_2.jpg": {
+      "size": 2362106,
+      "mtimeMs": 1782491254000,
+      "sha256": "4bb88195a208e2f566573586c9fe116fd1391dc8cb04e89de170acf5c7899633",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/29.Lettuce_Blade_Seeded_Simpson1/0625_2.jpg.webp",
+      "thumbnailBytes": 184974
+    },
+    "2026_Oak_Creek Greens_Polts/29.Lettuce_Blade_Seeded_Simpson1/0629.jpeg": {
+      "size": 2339665,
+      "mtimeMs": 1782744587000,
+      "sha256": "6b903a72a9861e26088589d7f269be006b42769bef5795ea74e291b2396ef6f3",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/29.Lettuce_Blade_Seeded_Simpson1/0629.jpeg.webp",
+      "thumbnailBytes": 108382
+    },
+    "2026_Oak_Creek Greens_Polts/29.Lettuce_Blade_Seeded_Simpson1/29.Lettuce_Blade_Seeded_Simpson1.jpg": {
+      "size": 3634131,
+      "mtimeMs": 1779839022000,
+      "sha256": "a04bf0a6cb7e297bc37ab4cb9da70dfedfce5196eb88abfbf4217899f5ea12c0",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/29.Lettuce_Blade_Seeded_Simpson1/29.Lettuce_Blade_Seeded_Simpson1.jpg.webp",
+      "thumbnailBytes": 102084
+    },
+    "2026_Oak_Creek Greens_Polts/29.Lettuce_Blade_Seeded_Simpson1/Scan from 2026-07-13 09_26_06 AM.jpg": {
+      "size": 4624162,
+      "mtimeMs": 1783961459000,
+      "sha256": "a731c122549893394d8b672350bd9cda35008047985dd0a8a1ae21095e19fde3",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/29.Lettuce_Blade_Seeded_Simpson1/Scan from 2026-07-13 09_26_06 AM.jpg.webp",
+      "thumbnailBytes": 120296
+    },
+    "2026_Oak_Creek Greens_Polts/29.Lettuce_Blade_Seeded_Simpson1/Scan from 2026-07-13 09_26_26 AM.jpg": {
+      "size": 3182077,
+      "mtimeMs": 1783961461000,
+      "sha256": "babaf77ea25e50296ac11f44a7d8982ae643f609787d12cd3897221f544a6a8c",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/29.Lettuce_Blade_Seeded_Simpson1/Scan from 2026-07-13 09_26_26 AM.jpg.webp",
+      "thumbnailBytes": 291560
+    },
+    "2026_Oak_Creek Greens_Polts/3.Okra_Ciek(DS)/0617_1.jpg": {
+      "size": 5851378,
+      "mtimeMs": 1782248583000,
+      "sha256": "2004cb8c195cad67df945ca3979651aa0eddb13c8189cca2939a78474b04ecba",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/3.Okra_Ciek(DS)/0617_1.jpg.webp",
+      "thumbnailBytes": 166758
+    },
+    "2026_Oak_Creek Greens_Polts/3.Okra_Ciek(DS)/0625_1.jpg": {
+      "size": 3611513,
+      "mtimeMs": 1782492353000,
+      "sha256": "61c55b3e87550d233ab27da2472511d0a86ed2aa9d19c9cc992f2395f538e812",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/3.Okra_Ciek(DS)/0625_1.jpg.webp",
+      "thumbnailBytes": 115870
+    },
+    "2026_Oak_Creek Greens_Polts/3.Okra_Ciek(DS)/3.Okra_Ciek(DS).jpg": {
+      "size": 3576895,
+      "mtimeMs": 1779840685000,
+      "sha256": "c809dc4a012382110fdf8080d3a6a45f13b7c28043fd3a6fe6c25ab5a67f16ac",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/3.Okra_Ciek(DS)/3.Okra_Ciek(DS).jpg.webp",
+      "thumbnailBytes": 285642
+    },
+    "2026_Oak_Creek Greens_Polts/3.Okra_Ciek(DS)/Scan from 2026-07-17 02_23_07 PM.jpg": {
+      "size": 1936517,
+      "mtimeMs": 1784324227000,
+      "sha256": "f1c1834410c22ed65ac001fb30534352a5badf3426610c9cc0d4f998cad83a65",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/3.Okra_Ciek(DS)/Scan from 2026-07-17 02_23_07 PM.jpg.webp",
+      "thumbnailBytes": 34152
+    },
+    "2026_Oak_Creek Greens_Polts/30.Spinach_American2/0609.jpeg": {
+      "size": 6689783,
+      "mtimeMs": 1781033192000,
+      "sha256": "26bf582e1c86aed61ea9a364e0a8d8d5ca6c46eb4ab77a1d78528e13a0b35cda",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/30.Spinach_American2/0609.jpeg.webp",
+      "thumbnailBytes": 143680
+    },
+    "2026_Oak_Creek Greens_Polts/30.Spinach_American2/0617_1.jpg": {
+      "size": 7633592,
+      "mtimeMs": 1782248504000,
+      "sha256": "2517f1ccc0988b74fe5e459b9835379aab3349b0fcbe07c6d5b4af5fadea333b",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/30.Spinach_American2/0617_1.jpg.webp",
+      "thumbnailBytes": 166126
+    },
+    "2026_Oak_Creek Greens_Polts/30.Spinach_American2/0623.jpeg": {
+      "size": 2918852,
+      "mtimeMs": 1782247955000,
+      "sha256": "f71eee84a8b935dcc1ddd2dd869346fa3e73d0c20e81b83ad5166b2d3688a2b4",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/30.Spinach_American2/0623.jpeg.webp",
+      "thumbnailBytes": 126482
+    },
+    "2026_Oak_Creek Greens_Polts/30.Spinach_American2/0625_1.jpg": {
+      "size": 4202072,
+      "mtimeMs": 1782491255000,
+      "sha256": "2fc84aa1492b8ac76390165fcc3733216c41e06483b2440fa4ed6acbc09f6c82",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/30.Spinach_American2/0625_1.jpg.webp",
+      "thumbnailBytes": 119260
+    },
+    "2026_Oak_Creek Greens_Polts/30.Spinach_American2/Spinach American 2.jpg": {
+      "size": 2231750,
+      "mtimeMs": 1779987927000,
+      "sha256": "cf6aa307f52558dcc2d8a62f6eda546a18e89d52771631a06968bf8bcb49fdcf",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/30.Spinach_American2/Spinach American 2.jpg.webp",
+      "thumbnailBytes": 124820
+    },
+    "2026_Oak_Creek Greens_Polts/31.Spinach_Bloomsdale_Longstanding2/0617_1.jpg": {
+      "size": 7367533,
+      "mtimeMs": 1782248502000,
+      "sha256": "2d3a6e63b0cf5af7c6ff9589ec2e88c8d4f0ea5e77f15f2b1149641b985f87ba",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/31.Spinach_Bloomsdale_Longstanding2/0617_1.jpg.webp",
+      "thumbnailBytes": 168424
+    },
+    "2026_Oak_Creek Greens_Polts/31.Spinach_Bloomsdale_Longstanding2/0625_1.jpg": {
+      "size": 4056529,
+      "mtimeMs": 1782491255000,
+      "sha256": "6a47caa67c80fcbbaf0a58dd87aaabd79f09ba0f1d49b17926a740f3905a6760",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/31.Spinach_Bloomsdale_Longstanding2/0625_1.jpg.webp",
+      "thumbnailBytes": 125070
+    },
+    "2026_Oak_Creek Greens_Polts/31.Spinach_Bloomsdale_Longstanding2/30.Spinach  Bloomsdale Longstanding2.png": {
+      "size": 7667933,
+      "mtimeMs": 1780434269000,
+      "sha256": "2887c03db2964c3b6ee37f5053f2b7c74e0c371314b7005b3dedaa4db1a49608",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/31.Spinach_Bloomsdale_Longstanding2/30.Spinach  Bloomsdale Longstanding2.png.webp",
+      "thumbnailBytes": 174266
+    },
+    "2026_Oak_Creek Greens_Polts/32.Lambsquarter_Magenta_Spreen2/0617_1.jpg": {
+      "size": 7517058,
+      "mtimeMs": 1782248500000,
+      "sha256": "43e58afeac938dba4944ff2eba8fdffa1f1c7a77afbb81c7551abc6c26ea00fb",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/32.Lambsquarter_Magenta_Spreen2/0617_1.jpg.webp",
+      "thumbnailBytes": 168556
+    },
+    "2026_Oak_Creek Greens_Polts/32.Lambsquarter_Magenta_Spreen2/0625_1.jpg": {
+      "size": 4424241,
+      "mtimeMs": 1782491256000,
+      "sha256": "6d9f9545fd9f8d955dc227007b1f8b2ff2b10e225a37394c6ca2b29e8b9bf561",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/32.Lambsquarter_Magenta_Spreen2/0625_1.jpg.webp",
+      "thumbnailBytes": 121252
+    },
+    "2026_Oak_Creek Greens_Polts/32.Lambsquarter_Magenta_Spreen2/31.Lambsquarter_Magenta_Spreen2.jpg": {
+      "size": 4311944,
+      "mtimeMs": 1779839189000,
+      "sha256": "d468f013b2f10546ab8f3b39d14c5fd6cfb4d70187aed3fa0f31dcf29d5a2822",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/32.Lambsquarter_Magenta_Spreen2/31.Lambsquarter_Magenta_Spreen2.jpg.webp",
+      "thumbnailBytes": 114568
+    },
+    "2026_Oak_Creek Greens_Polts/33.Lettuce_Syphos2/0617_1.jpg": {
+      "size": 8185744,
+      "mtimeMs": 1782248515000,
+      "sha256": "c46d73044af7842d5f2913dbe71e2a853203c4fbcfa510a236acbb6a0c661083",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/33.Lettuce_Syphos2/0617_1.jpg.webp",
+      "thumbnailBytes": 170264
+    },
+    "2026_Oak_Creek Greens_Polts/33.Lettuce_Syphos2/0625_1.jpg": {
+      "size": 4373271,
+      "mtimeMs": 1782491258000,
+      "sha256": "47617ac808a6a2e0f000aa321aa7ed4f633c2ae8958095df4c0997fbc8ab8169",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/33.Lettuce_Syphos2/0625_1.jpg.webp",
+      "thumbnailBytes": 122208
+    },
+    "2026_Oak_Creek Greens_Polts/33.Lettuce_Syphos2/32.Lettuce_Syphos2.jpg": {
+      "size": 2049687,
+      "mtimeMs": 1779987932000,
+      "sha256": "bb0c499e994c73e9fafc068885bda10ee6eca5b398e62ebcd58e3bf58874a8f6",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/33.Lettuce_Syphos2/32.Lettuce_Syphos2.jpg.webp",
+      "thumbnailBytes": 110116
+    },
+    "2026_Oak_Creek Greens_Polts/34.Lettuce_Green_Towers2/0617_1.jpg": {
+      "size": 7978197,
+      "mtimeMs": 1782248520000,
+      "sha256": "b78a8035fcb21d87db56af464fdb7cd1ef9d6c1983f0db4febef0db25c97949d",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/34.Lettuce_Green_Towers2/0617_1.jpg.webp",
+      "thumbnailBytes": 172012
+    },
+    "2026_Oak_Creek Greens_Polts/34.Lettuce_Green_Towers2/0625_1.jpg": {
+      "size": 4337453,
+      "mtimeMs": 1782491258000,
+      "sha256": "d3460e26ab267007ed35ddbdf733f4db845cc125694004de3bdf13c5232b2ef7",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/34.Lettuce_Green_Towers2/0625_1.jpg.webp",
+      "thumbnailBytes": 120676
+    },
+    "2026_Oak_Creek Greens_Polts/34.Lettuce_Green_Towers2/0625_2.jpg": {
+      "size": 1908761,
+      "mtimeMs": 1782491258000,
+      "sha256": "b355cf20509899aacad9c56e5fd3e7ef5fd5e1a99f7e980ef67f4200f00e1c44",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/34.Lettuce_Green_Towers2/0625_2.jpg.webp",
+      "thumbnailBytes": 114828
+    },
+    "2026_Oak_Creek Greens_Polts/34.Lettuce_Green_Towers2/33.Lettuce_Green_Towers2.jpg": {
+      "size": 2331111,
+      "mtimeMs": 1779987971000,
+      "sha256": "d315c9763899a7f7f1d2a122a8ae933f3bf742f980f1fab3ee445d3077658feb",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/34.Lettuce_Green_Towers2/33.Lettuce_Green_Towers2.jpg.webp",
+      "thumbnailBytes": 108944
+    },
+    "2026_Oak_Creek Greens_Polts/34.Lettuce_Green_Towers2/Scan from 2026-07-13 09_24_43 AM.jpg": {
+      "size": 4697831,
+      "mtimeMs": 1783961458000,
+      "sha256": "538a29e5073c6749d13a4353346aab0fc700f2f75ddc0baebdf8edaac72514c0",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/34.Lettuce_Green_Towers2/Scan from 2026-07-13 09_24_43 AM.jpg.webp",
+      "thumbnailBytes": 125550
+    },
+    "2026_Oak_Creek Greens_Polts/34.Lettuce_Green_Towers2/Scan from 2026-07-13 09_25_12 AM.jpg": {
+      "size": 2405933,
+      "mtimeMs": 1783961458000,
+      "sha256": "66f83455304aca72c17b857efee69db336e6e98a5502ae6a36c34c0756e7d141",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/34.Lettuce_Green_Towers2/Scan from 2026-07-13 09_25_12 AM.jpg.webp",
+      "thumbnailBytes": 203266
+    },
+    "2026_Oak_Creek Greens_Polts/35.Lettuce_Muir2/0617_1.jpg": {
+      "size": 8585967,
+      "mtimeMs": 1782248524000,
+      "sha256": "e1acba9599aa68fc34b52670942d31fb11ef10448811fb92fce4bafed216cfa3",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/35.Lettuce_Muir2/0617_1.jpg.webp",
+      "thumbnailBytes": 175994
+    },
+    "2026_Oak_Creek Greens_Polts/35.Lettuce_Muir2/0625_1.jpg": {
+      "size": 4355653,
+      "mtimeMs": 1782492393000,
+      "sha256": "3c074cfc38009ffb281d30d69fd79ce49f55f9aee55099ef419b41e354152b0d",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/35.Lettuce_Muir2/0625_1.jpg.webp",
+      "thumbnailBytes": 120878
+    },
+    "2026_Oak_Creek Greens_Polts/35.Lettuce_Muir2/34.Lettuce_Muir2.jpg": {
+      "size": 2118611,
+      "mtimeMs": 1779988018000,
+      "sha256": "2558524152f10dbcb8119aadfdc4961fb9fb584e0ca346e944ef959994cccac8",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/35.Lettuce_Muir2/34.Lettuce_Muir2.jpg.webp",
+      "thumbnailBytes": 115230
+    },
+    "2026_Oak_Creek Greens_Polts/36.Lambsquarter_Magenta_Spreen1/0617_1.jpg": {
+      "size": 8517845,
+      "mtimeMs": 1782248526000,
+      "sha256": "3e51bdc1c35ba1d4a15b1bfdfce2f38b9151a5151a2811aa4fbb8f805cddb0ab",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/36.Lambsquarter_Magenta_Spreen1/0617_1.jpg.webp",
+      "thumbnailBytes": 181780
+    },
+    "2026_Oak_Creek Greens_Polts/36.Lambsquarter_Magenta_Spreen1/0625_1.jpg": {
+      "size": 4320701,
+      "mtimeMs": 1782491258000,
+      "sha256": "7b43231bf6deb8cfe89583eb41b6f41b22f849d9932d48512601c4cdc639a153",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/36.Lambsquarter_Magenta_Spreen1/0625_1.jpg.webp",
+      "thumbnailBytes": 121296
+    },
+    "2026_Oak_Creek Greens_Polts/36.Lambsquarter_Magenta_Spreen1/35.Lambsquarter_Magenta_Spreen1.jpg": {
+      "size": 4553220,
+      "mtimeMs": 1779839296000,
+      "sha256": "75dd141e662ae9451599465079539833cf935286da1f07e59dd1d5d80fe11878",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/36.Lambsquarter_Magenta_Spreen1/35.Lambsquarter_Magenta_Spreen1.jpg.webp",
+      "thumbnailBytes": 119400
+    },
+    "2026_Oak_Creek Greens_Polts/37.Lettuce_Syphos1/0617_1.jpg": {
+      "size": 8212820,
+      "mtimeMs": 1782248529000,
+      "sha256": "ed8222b4bebf3c2aa57c65e5b19fcd6338f1ca9c63425050e58b22f8f63dd1c3",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/37.Lettuce_Syphos1/0617_1.jpg.webp",
+      "thumbnailBytes": 171404
+    },
+    "2026_Oak_Creek Greens_Polts/37.Lettuce_Syphos1/0625_1.jpg": {
+      "size": 4373797,
+      "mtimeMs": 1782491259000,
+      "sha256": "8de62b537cdfe176f3809d74f15788a80e21791a5d5f78ead536306ab5ac4743",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/37.Lettuce_Syphos1/0625_1.jpg.webp",
+      "thumbnailBytes": 123696
+    },
+    "2026_Oak_Creek Greens_Polts/37.Lettuce_Syphos1/36.Lettuce_Syphos1.jpg": {
+      "size": 4352850,
+      "mtimeMs": 1779987944000,
+      "sha256": "bd6eb6c7e52801cd3ca609d252a29c4d691461456096ab2e6905bbee73aa9c9d",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/37.Lettuce_Syphos1/36.Lettuce_Syphos1.jpg.webp",
+      "thumbnailBytes": 115878
+    },
+    "2026_Oak_Creek Greens_Polts/38.Spinach_American1/0617_1.jpg": {
+      "size": 8779685,
+      "mtimeMs": 1782248534000,
+      "sha256": "97017165e4e995001e11b2a455414e66bb7c4f55edbc270c5ce28379455b8a7b",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/38.Spinach_American1/0617_1.jpg.webp",
+      "thumbnailBytes": 180222
+    },
+    "2026_Oak_Creek Greens_Polts/38.Spinach_American1/0625_1.jpg": {
+      "size": 3906975,
+      "mtimeMs": 1782492381000,
+      "sha256": "dd093136766600cb36c30d1f26a104eb16a21587ba9d65f697145ed62c21c691",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/38.Spinach_American1/0625_1.jpg.webp",
+      "thumbnailBytes": 120568
+    },
+    "2026_Oak_Creek Greens_Polts/38.Spinach_American1/37.Spinach_American1.png": {
+      "size": 9665901,
+      "mtimeMs": 1780434397000,
+      "sha256": "afb038b7dd1f3df84b56bf4f7dd957810f5b9f95466e6fc7f04aae317020ed31",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/38.Spinach_American1/37.Spinach_American1.png.webp",
+      "thumbnailBytes": 146342
+    },
+    "2026_Oak_Creek Greens_Polts/39.Spinach_Bloomsdale_Longstanding1/0617_1.jpg": {
+      "size": 7740591,
+      "mtimeMs": 1782248549000,
+      "sha256": "f97ce2fb0d26927aaa1326917d781c52d7db09e18ee4d0da65969b2c44a195af",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/39.Spinach_Bloomsdale_Longstanding1/0617_1.jpg.webp",
+      "thumbnailBytes": 171230
+    },
+    "2026_Oak_Creek Greens_Polts/39.Spinach_Bloomsdale_Longstanding1/0625_1.jpg": {
+      "size": 3941564,
+      "mtimeMs": 1782492382000,
+      "sha256": "ed78e820178246c6efdc42ecad81ecb9e9df08118e0a4c17ed37ec6a9e4b6082",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/39.Spinach_Bloomsdale_Longstanding1/0625_1.jpg.webp",
+      "thumbnailBytes": 124570
+    },
+    "2026_Oak_Creek Greens_Polts/39.Spinach_Bloomsdale_Longstanding1/38.Spinach_Bloomsdale_Longstanding1.png": {
+      "size": 9370509,
+      "mtimeMs": 1780434324000,
+      "sha256": "1fae738caa0b07907277e5fd5e91ac2f9db582be8dbf1946beb602db71b1b103",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/39.Spinach_Bloomsdale_Longstanding1/38.Spinach_Bloomsdale_Longstanding1.png.webp",
+      "thumbnailBytes": 134278
+    },
+    "2026_Oak_Creek Greens_Polts/4.Okra_BURNOVA_KINALI(DS)/0617_1.jpg": {
+      "size": 6150769,
+      "mtimeMs": 1782248591000,
+      "sha256": "decf8a0d35b1bb0a9cce1a784ff51797e5137ad4c73dd2e7db0f349735a5cea6",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/4.Okra_BURNOVA_KINALI(DS)/0617_1.jpg.webp",
+      "thumbnailBytes": 169640
+    },
+    "2026_Oak_Creek Greens_Polts/4.Okra_BURNOVA_KINALI(DS)/0625_1.jpg": {
+      "size": 4484863,
+      "mtimeMs": 1782492355000,
+      "sha256": "87aac6a0b81d055026cb5e4a77f505b1c9658f2d5792fb4e0a9761ed18a3e60e",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/4.Okra_BURNOVA_KINALI(DS)/0625_1.jpg.webp",
+      "thumbnailBytes": 118136
+    },
+    "2026_Oak_Creek Greens_Polts/4.Okra_BURNOVA_KINALI(DS)/4.Okra_BURNOVA_KINALI(DS).png": {
+      "size": 6993071,
+      "mtimeMs": 1780434030000,
+      "sha256": "3be012c18e1c5bb5d7c966dbd5b6e02cb613a7b72176655cc816594a348811f4",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/4.Okra_BURNOVA_KINALI(DS)/4.Okra_BURNOVA_KINALI(DS).png.webp",
+      "thumbnailBytes": 177314
+    },
+    "2026_Oak_Creek Greens_Polts/4.Okra_BURNOVA_KINALI(DS)/Scan from 2026-07-17 02_23_21 PM.jpg": {
+      "size": 1858550,
+      "mtimeMs": 1784324233000,
+      "sha256": "19b34daf5f134944d6c0c861f0fe93075f3c6a8784a28fa9e2f736ec2d677a00",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/4.Okra_BURNOVA_KINALI(DS)/Scan from 2026-07-17 02_23_21 PM.jpg.webp",
+      "thumbnailBytes": 29938
+    },
+    "2026_Oak_Creek Greens_Polts/40.French_Sorrel1/0617_1.jpg": {
+      "size": 9027811,
+      "mtimeMs": 1782248490000,
+      "sha256": "ffcd784bec9ede3cc8f7df18470d903d0997d6a942e7154004377828461a4e74",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/40.French_Sorrel1/0617_1.jpg.webp",
+      "thumbnailBytes": 180172
+    },
+    "2026_Oak_Creek Greens_Polts/40.French_Sorrel1/0625_1.jpg": {
+      "size": 4204414,
+      "mtimeMs": 1782491261000,
+      "sha256": "8a9c50e2f7bb3ae9c3344660374546c8e0810a27c8300538b4c226541792b673",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/40.French_Sorrel1/0625_1.jpg.webp",
+      "thumbnailBytes": 125366
+    },
+    "2026_Oak_Creek Greens_Polts/40.French_Sorrel1/39.French_Sorrel1.png": {
+      "size": 9055632,
+      "mtimeMs": 1780434365000,
+      "sha256": "086daab621f6b1b91d942f0be3f59d4c5b3408cdc5e7985db95db0db3411ab2f",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/40.French_Sorrel1/39.French_Sorrel1.png.webp",
+      "thumbnailBytes": 134526
+    },
+    "2026_Oak_Creek Greens_Polts/41.Salad_Greens_LettuceMix1/0617_1.jpg": {
+      "size": 8403165,
+      "mtimeMs": 1782248488000,
+      "sha256": "55172d3e83ae331042b744af7b07332252bee58994db7446831b4f0125e0547a",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/41.Salad_Greens_LettuceMix1/0617_1.jpg.webp",
+      "thumbnailBytes": 171200
+    },
+    "2026_Oak_Creek Greens_Polts/41.Salad_Greens_LettuceMix1/0622.jpg": {
+      "size": 7093318,
+      "mtimeMs": 1782245733000,
+      "sha256": "d0b83cc22c7cbe5ebe1e2bc0578fd39ca049f417f8250225d928935a484ef6b7",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/41.Salad_Greens_LettuceMix1/0622.jpg.webp",
+      "thumbnailBytes": 234166
+    },
+    "2026_Oak_Creek Greens_Polts/41.Salad_Greens_LettuceMix1/0625_1.jpg": {
+      "size": 4309377,
+      "mtimeMs": 1782491261000,
+      "sha256": "3b478540bae9a2a720d855108b96d2d5ba82d707f12bdf7c59c929d6ba8068ab",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/41.Salad_Greens_LettuceMix1/0625_1.jpg.webp",
+      "thumbnailBytes": 121314
+    },
+    "2026_Oak_Creek Greens_Polts/41.Salad_Greens_LettuceMix1/0625_2.jpg": {
+      "size": 2074594,
+      "mtimeMs": 1782491261000,
+      "sha256": "08d6f2f1a6a90bd876f05a78c9bd2bf4b248b5ed9366614f3a5e80f1e18d4c98",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/41.Salad_Greens_LettuceMix1/0625_2.jpg.webp",
+      "thumbnailBytes": 145996
+    },
+    "2026_Oak_Creek Greens_Polts/41.Salad_Greens_LettuceMix1/41.Salad_Greens_LettuceMix1.jpg": {
+      "size": 4209207,
+      "mtimeMs": 1779838697000,
+      "sha256": "0b60eea6a6d6eb14d3cc6081faf5660f195b2f330c9492baa161f305fa064d1b",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/41.Salad_Greens_LettuceMix1/41.Salad_Greens_LettuceMix1.jpg.webp",
+      "thumbnailBytes": 118642
+    },
+    "2026_Oak_Creek Greens_Polts/41.Salad_Greens_LettuceMix1/Scan from 2026-07-13 09_29_52 AM.jpg": {
+      "size": 4705549,
+      "mtimeMs": 1783961463000,
+      "sha256": "7fe26f3ede82d603fec805eaa1ea7463fea82e000ccf35b63d19af3c5ece0b6d",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/41.Salad_Greens_LettuceMix1/Scan from 2026-07-13 09_29_52 AM.jpg.webp",
+      "thumbnailBytes": 120004
+    },
+    "2026_Oak_Creek Greens_Polts/42.Orach_Red_Flash1/0609_1.jpg": {
+      "size": 7642334,
+      "mtimeMs": 1781033156000,
+      "sha256": "38cf9bb3f95a55c86fa814f5d8e080b1b09f2ef36bad59ff562f4d5aa7178d0f",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/42.Orach_Red_Flash1/0609_1.jpg.webp",
+      "thumbnailBytes": 151572
+    },
+    "2026_Oak_Creek Greens_Polts/42.Orach_Red_Flash1/0617_1.jpg": {
+      "size": 8353363,
+      "mtimeMs": 1781713652000,
+      "sha256": "b7eedf40704275cfdf5d0f5ef78fe3cb2aedab13eb8191ac702c63862da6e2eb",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/42.Orach_Red_Flash1/0617_1.jpg.webp",
+      "thumbnailBytes": 166212
+    },
+    "2026_Oak_Creek Greens_Polts/42.Orach_Red_Flash1/0625_1.jpg": {
+      "size": 4636255,
+      "mtimeMs": 1782491263000,
+      "sha256": "892c3019da8875d32cf1abc0b642f3043690edf4314c06785483ca296e654edd",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/42.Orach_Red_Flash1/0625_1.jpg.webp",
+      "thumbnailBytes": 119910
+    },
+    "2026_Oak_Creek Greens_Polts/42.Orach_Red_Flash1/41.Orach_Red_Flash1.jpg": {
+      "size": 4487958,
+      "mtimeMs": 1779838658000,
+      "sha256": "a6b7905c5c917e0ef2f1e6156a5ba91226336f4e3a758abc0fa01de3462157e7",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/42.Orach_Red_Flash1/41.Orach_Red_Flash1.jpg.webp",
+      "thumbnailBytes": 120800
+    },
+    "2026_Oak_Creek Greens_Polts/43.Cabbage_Primax2/0617_1.jpg": {
+      "size": 8192674,
+      "mtimeMs": 1782248484000,
+      "sha256": "3919f66f734267f8f85b4caa9a218459e15d59b49c863d5ec8138730ec2fffc1",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/43.Cabbage_Primax2/0617_1.jpg.webp",
+      "thumbnailBytes": 163568
+    },
+    "2026_Oak_Creek Greens_Polts/43.Cabbage_Primax2/0625_1.jpg": {
+      "size": 4161007,
+      "mtimeMs": 1782491263000,
+      "sha256": "dd7e803cf02e5ac6655dde1728b738ee53cc4b795fde482e61a67c05974ea143",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/43.Cabbage_Primax2/0625_1.jpg.webp",
+      "thumbnailBytes": 114476
+    },
+    "2026_Oak_Creek Greens_Polts/43.Cabbage_Primax2/42.Cabbage_Primax2.jpg": {
+      "size": 4341890,
+      "mtimeMs": 1779838609000,
+      "sha256": "393bac7b4dd2e225cf93c6a3271454fe9640d528ce4ea7d47e6c663f443b2b46",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/43.Cabbage_Primax2/42.Cabbage_Primax2.jpg.webp",
+      "thumbnailBytes": 117424
+    },
+    "2026_Oak_Creek Greens_Polts/44.Cabbage_Amarant2/0617_1.jpg": {
+      "size": 8020190,
+      "mtimeMs": 1782248477000,
+      "sha256": "dccc72a37ccb1fd97f99be4c9e76f1f773791f25f32d4e62911da7e2acef545b",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/44.Cabbage_Amarant2/0617_1.jpg.webp",
+      "thumbnailBytes": 164432
+    },
+    "2026_Oak_Creek Greens_Polts/44.Cabbage_Amarant2/0625_1.jpg": {
+      "size": 4329842,
+      "mtimeMs": 1782491264000,
+      "sha256": "1c19894562c3a3060ab2c6d08e8a0b44e7ee3ea9befe3b698e6b25aec7e53ff4",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/44.Cabbage_Amarant2/0625_1.jpg.webp",
+      "thumbnailBytes": 113070
+    },
+    "2026_Oak_Creek Greens_Polts/44.Cabbage_Amarant2/43.Cabbage_Amarant2.jpg": {
+      "size": 4412022,
+      "mtimeMs": 1779838537000,
+      "sha256": "21743124c39e908c057e728de394280e54157230bb3a3f0ff46a18e5ec4cdf8a",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/44.Cabbage_Amarant2/43.Cabbage_Amarant2.jpg.webp",
+      "thumbnailBytes": 120212
+    },
+    "2026_Oak_Creek Greens_Polts/45.Cabbage_Charleston_Wakefield2/0617_1.jpg": {
+      "size": 7743670,
+      "mtimeMs": 1782248473000,
+      "sha256": "f8b3e0c2c2f237a1a7fb5313f7b80984c79a7d0f90561853f93df38969c0db97",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/45.Cabbage_Charleston_Wakefield2/0617_1.jpg.webp",
+      "thumbnailBytes": 160498
+    },
+    "2026_Oak_Creek Greens_Polts/45.Cabbage_Charleston_Wakefield2/0625_1.jpg": {
+      "size": 4281763,
+      "mtimeMs": 1782491264000,
+      "sha256": "e0c67ff1d6b7b8bf03acd86d75036d3dab5e75b5538dcca009fffdb6868bb739",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/45.Cabbage_Charleston_Wakefield2/0625_1.jpg.webp",
+      "thumbnailBytes": 112528
+    },
+    "2026_Oak_Creek Greens_Polts/45.Cabbage_Charleston_Wakefield2/44.Cabbage_Charleston_Wakefield2.jpg": {
+      "size": 4072769,
+      "mtimeMs": 1779838490000,
+      "sha256": "fd12ae324c7ece167e0bf9e14753221106aa958efe6628d3aa8c8f2a6301d64c",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/45.Cabbage_Charleston_Wakefield2/44.Cabbage_Charleston_Wakefield2.jpg.webp",
+      "thumbnailBytes": 113698
+    },
+    "2026_Oak_Creek Greens_Polts/45.Cabbage_Charleston_Wakefield2/IMG_6534.jpeg": {
+      "size": 2895129,
+      "mtimeMs": 1784673411000,
+      "sha256": "3ae74673da994c2cab9775bc00bbab1ec760198dcfb3327710b471fc579543b3",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/45.Cabbage_Charleston_Wakefield2/IMG_6534.jpeg.webp",
+      "thumbnailBytes": 38322
+    },
+    "2026_Oak_Creek Greens_Polts/46.Cabbage_Primax1/0617_1.jpg": {
+      "size": 8533122,
+      "mtimeMs": 1782248470000,
+      "sha256": "b5d08f8c000c3b11319f9d9e37df28984a145c1321ec616ee13b895f98fc413d",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/46.Cabbage_Primax1/0617_1.jpg.webp",
+      "thumbnailBytes": 173080
+    },
+    "2026_Oak_Creek Greens_Polts/46.Cabbage_Primax1/0625_1.jpg": {
+      "size": 4407808,
+      "mtimeMs": 1782491264000,
+      "sha256": "f40b282758ed7f98ac2052ac0c470399a903abb5636599a2b52d5cd9e9d91b01",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/46.Cabbage_Primax1/0625_1.jpg.webp",
+      "thumbnailBytes": 113668
+    },
+    "2026_Oak_Creek Greens_Polts/46.Cabbage_Primax1/45.Cabbage_Primax1.jpg": {
+      "size": 3795247,
+      "mtimeMs": 1779838438000,
+      "sha256": "faf4af24465a77c33337f0f02ba56c22faaccb1e1ae5a0a7788b2656a41bf90b",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/46.Cabbage_Primax1/45.Cabbage_Primax1.jpg.webp",
+      "thumbnailBytes": 108386
+    },
+    "2026_Oak_Creek Greens_Polts/47.Cabbage_Charleston_Wakefield1/0617_1.jpg": {
+      "size": 8930877,
+      "mtimeMs": 1782248466000,
+      "sha256": "dcb9bfe79fcf1d43a923d806b196ad399d7c5fe82675ffb50df8f65f43a81cf6",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/47.Cabbage_Charleston_Wakefield1/0617_1.jpg.webp",
+      "thumbnailBytes": 175038
+    },
+    "2026_Oak_Creek Greens_Polts/47.Cabbage_Charleston_Wakefield1/0625_1.jpg": {
+      "size": 4454414,
+      "mtimeMs": 1782491265000,
+      "sha256": "bdff26656df4c6203280581c56f101c2451d7824665c676c13221417a15ffe5f",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/47.Cabbage_Charleston_Wakefield1/0625_1.jpg.webp",
+      "thumbnailBytes": 116176
+    },
+    "2026_Oak_Creek Greens_Polts/47.Cabbage_Charleston_Wakefield1/46.Cabbage_Charleston_Wakefield1.jpg": {
+      "size": 4623045,
+      "mtimeMs": 1779838216000,
+      "sha256": "307c5189b717e87a76b9ea8304b53cc51116dc6785eb85dd66e19d26722d67f2",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/47.Cabbage_Charleston_Wakefield1/46.Cabbage_Charleston_Wakefield1.jpg.webp",
+      "thumbnailBytes": 113474
+    },
+    "2026_Oak_Creek Greens_Polts/48.Cabbage_Early_Round_Dutch1/0617_1.jpg": {
+      "size": 8993191,
+      "mtimeMs": 1782248963000,
+      "sha256": "9be98fc8e8e9be1a3072af22bba58b3d37c07709d98b90c4954f6a55ba70c45d",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/48.Cabbage_Early_Round_Dutch1/0617_1.jpg.webp",
+      "thumbnailBytes": 180670
+    },
+    "2026_Oak_Creek Greens_Polts/48.Cabbage_Early_Round_Dutch1/0625_1.jpg": {
+      "size": 4579577,
+      "mtimeMs": 1782491266000,
+      "sha256": "dd4bc0b9671fa0e158208c2698aff0ac969a66d9173868a5bf609fc20dc6685e",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/48.Cabbage_Early_Round_Dutch1/0625_1.jpg.webp",
+      "thumbnailBytes": 119754
+    },
+    "2026_Oak_Creek Greens_Polts/48.Cabbage_Early_Round_Dutch1/47.Cabbage_Early_Round_Dutch1.png": {
+      "size": 21836519,
+      "mtimeMs": 1780433789000,
+      "sha256": "49283fb1f749f93e5cbd696164196a2eca6ca80ac51d8f18583881c8f8dc3ee7",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/48.Cabbage_Early_Round_Dutch1/47.Cabbage_Early_Round_Dutch1.png.webp",
+      "thumbnailBytes": 146962
+    },
+    "2026_Oak_Creek Greens_Polts/49.Cabbage_Amarant1/0617_1.jpg": {
+      "size": 8499753,
+      "mtimeMs": 1782248419000,
+      "sha256": "7143bd26d4bbdb91b92d094ecb97feef27f7e7fe537c2a27397014ef608bb78a",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/49.Cabbage_Amarant1/0617_1.jpg.webp",
+      "thumbnailBytes": 171416
+    },
+    "2026_Oak_Creek Greens_Polts/49.Cabbage_Amarant1/0625_1.jpg": {
+      "size": 4671223,
+      "mtimeMs": 1782491266000,
+      "sha256": "8b6cdd8714a1d8193dbaa97f6f6cc562819f528379b07c58d76627b550cbfe23",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/49.Cabbage_Amarant1/0625_1.jpg.webp",
+      "thumbnailBytes": 120988
+    },
+    "2026_Oak_Creek Greens_Polts/49.Cabbage_Amarant1/48.Cabbage_Amarant1.jpg": {
+      "size": 5808031,
+      "mtimeMs": 1780433753000,
+      "sha256": "437fa7f5b22dd2c607f21b67170f28cc1882eb863012d21120504871a3b822d7",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/49.Cabbage_Amarant1/48.Cabbage_Amarant1.jpg.webp",
+      "thumbnailBytes": 136922
+    },
+    "2026_Oak_Creek Greens_Polts/5.Okra_Bagramic_White(DS)/0617_1.jpg": {
+      "size": 8913263,
+      "mtimeMs": 1782248581000,
+      "sha256": "dbfbbc5d9fbcc07efa3e9acd4cb584715ef43fb42df8af88f131207d41490fdc",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/5.Okra_Bagramic_White(DS)/0617_1.jpg.webp",
+      "thumbnailBytes": 179420
+    },
+    "2026_Oak_Creek Greens_Polts/5.Okra_Bagramic_White(DS)/0625_1.jpg": {
+      "size": 3584834,
+      "mtimeMs": 1782492356000,
+      "sha256": "4607675eeba3dae02a451dc7bf9360f8f87b7c84800038b08026312325051627",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/5.Okra_Bagramic_White(DS)/0625_1.jpg.webp",
+      "thumbnailBytes": 114364
+    },
+    "2026_Oak_Creek Greens_Polts/5.Okra_Bagramic_White(DS)/5.Okra_Bagramic_White(DS).png": {
+      "size": 4829114,
+      "mtimeMs": 1780433920000,
+      "sha256": "f7bb03ebd06098f56811b23037ed5cc1bc205c307001ea8af650ab98303adf7c",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/5.Okra_Bagramic_White(DS)/5.Okra_Bagramic_White(DS).png.webp",
+      "thumbnailBytes": 259798
+    },
+    "2026_Oak_Creek Greens_Polts/5.Okra_Bagramic_White(DS)/Scan from 2026-07-17 02_23_44 PM.jpg": {
+      "size": 1909746,
+      "mtimeMs": 1784324239000,
+      "sha256": "c263869dd59d0b6883ef21f6ff2196d554a2c507a61c588ab5446dfb36caf19c",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/5.Okra_Bagramic_White(DS)/Scan from 2026-07-17 02_23_44 PM.jpg.webp",
+      "thumbnailBytes": 32880
+    },
+    "2026_Oak_Creek Greens_Polts/6.Green_Towels(DS)/0617_1.jpg": {
+      "size": 9150527,
+      "mtimeMs": 1782248576000,
+      "sha256": "f7bb1f9283fe6f54fe38cd78f652e35fb49aba48f7f2a02928d6262d84040c9e",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/6.Green_Towels(DS)/0617_1.jpg.webp",
+      "thumbnailBytes": 179162
+    },
+    "2026_Oak_Creek Greens_Polts/6.Green_Towels(DS)/0617_2.jpg": {
+      "size": 4578188,
+      "mtimeMs": 1782248574000,
+      "sha256": "d47fb7ecaf5d1030bc961e6a57906422032b75f31947349b91852309535664d7",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/6.Green_Towels(DS)/0617_2.jpg.webp",
+      "thumbnailBytes": 229936
+    },
+    "2026_Oak_Creek Greens_Polts/6.Green_Towels(DS)/0625_1.jpg": {
+      "size": 3722913,
+      "mtimeMs": 1782492360000,
+      "sha256": "b4883beca6ca04c2d1e3e1038f73f2202bfba0f4a24d8eef38e3e1f7489b64e5",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/6.Green_Towels(DS)/0625_1.jpg.webp",
+      "thumbnailBytes": 117718
+    },
+    "2026_Oak_Creek Greens_Polts/6.Green_Towels(DS)/6.Green_Towels(DS).jpg": {
+      "size": 3404072,
+      "mtimeMs": 1779840684000,
+      "sha256": "047ccf05ca9252bdf483522c32b48f2bcedc7a5b4de91125a319e0ad412493fe",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/6.Green_Towels(DS)/6.Green_Towels(DS).jpg.webp",
+      "thumbnailBytes": 277196
+    },
+    "2026_Oak_Creek Greens_Polts/6.Green_Towels(DS)/6022.jpeg": {
+      "size": 4126401,
+      "mtimeMs": 1782224765000,
+      "sha256": "51b613d104f6e2be19a9f1427ff61b216e223275e73d4d633d6962a893eb457f",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/6.Green_Towels(DS)/6022.jpeg.webp",
+      "thumbnailBytes": 207312
+    },
+    "2026_Oak_Creek Greens_Polts/6.Green_Towels(DS)/IMG_6085.jpeg": {
+      "size": 2457751,
+      "mtimeMs": 1782489123000,
+      "sha256": "fc1006ef93ec6fed8dfc39cfbca9bd68575f9779fc2a0372cececadabce247a9",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/6.Green_Towels(DS)/IMG_6085.jpeg.webp",
+      "thumbnailBytes": 116878
+    },
+    "2026_Oak_Creek Greens_Polts/7.Red_Salad_Bowl(DS)/0617_1.jpg": {
+      "size": 8804053,
+      "mtimeMs": 1782248562000,
+      "sha256": "8bb093da4207544d1cfe365c5618a0ce3bdc50a0f0e571bb25f15914a7a308aa",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/7.Red_Salad_Bowl(DS)/0617_1.jpg.webp",
+      "thumbnailBytes": 180370
+    },
+    "2026_Oak_Creek Greens_Polts/7.Red_Salad_Bowl(DS)/0625_1.jpg": {
+      "size": 3868958,
+      "mtimeMs": 1782492358000,
+      "sha256": "8d7c5cf66ac721383f0a27402b65b67bb883635d47bbe143078db1ab89a1510c",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/7.Red_Salad_Bowl(DS)/0625_1.jpg.webp",
+      "thumbnailBytes": 127486
+    },
+    "2026_Oak_Creek Greens_Polts/7.Red_Salad_Bowl(DS)/7.Red_Salad_Bowl(DS).jpg": {
+      "size": 3283921,
+      "mtimeMs": 1779840684000,
+      "sha256": "e5ec1e84c5223517a8e8172107567851b172b85b192caecf668a26a6f134205e",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/7.Red_Salad_Bowl(DS)/7.Red_Salad_Bowl(DS).jpg.webp",
+      "thumbnailBytes": 268238
+    },
+    "2026_Oak_Creek Greens_Polts/8.Black_Seed_Simpsom(DS)/0617_1.jpg": {
+      "size": 8918951,
+      "mtimeMs": 1782248572000,
+      "sha256": "adaee1cef8409987882e1c641ff4a8adeb13eeb4e2cfa82ea70bf027b68546a2",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/8.Black_Seed_Simpsom(DS)/0617_1.jpg.webp",
+      "thumbnailBytes": 178980
+    },
+    "2026_Oak_Creek Greens_Polts/8.Black_Seed_Simpsom(DS)/0624.jpeg": {
+      "size": 3870230,
+      "mtimeMs": 1782248004000,
+      "sha256": "0af446e53df07b3a0c577281c1fe1a260fe452ce53064cc562b347baa7388b39",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/8.Black_Seed_Simpsom(DS)/0624.jpeg.webp",
+      "thumbnailBytes": 171436
+    },
+    "2026_Oak_Creek Greens_Polts/8.Black_Seed_Simpsom(DS)/0625_1.jpg": {
+      "size": 2984085,
+      "mtimeMs": 1782492363000,
+      "sha256": "9d9bd2d8896e9b0c40a714e6758b8ad95f2adae800d40145a2201a07e405922d",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/8.Black_Seed_Simpsom(DS)/0625_1.jpg.webp",
+      "thumbnailBytes": 95664
+    },
+    "2026_Oak_Creek Greens_Polts/8.Black_Seed_Simpsom(DS)/8.Black_Seed_Simpsom(DS).png": {
+      "size": 3806573,
+      "mtimeMs": 1780434232000,
+      "sha256": "c3e820dc6c5757e1ddeeb8bbbdacd947aeedb941638996726064d49641611799",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/8.Black_Seed_Simpsom(DS)/8.Black_Seed_Simpsom(DS).png.webp",
+      "thumbnailBytes": 182376
+    },
+    "2026_Oak_Creek Greens_Polts/9.Celosia_Lagos_Spinach1/0617_1.jpg": {
+      "size": 9063119,
+      "mtimeMs": 1782248569000,
+      "sha256": "a3eda9669ed8e11b1c9d030b661c15e12252a618f0492b0a7b5d0dd8e787fb91",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/9.Celosia_Lagos_Spinach1/0617_1.jpg.webp",
+      "thumbnailBytes": 185624
+    },
+    "2026_Oak_Creek Greens_Polts/9.Celosia_Lagos_Spinach1/0625_1.jpg": {
+      "size": 4664824,
+      "mtimeMs": 1782491239000,
+      "sha256": "c9f9dd78a0e9af33fc9812e81ffef17f4eae8f4b1ef774aba1536fd59aadd296",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/9.Celosia_Lagos_Spinach1/0625_1.jpg.webp",
+      "thumbnailBytes": 127908
+    },
+    "2026_Oak_Creek Greens_Polts/9.Celosia_Lagos_Spinach1/0625_2.jpg": {
+      "size": 3214898,
+      "mtimeMs": 1782491238000,
+      "sha256": "29ff140b07cf128b03e9090a30ab9643e316b4997460839066620b92c197ede1",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/9.Celosia_Lagos_Spinach1/0625_2.jpg.webp",
+      "thumbnailBytes": 245382
+    },
+    "2026_Oak_Creek Greens_Polts/9.Celosia_Lagos_Spinach1/9.Celosia_Lagos_Spinach1.jpg": {
+      "size": 2236064,
+      "mtimeMs": 1779988057000,
+      "sha256": "ca3537a714a108e522fa6215cfbc434a8543ddded12fb01ab2892cced1d66082",
+      "thumbnail": "assets/thumbnails/2026_Oak_Creek Greens_Polts/9.Celosia_Lagos_Spinach1/9.Celosia_Lagos_Spinach1.jpg.webp",
+      "thumbnailBytes": 118352
+    },
+    "3.Okra_Ciek(DS).jpg": {
+      "size": 3576895,
+      "mtimeMs": 1779840685000,
+      "sha256": "c809dc4a012382110fdf8080d3a6a45f13b7c28043fd3a6fe6c25ab5a67f16ac",
+      "thumbnail": "assets/thumbnails/3.Okra_Ciek(DS).jpg.webp",
+      "thumbnailBytes": 285642
+    },
+    "4.Okra_BURNOVA_KINALI(DS).png": {
+      "size": 6993071,
+      "mtimeMs": 1780434030000,
+      "sha256": "3be012c18e1c5bb5d7c966dbd5b6e02cb613a7b72176655cc816594a348811f4",
+      "thumbnail": "assets/thumbnails/4.Okra_BURNOVA_KINALI(DS).png.webp",
+      "thumbnailBytes": 177314
+    },
+    "5.Okra_Bagramic_White(DS).png": {
+      "size": 4829114,
+      "mtimeMs": 1780433920000,
+      "sha256": "f7bb03ebd06098f56811b23037ed5cc1bc205c307001ea8af650ab98303adf7c",
+      "thumbnail": "assets/thumbnails/5.Okra_Bagramic_White(DS).png.webp",
+      "thumbnailBytes": 259798
+    },
+    "Barley/0625.jpeg": {
+      "size": 4860301,
+      "mtimeMs": 1782401295000,
+      "sha256": "83efd2769ad512625703c5b1fe9c671888355732681d5b7cdf25f72d617847ba",
+      "thumbnail": "assets/thumbnails/Barley/0625.jpeg.webp",
+      "thumbnailBytes": 191562
+    },
+    "Barley/0625_1.jpeg": {
+      "size": 6236716,
+      "mtimeMs": 1782401338000,
+      "sha256": "deb4e0d46cd3930464845bc0d49e44c9ba5646246c5c2e54adcd976b9b9a9025",
+      "thumbnail": "assets/thumbnails/Barley/0625_1.jpeg.webp",
+      "thumbnailBytes": 280206
+    },
+    "Barley/0625_2.jpeg": {
+      "size": 3774965,
+      "mtimeMs": 1782401525000,
+      "sha256": "069ddb8dc0a2f0968594c44bbddf34c06062e533ab8676381f2f5d15ddca655a",
+      "thumbnail": "assets/thumbnails/Barley/0625_2.jpeg.webp",
+      "thumbnailBytes": 175182
+    },
+    "Barley/2_Rows/IMG_6068.jpeg": {
+      "size": 2728963,
+      "mtimeMs": 1782402760000,
+      "sha256": "dbb1880edd03351ac59febde7de10a1613c159b91a47338e388ac74ade76e796",
+      "thumbnail": "assets/thumbnails/Barley/2_Rows/IMG_6068.jpeg.webp",
+      "thumbnailBytes": 76348
+    },
+    "Barley/2_Rows/IMG_6069.jpeg": {
+      "size": 3735000,
+      "mtimeMs": 1782402805000,
+      "sha256": "534b217c95fac38688219dabb1a971bbb6b4543d94689028d5805a8fc71b2a03",
+      "thumbnail": "assets/thumbnails/Barley/2_Rows/IMG_6069.jpeg.webp",
+      "thumbnailBytes": 161714
+    },
+    "Barley/2_Rows/IMG_6070.jpeg": {
+      "size": 3201130,
+      "mtimeMs": 1782403087000,
+      "sha256": "80b459c9045538f4a7258273ca5c63f95f8352e82b8243fdb4f2d7f2488a6c8b",
+      "thumbnail": "assets/thumbnails/Barley/2_Rows/IMG_6070.jpeg.webp",
+      "thumbnailBytes": 146496
+    },
+    "Barley/2_Rows/IMG_6071.jpeg": {
+      "size": 2382850,
+      "mtimeMs": 1782403104000,
+      "sha256": "3ee184e155606ce06c9152fed593a5ab7bd0679c424a7b23291190f36f43c635",
+      "thumbnail": "assets/thumbnails/Barley/2_Rows/IMG_6071.jpeg.webp",
+      "thumbnailBytes": 71000
+    },
+    "Barley/2_Rows/IMG_6072.jpeg": {
+      "size": 2245296,
+      "mtimeMs": 1782403284000,
+      "sha256": "bb795c071fd080193b2dc5b9a7bc6f9f23bf67717c6c96517d7982c61282347a",
+      "thumbnail": "assets/thumbnails/Barley/2_Rows/IMG_6072.jpeg.webp",
+      "thumbnailBytes": 65006
+    },
+    "Barley/2_Rows/IMG_6073.jpeg": {
+      "size": 3478983,
+      "mtimeMs": 1782403294000,
+      "sha256": "d969e53e91e2a06253c7ad454a12c95893a78712463c97faab1a6321019aff6a",
+      "thumbnail": "assets/thumbnails/Barley/2_Rows/IMG_6073.jpeg.webp",
+      "thumbnailBytes": 131724
+    },
+    "Barley/2_Rows/IMG_6074.jpeg": {
+      "size": 2397566,
+      "mtimeMs": 1782403366000,
+      "sha256": "b38708572cf845e855b6d0baa1c6b8e56cef4ec2502a389448a053aaff2df929",
+      "thumbnail": "assets/thumbnails/Barley/2_Rows/IMG_6074.jpeg.webp",
+      "thumbnailBytes": 105002
+    },
+    "Barley/2_Rows/Scan from 2026-07-02 01_55_55 PM.jpg": {
+      "size": 3231701,
+      "mtimeMs": 1783026260000,
+      "sha256": "4b41a3db7aef1b928e7eb1e0e41c155011166bffe2dc19dd355b986ed8fa6872",
+      "thumbnail": "assets/thumbnails/Barley/2_Rows/Scan from 2026-07-02 01_55_55 PM.jpg.webp",
+      "thumbnailBytes": 266656
+    },
+    "Barley/2_Rows/Scan from 2026-07-02 01_56_23 PM.jpg": {
+      "size": 3782348,
+      "mtimeMs": 1783026262000,
+      "sha256": "f14b4a095f4f0d359b62eb487de2a31e44b240e84474a9e9ac4298917d8f07d0",
+      "thumbnail": "assets/thumbnails/Barley/2_Rows/Scan from 2026-07-02 01_56_23 PM.jpg.webp",
+      "thumbnailBytes": 324342
+    },
+    "Barley/2_Rows/Scan from 2026-07-02 01_57_08 PM.jpg": {
+      "size": 3197421,
+      "mtimeMs": 1783026264000,
+      "sha256": "d2f8d112b95aacbc4c744b4b14a4f59b2505ae81ca4e98d94843453de5b6adb8",
+      "thumbnail": "assets/thumbnails/Barley/2_Rows/Scan from 2026-07-02 01_57_08 PM.jpg.webp",
+      "thumbnailBytes": 263812
+    },
+    "Barley/2_Rows/Scan from 2026-07-02 01_58_26 PM.jpg": {
+      "size": 3193254,
+      "mtimeMs": 1783026263000,
+      "sha256": "a963760132e696063b05955145bae0a769465766d251b725592def2e8c1f0b51",
+      "thumbnail": "assets/thumbnails/Barley/2_Rows/Scan from 2026-07-02 01_58_26 PM.jpg.webp",
+      "thumbnailBytes": 269132
+    },
+    "Barley/2_Rows/Scan from 2026-07-02 01_58_49 PM.jpg": {
+      "size": 2964864,
+      "mtimeMs": 1783026264000,
+      "sha256": "79936ea311c2429966b6a6840f75d4585dbb1ebbef1466d2e828bf7984efe037",
+      "thumbnail": "assets/thumbnails/Barley/2_Rows/Scan from 2026-07-02 01_58_49 PM.jpg.webp",
+      "thumbnailBytes": 229938
+    },
+    "Barley/6_Rows/IMG_6053.jpeg": {
+      "size": 2331548,
+      "mtimeMs": 1782401354000,
+      "sha256": "5bd27b23d5d873536043e6229d2c145562e8e2b8ccdb76a253edd40933d99038",
+      "thumbnail": "assets/thumbnails/Barley/6_Rows/IMG_6053.jpeg.webp",
+      "thumbnailBytes": 71612
+    },
+    "Barley/6_Rows/IMG_6054.jpeg": {
+      "size": 2360575,
+      "mtimeMs": 1782401383000,
+      "sha256": "43d562e653419e1ab11d231d0e19e68f02c78a83e09907c8c6eefafb7f7e28f8",
+      "thumbnail": "assets/thumbnails/Barley/6_Rows/IMG_6054.jpeg.webp",
+      "thumbnailBytes": 79728
+    },
+    "Barley/6_Rows/IMG_6059.jpeg": {
+      "size": 3523449,
+      "mtimeMs": 1782401602000,
+      "sha256": "df283a071200ab65a89ddea27cdd36828eeee91b3c5de6b7a945e3c40880d31b",
+      "thumbnail": "assets/thumbnails/Barley/6_Rows/IMG_6059.jpeg.webp",
+      "thumbnailBytes": 143082
+    },
+    "Barley/6_Rows/IMG_6060.jpeg": {
+      "size": 2474266,
+      "mtimeMs": 1782401629000,
+      "sha256": "53fa404cdd7d436aa2c645d2ab183bfdbeffaa1572f298d8d5ab761042308ef7",
+      "thumbnail": "assets/thumbnails/Barley/6_Rows/IMG_6060.jpeg.webp",
+      "thumbnailBytes": 82476
+    },
+    "Barley/6_Rows/IMG_6066.jpeg": {
+      "size": 2608618,
+      "mtimeMs": 1782402308000,
+      "sha256": "6872549e3315871002cdbf17c36f0179b990e540f3665ee21ee91a8747106ff0",
+      "thumbnail": "assets/thumbnails/Barley/6_Rows/IMG_6066.jpeg.webp",
+      "thumbnailBytes": 85388
+    },
+    "Barley/6_Rows/IMG_6067.jpeg": {
+      "size": 3853302,
+      "mtimeMs": 1782402320000,
+      "sha256": "cf34f6c4edb31baceda2aceffbf4f912f279d94f7033dc51a54112c4812a3a9e",
+      "thumbnail": "assets/thumbnails/Barley/6_Rows/IMG_6067.jpeg.webp",
+      "thumbnailBytes": 157346
+    },
+    "Barley/6_Rows/IMG_6075.jpeg": {
+      "size": 2293627,
+      "mtimeMs": 1782403530000,
+      "sha256": "f4c478bfd77042ca84aa59e69711db03e7fbdb08abd6282f80dcb1921422afd0",
+      "thumbnail": "assets/thumbnails/Barley/6_Rows/IMG_6075.jpeg.webp",
+      "thumbnailBytes": 91400
+    },
+    "Start.jpg": {
+      "size": 4137571,
+      "mtimeMs": 1780011569000,
+      "sha256": "d93a5983dd479fbe525e4b153025d439ea2d9c4365c2b72d5f75e575965aff28",
+      "thumbnail": "assets/thumbnails/Start.jpg.webp",
+      "thumbnailBytes": 88536
+    },
+    "Sweet_Potato/1.56660_1.jpeg": {
+      "size": 5090945,
+      "mtimeMs": 1781646451000,
+      "sha256": "5a9ed2632649283b15ed62e761a375c223eb4ec05dca1c633a7902ccb0503ea5",
+      "thumbnail": "assets/thumbnails/Sweet_Potato/1.56660_1.jpeg.webp",
+      "thumbnailBytes": 133166
+    },
+    "Sweet_Potato/10.56660_2.jpeg": {
+      "size": 5162985,
+      "mtimeMs": 1781646642000,
+      "sha256": "4e6f2a1ce21743607c8941fba9505e7b555c29bdda4187828549a56f3dccc6a3",
+      "thumbnail": "assets/thumbnails/Sweet_Potato/10.56660_2.jpeg.webp",
+      "thumbnailBytes": 136034
+    },
+    "Sweet_Potato/11.Purple_Magisty2.jpeg": {
+      "size": 5318434,
+      "mtimeMs": 1781646668000,
+      "sha256": "567c4b482897029a39da5ea3829cf03354449645db1c7fac8835972652438780",
+      "thumbnail": "assets/thumbnails/Sweet_Potato/11.Purple_Magisty2.jpeg.webp",
+      "thumbnailBytes": 144042
+    },
+    "Sweet_Potato/12.Ga_Jet2.jpeg": {
+      "size": 5938682,
+      "mtimeMs": 1781646704000,
+      "sha256": "94db94e2f2f02e32161bc79ee41dff6af14d08426476653d8bac1886220459cf",
+      "thumbnail": "assets/thumbnails/Sweet_Potato/12.Ga_Jet2.jpeg.webp",
+      "thumbnailBytes": 157682
+    },
+    "Sweet_Potato/13.Beauregard2.jpeg": {
+      "size": 5334256,
+      "mtimeMs": 1781646684000,
+      "sha256": "0f6999c25dd4a7bc251cff88710aa040ca7b872f1fca58fe343243ebeefa2c8d",
+      "thumbnail": "assets/thumbnails/Sweet_Potato/13.Beauregard2.jpeg.webp",
+      "thumbnailBytes": 140142
+    },
+    "Sweet_Potato/14.Vardaman2.jpeg": {
+      "size": 5366957,
+      "mtimeMs": 1781646628000,
+      "sha256": "0eb260ec02d6f2fcdf88ae3f9e3863259b127b1af2e0de43b11cc6fa3052351f",
+      "thumbnail": "assets/thumbnails/Sweet_Potato/14.Vardaman2.jpeg.webp",
+      "thumbnailBytes": 139374
+    },
+    "Sweet_Potato/15.628761_2.jpeg": {
+      "size": 6403209,
+      "mtimeMs": 1781646604000,
+      "sha256": "376778ff5c7827aaceafb44696296af5a222dd2255134ca92178e43ea79b06e9",
+      "thumbnail": "assets/thumbnails/Sweet_Potato/15.628761_2.jpeg.webp",
+      "thumbnailBytes": 144384
+    },
+    "Sweet_Potato/2.Orleans1.jpeg": {
+      "size": 5389547,
+      "mtimeMs": 1781646484000,
+      "sha256": "5adabfd079a5a27271bb8339378e51d584d439101cdfdd34ffa58c4f3318e457",
+      "thumbnail": "assets/thumbnails/Sweet_Potato/2.Orleans1.jpeg.webp",
+      "thumbnailBytes": 141274
+    },
+    "Sweet_Potato/3.Purple_Magisty1.jpeg": {
+      "size": 5783395,
+      "mtimeMs": 1781646497000,
+      "sha256": "eb709ca3caeeb443d4964af79ffaf495c66d919fbf8395614da6ba14dc36e016",
+      "thumbnail": "assets/thumbnails/Sweet_Potato/3.Purple_Magisty1.jpeg.webp",
+      "thumbnailBytes": 145392
+    },
+    "Sweet_Potato/4.628761_1.jpeg": {
+      "size": 5042224,
+      "mtimeMs": 1781646515000,
+      "sha256": "d659d26c6301a5510e1ac1f179abceb4cd5d21e3633f36426af81d9dc4b751ee",
+      "thumbnail": "assets/thumbnails/Sweet_Potato/4.628761_1.jpeg.webp",
+      "thumbnailBytes": 130680
+    },
+    "Sweet_Potato/5.Ga_Jet1.jpeg": {
+      "size": 5526870,
+      "mtimeMs": 1781646526000,
+      "sha256": "e01d7ec4d93f4c8ea3d6dfa925dd1a9f97f280dac8d909110d72b56327b30454",
+      "thumbnail": "assets/thumbnails/Sweet_Potato/5.Ga_Jet1.jpeg.webp",
+      "thumbnailBytes": 145672
+    },
+    "Sweet_Potato/6.Beauregard1.jpeg": {
+      "size": 5416636,
+      "mtimeMs": 1781646553000,
+      "sha256": "f9da97bf5f6bc093edb6bfbb1bd2c9145a158c529c78178e935e56276397b8f7",
+      "thumbnail": "assets/thumbnails/Sweet_Potato/6.Beauregard1.jpeg.webp",
+      "thumbnailBytes": 146624
+    },
+    "Sweet_Potato/7.Vardaman1.jpeg": {
+      "size": 5549541,
+      "mtimeMs": 1781646568000,
+      "sha256": "f93921fda979bdb2f00ff8c9318b1f3a2d3a7272233b8434a7b6b4d53c62f009",
+      "thumbnail": "assets/thumbnails/Sweet_Potato/7.Vardaman1.jpeg.webp",
+      "thumbnailBytes": 146652
+    },
+    "Sweet_Potato/8.566662.jpeg": {
+      "size": 6272710,
+      "mtimeMs": 1781646579000,
+      "sha256": "5635164fb409fbe0624c604167c87da602ed97d6160ec9021c461b1e1f8c7877",
+      "thumbnail": "assets/thumbnails/Sweet_Potato/8.566662.jpeg.webp",
+      "thumbnailBytes": 138068
+    },
+    "Sweet_Potato/9.Orleans2.jpeg": {
+      "size": 5605236,
+      "mtimeMs": 1781646592000,
+      "sha256": "6f2257f96b4a282b3e8c07302e12b1dc0735b168b8a7a8135d4da845613e45eb",
+      "thumbnail": "assets/thumbnails/Sweet_Potato/9.Orleans2.jpeg.webp",
+      "thumbnailBytes": 143630
+    },
+    "Work.jpg": {
+      "size": 4137571,
+      "mtimeMs": 1780011351000,
+      "sha256": "d93a5983dd479fbe525e4b153025d439ea2d9c4365c2b72d5f75e575965aff28",
+      "thumbnail": "assets/thumbnails/Work.jpg.webp",
+      "thumbnailBytes": 88536
+    }
+  }
+}
