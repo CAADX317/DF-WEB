@@ -65,7 +65,8 @@ const gardenData = {
       "filter": "Vltroacross Okra",
       "color": "#c8d4a8",
       "images": [
-        "2026_Oak_Creek Greens_Polts/1. Vltroacross_Okra2(DS)/1. Vltroacross_Okra2(DS).jpg"
+        "2026_Oak_Creek Greens_Polts/1. Vltroacross_Okra2(DS)/1. Vltroacross_Okra2(DS).jpg",
+        "2026_Oak_Creek Greens_Polts/1. Vltroacross_Okra2(DS)/20260717_210425131_iOS.jpg"
       ]
     },
     {
@@ -78,7 +79,10 @@ const gardenData = {
       "filter": "Okra Yalova Akkoy",
       "color": "#bec99e",
       "images": [
-        "2026_Oak_Creek Greens_Polts/2.Okra_Yalova_Akkoy(DS)/2.Okra_Yalova_Akkoy(DS).jpg"
+        "2026_Oak_Creek Greens_Polts/2.Okra_Yalova_Akkoy(DS)/2.Okra_Yalova_Akkoy(DS).jpg",
+        "2026_Oak_Creek Greens_Polts/2.Okra_Yalova_Akkoy(DS)/20260717_210443017_iOS.jpg",
+        "2026_Oak_Creek Greens_Polts/2.Okra_Yalova_Akkoy(DS)/20260717_210451200_iOS.jpg",
+        "2026_Oak_Creek Greens_Polts/2.Okra_Yalova_Akkoy(DS)/Scan from 2026-07-17 02_22_47 PM.jpg"
       ]
     },
     {
@@ -91,7 +95,10 @@ const gardenData = {
       "filter": "Okra Ciek",
       "color": "#b4bf94",
       "images": [
-        "2026_Oak_Creek Greens_Polts/3.Okra_Ciek(DS)/3.Okra_Ciek(DS).jpg"
+        "2026_Oak_Creek Greens_Polts/3.Okra_Ciek(DS)/3.Okra_Ciek(DS).jpg",
+        "2026_Oak_Creek Greens_Polts/3.Okra_Ciek(DS)/20260717_210511590_iOS.jpg",
+        "2026_Oak_Creek Greens_Polts/3.Okra_Ciek(DS)/20260717_210517681_iOS.jpg",
+        "2026_Oak_Creek Greens_Polts/3.Okra_Ciek(DS)/Scan from 2026-07-17 02_23_07 PM.jpg"
       ]
     },
     {
@@ -104,7 +111,9 @@ const gardenData = {
       "filter": "Okra BURNOVA KINALI",
       "color": "#aab58a",
       "images": [
-        "2026_Oak_Creek Greens_Polts/4.Okra_BURNOVA_KINALI(DS)/4.Okra_BURNOVA_KINALI(DS).png"
+        "2026_Oak_Creek Greens_Polts/4.Okra_BURNOVA_KINALI(DS)/4.Okra_BURNOVA_KINALI(DS).png",
+        "2026_Oak_Creek Greens_Polts/4.Okra_BURNOVA_KINALI(DS)/20260717_210708501_iOS.jpg",
+        "2026_Oak_Creek Greens_Polts/4.Okra_BURNOVA_KINALI(DS)/Scan from 2026-07-17 02_23_21 PM.jpg"
       ]
     },
     {
@@ -117,7 +126,10 @@ const gardenData = {
       "filter": "Okra Bagramic White",
       "color": "#a0ab80",
       "images": [
-        "2026_Oak_Creek Greens_Polts/5.Okra_Bagramic_White(DS)/5.Okra_Bagramic_White(DS).png"
+        "2026_Oak_Creek Greens_Polts/5.Okra_Bagramic_White(DS)/5.Okra_Bagramic_White(DS).png",
+        "2026_Oak_Creek Greens_Polts/5.Okra_Bagramic_White(DS)/20260717_210724381_iOS.jpg",
+        "2026_Oak_Creek Greens_Polts/5.Okra_Bagramic_White(DS)/20260717_210730616_iOS.jpg",
+        "2026_Oak_Creek Greens_Polts/5.Okra_Bagramic_White(DS)/Scan from 2026-07-17 02_23_44 PM.jpg"
       ]
     },
     {
@@ -130,7 +142,8 @@ const gardenData = {
       "filter": "Green Towels",
       "color": "#d4e8c8",
       "images": [
-        "2026_Oak_Creek Greens_Polts/6.Green_Towels(DS)/6.Green_Towels(DS).jpg"
+        "2026_Oak_Creek Greens_Polts/6.Green_Towels(DS)/6.Green_Towels(DS).jpg",
+        "2026_Oak_Creek Greens_Polts/6.Green_Towels(DS)/IMG_6085.jpeg"
       ]
     },
     {
@@ -325,7 +338,8 @@ const gardenData = {
       "filter": "French Sorrel",
       "color": "#b8c89e",
       "images": [
-        "2026_Oak_Creek Greens_Polts/21.French_Sorrel2/21.French_Sorrel2.jpg"
+        "2026_Oak_Creek Greens_Polts/21.French_Sorrel2/21.French_Sorrel2.jpg",
+        "2026_Oak_Creek Greens_Polts/21.French_Sorrel2/IMG_6528.jpeg"
       ]
     },
     {
@@ -351,7 +365,13 @@ const gardenData = {
       "filter": "Lettuce Blade Seeded Simpson",
       "color": "#dcc0c4",
       "images": [
-        "2026_Oak_Creek Greens_Polts/23.Lettuce_Blade_Seeded_Simpson2/23.Lettuce_Blade_Seeded_Simpson2.jpg"
+        "2026_Oak_Creek Greens_Polts/23.Lettuce_Blade_Seeded_Simpson2/23.Lettuce_Blade_Seeded_Simpson2.jpg",
+        "2026_Oak_Creek Greens_Polts/23.Lettuce_Blade_Seeded_Simpson2/0615.jpg",
+        "2026_Oak_Creek Greens_Polts/23.Lettuce_Blade_Seeded_Simpson2/0629.jpeg",
+        "2026_Oak_Creek Greens_Polts/23.Lettuce_Blade_Seeded_Simpson2/0702.jpg",
+        "2026_Oak_Creek Greens_Polts/23.Lettuce_Blade_Seeded_Simpson2/20260713_162248106_iOS.jpg",
+        "2026_Oak_Creek Greens_Polts/23.Lettuce_Blade_Seeded_Simpson2/Scan from 2026-07-13 09_21_05 AM.jpg",
+        "2026_Oak_Creek Greens_Polts/23.Lettuce_Blade_Seeded_Simpson2/Scan from 2026-07-13 09_21_42 AM.jpg"
       ]
     },
     {
@@ -364,7 +384,9 @@ const gardenData = {
       "filter": "Lettuce Red Salad Bowl",
       "color": "#d0dcb0",
       "images": [
-        "2026_Oak_Creek Greens_Polts/24.Lettuce_Red_Salad_Bowl1/24.Lettuce_Red_Salad_Bowl1.jpg"
+        "2026_Oak_Creek Greens_Polts/24.Lettuce_Red_Salad_Bowl1/24.Lettuce_Red_Salad_Bowl1.jpg",
+        "2026_Oak_Creek Greens_Polts/24.Lettuce_Red_Salad_Bowl1/0702_1.jpg",
+        "2026_Oak_Creek Greens_Polts/24.Lettuce_Red_Salad_Bowl1/0702_2.jpg"
       ]
     },
     {
@@ -377,7 +399,8 @@ const gardenData = {
       "filter": "Lettuce Red Salad Bowl",
       "color": "#e8e4d8",
       "images": [
-        "2026_Oak_Creek Greens_Polts/25.Lettuce_Red_Salad_Bowl2/25.Lettuce_Red_Salad_Bowl2.jpg"
+        "2026_Oak_Creek Greens_Polts/25.Lettuce_Red_Salad_Bowl2/25.Lettuce_Red_Salad_Bowl2.jpg",
+        "2026_Oak_Creek Greens_Polts/25.Lettuce_Red_Salad_Bowl2/Scan from 2026-07-13 09_28_09 AM.jpg"
       ]
     },
     {
@@ -390,7 +413,8 @@ const gardenData = {
       "filter": "Salad Greens LettuceMix",
       "color": "#e0dcd0",
       "images": [
-        "2026_Oak_Creek Greens_Polts/26.Salad_Greens_LettuceMix2/26.Salad_Greens_LettuceMix2.jpg"
+        "2026_Oak_Creek Greens_Polts/26.Salad_Greens_LettuceMix2/26.Salad_Greens_LettuceMix2.jpg",
+        "2026_Oak_Creek Greens_Polts/26.Salad_Greens_LettuceMix2/Scan from 2026-07-13 09_28_35 AM.jpg"
       ]
     },
     {
@@ -416,7 +440,9 @@ const gardenData = {
       "filter": "Lettuce Green Towers",
       "color": "#ddd8cc",
       "images": [
-        "2026_Oak_Creek Greens_Polts/28.Lettuce_Green_Towers1/28.Lettuce_Green_Towers1.jpg"
+        "2026_Oak_Creek Greens_Polts/28.Lettuce_Green_Towers1/28.Lettuce_Green_Towers1.jpg",
+        "2026_Oak_Creek Greens_Polts/28.Lettuce_Green_Towers1/0629.jpeg",
+        "2026_Oak_Creek Greens_Polts/28.Lettuce_Green_Towers1/Scan from 2026-07-13 09_27_12 AM.jpg"
       ]
     },
     {
@@ -429,7 +455,10 @@ const gardenData = {
       "filter": "Lettuce Blade Seeded Simpson",
       "color": "#d4d0c4",
       "images": [
-        "2026_Oak_Creek Greens_Polts/29.Lettuce_Blade_Seeded_Simpson1/29.Lettuce_Blade_Seeded_Simpson1.jpg"
+        "2026_Oak_Creek Greens_Polts/29.Lettuce_Blade_Seeded_Simpson1/29.Lettuce_Blade_Seeded_Simpson1.jpg",
+        "2026_Oak_Creek Greens_Polts/29.Lettuce_Blade_Seeded_Simpson1/0629.jpeg",
+        "2026_Oak_Creek Greens_Polts/29.Lettuce_Blade_Seeded_Simpson1/Scan from 2026-07-13 09_26_06 AM.jpg",
+        "2026_Oak_Creek Greens_Polts/29.Lettuce_Blade_Seeded_Simpson1/Scan from 2026-07-13 09_26_26 AM.jpg"
       ]
     },
     {
@@ -494,7 +523,9 @@ const gardenData = {
       "filter": "Lettuce Green Towers",
       "color": "#aca89c",
       "images": [
-        "2026_Oak_Creek Greens_Polts/34.Lettuce_Green_Towers2/33.Lettuce_Green_Towers2.jpg"
+        "2026_Oak_Creek Greens_Polts/34.Lettuce_Green_Towers2/33.Lettuce_Green_Towers2.jpg",
+        "2026_Oak_Creek Greens_Polts/34.Lettuce_Green_Towers2/Scan from 2026-07-13 09_24_43 AM.jpg",
+        "2026_Oak_Creek Greens_Polts/34.Lettuce_Green_Towers2/Scan from 2026-07-13 09_25_12 AM.jpg"
       ]
     },
     {
@@ -585,7 +616,8 @@ const gardenData = {
       "filter": "Salad Greens LettuceMix",
       "color": "#d8d4c8",
       "images": [
-        "2026_Oak_Creek Greens_Polts/41.Salad_Greens_LettuceMix1/41.Salad_Greens_LettuceMix1.jpg"
+        "2026_Oak_Creek Greens_Polts/41.Salad_Greens_LettuceMix1/41.Salad_Greens_LettuceMix1.jpg",
+        "2026_Oak_Creek Greens_Polts/41.Salad_Greens_LettuceMix1/Scan from 2026-07-13 09_29_52 AM.jpg"
       ]
     },
     {
@@ -611,7 +643,8 @@ const gardenData = {
       "filter": "Cabbage Primax",
       "color": "#d4d0c4",
       "images": [
-        "2026_Oak_Creek Greens_Polts/43.Cabbage_Primax2/42.Cabbage_Primax2.jpg"
+        "2026_Oak_Creek Greens_Polts/43.Cabbage_Primax2/42.Cabbage_Primax2.jpg",
+        "2026_Oak_Creek Greens_Polts/43.Cabbage_Primax2/IMG_6529.jpg"
       ]
     },
     {
@@ -624,7 +657,8 @@ const gardenData = {
       "filter": "Cabbage Amarant",
       "color": "#ccc8bc",
       "images": [
-        "2026_Oak_Creek Greens_Polts/44.Cabbage_Amarant2/43.Cabbage_Amarant2.jpg"
+        "2026_Oak_Creek Greens_Polts/44.Cabbage_Amarant2/43.Cabbage_Amarant2.jpg",
+        "2026_Oak_Creek Greens_Polts/44.Cabbage_Amarant2/IMG_6533.jpg"
       ]
     },
     {
@@ -637,7 +671,8 @@ const gardenData = {
       "filter": "Cabbage Charleston Wakefield",
       "color": "#c4c0b4",
       "images": [
-        "2026_Oak_Creek Greens_Polts/45.Cabbage_Charleston_Wakefield2/44.Cabbage_Charleston_Wakefield2.jpg"
+        "2026_Oak_Creek Greens_Polts/45.Cabbage_Charleston_Wakefield2/44.Cabbage_Charleston_Wakefield2.jpg",
+        "2026_Oak_Creek Greens_Polts/45.Cabbage_Charleston_Wakefield2/IMG_6534.jpeg"
       ]
     },
     {
@@ -650,7 +685,8 @@ const gardenData = {
       "filter": "Cabbage Primax",
       "color": "#bcb8ac",
       "images": [
-        "2026_Oak_Creek Greens_Polts/46.Cabbage_Primax1/45.Cabbage_Primax1.jpg"
+        "2026_Oak_Creek Greens_Polts/46.Cabbage_Primax1/45.Cabbage_Primax1.jpg",
+        "2026_Oak_Creek Greens_Polts/46.Cabbage_Primax1/IMG_6530.jpg"
       ]
     },
     {
@@ -663,7 +699,8 @@ const gardenData = {
       "filter": "Cabbage Charleston Wakefield",
       "color": "#b4b0a4",
       "images": [
-        "2026_Oak_Creek Greens_Polts/47.Cabbage_Charleston_Wakefield1/46.Cabbage_Charleston_Wakefield1.jpg"
+        "2026_Oak_Creek Greens_Polts/47.Cabbage_Charleston_Wakefield1/46.Cabbage_Charleston_Wakefield1.jpg",
+        "2026_Oak_Creek Greens_Polts/47.Cabbage_Charleston_Wakefield1/IMG_6532.jpg"
       ]
     },
     {
@@ -946,6 +983,13 @@ const gardenData = {
           "image": "2026_Oak_Creek Greens_Polts/1. Vltroacross_Okra2(DS)/0625_1.jpg",
           "alt": "Vltroacross_Okra2(DS) in Bed 1 on Jun 25",
           "note": "Jun 25 growth photo."
+        },
+        {
+          "dayNumber": 77,
+          "date": "Jul 17",
+          "image": "2026_Oak_Creek Greens_Polts/1. Vltroacross_Okra2(DS)/20260717_210425131_iOS.jpg",
+          "alt": "Vltroacross_Okra2(DS) in Bed 1 on Jul 17",
+          "note": "Jul 17 growth photo."
         }
       ]
     },
@@ -985,6 +1029,17 @@ const gardenData = {
           "image": "2026_Oak_Creek Greens_Polts/2.Okra_Yalova_Akkoy(DS)/0625_1.jpg",
           "alt": "Okra_Yalova_Akkoy(DS) in Bed 2 on Jun 25",
           "note": "Jun 25 growth photo."
+        },
+        {
+          "dayNumber": 77,
+          "date": "Jul 17",
+          "image": "2026_Oak_Creek Greens_Polts/2.Okra_Yalova_Akkoy(DS)/20260717_210443017_iOS.jpg",
+          "alt": "Okra_Yalova_Akkoy(DS) in Bed 2 on Jul 17",
+          "note": "Field observations: Yalova Akkoy okra was harvested at approximately 5–10 cm long. The pods were relatively narrow and straight, covered with soft, fine hair. Plant counts: 16 flower buds, 4 open flowers, 6 developing pods, and 1 harvestable pod.",
+          "images": [
+            "2026_Oak_Creek Greens_Polts/2.Okra_Yalova_Akkoy(DS)/20260717_210451200_iOS.jpg",
+            "2026_Oak_Creek Greens_Polts/2.Okra_Yalova_Akkoy(DS)/Scan from 2026-07-17 02_22_47 PM.jpg"
+          ]
         }
       ]
     },
@@ -1024,6 +1079,17 @@ const gardenData = {
           "image": "2026_Oak_Creek Greens_Polts/3.Okra_Ciek(DS)/0625_1.jpg",
           "alt": "Okra_Ciek(DS) in Bed 3 on Jun 25",
           "note": "Jun 25 growth photo."
+        },
+        {
+          "dayNumber": 77,
+          "date": "Jul 17",
+          "image": "2026_Oak_Creek Greens_Polts/3.Okra_Ciek(DS)/20260717_210511590_iOS.jpg",
+          "alt": "Okra_Ciek(DS) in Bed 3 on Jul 17",
+          "note": "Field observations: Ciek okra was harvested at approximately 2–4 in (5–10 cm) long. The pods were relatively plump, with prominent ridges, small hard bumps on the pod surface, and short stiff hairs along the ridges. Plant counts: 19 flower buds, 2 open flowers, 6 developing pods, and 4 harvestable pods.",
+          "images": [
+            "2026_Oak_Creek Greens_Polts/3.Okra_Ciek(DS)/20260717_210517681_iOS.jpg",
+            "2026_Oak_Creek Greens_Polts/3.Okra_Ciek(DS)/Scan from 2026-07-17 02_23_07 PM.jpg"
+          ]
         }
       ]
     },
@@ -1063,6 +1129,16 @@ const gardenData = {
           "image": "2026_Oak_Creek Greens_Polts/4.Okra_BURNOVA_KINALI(DS)/0625_1.jpg",
           "alt": "Okra_BURNOVA_KINALI(DS) in Bed 4 on Jun 25",
           "note": "Jun 25 growth photo."
+        },
+        {
+          "dayNumber": 77,
+          "date": "Jul 17",
+          "image": "2026_Oak_Creek Greens_Polts/4.Okra_BURNOVA_KINALI(DS)/20260717_210708501_iOS.jpg",
+          "alt": "Okra_BURNOVA_KINALI(DS) in Bed 4 on Jul 17",
+          "note": "Field observations: Okra Burnova Kinali was harvested at approximately 2–4 in (5–10 cm) long. The pods developed a burgundy-red color after sun exposure, had a curved, hook-like tip, and had a few stiff hairs along the ridges. Plant counts: 20 flower buds, 3 open flowers, 4 developing pods, and 2 harvestable pods.",
+          "images": [
+            "2026_Oak_Creek Greens_Polts/4.Okra_BURNOVA_KINALI(DS)/Scan from 2026-07-17 02_23_21 PM.jpg"
+          ]
         }
       ]
     },
@@ -1102,6 +1178,17 @@ const gardenData = {
           "image": "2026_Oak_Creek Greens_Polts/5.Okra_Bagramic_White(DS)/0625_1.jpg",
           "alt": "Okra_Bagramic_White(DS) in Bed 5 on Jun 25",
           "note": "Jun 25 growth photo."
+        },
+        {
+          "dayNumber": 77,
+          "date": "Jul 17",
+          "image": "2026_Oak_Creek Greens_Polts/5.Okra_Bagramic_White(DS)/20260717_210724381_iOS.jpg",
+          "alt": "Okra_Bagramic_White(DS) in Bed 5 on Jul 17",
+          "note": "Field observations: Okra Bagramic White was harvested at approximately 2–4 in (5–10 cm) long. The pods were relatively straight and covered with soft, fine hairs. Plant counts: 22 flower buds, 2 open flowers, 9 developing pods, and 4 harvestable pods.",
+          "images": [
+            "2026_Oak_Creek Greens_Polts/5.Okra_Bagramic_White(DS)/20260717_210730616_iOS.jpg",
+            "2026_Oak_Creek Greens_Polts/5.Okra_Bagramic_White(DS)/Scan from 2026-07-17 02_23_44 PM.jpg"
+          ]
         }
       ]
     },
@@ -1157,6 +1244,13 @@ const gardenData = {
           "image": "2026_Oak_Creek Greens_Polts/6.Green_Towels(DS)/0625_1.jpg",
           "alt": "Green_Towels(DS) in Bed 6 on Jun 25",
           "note": "Jun 25 growth photo."
+        },
+        {
+          "dayNumber": 56,
+          "date": "Jun 26",
+          "image": "2026_Oak_Creek Greens_Polts/6.Green_Towels(DS)/IMG_6085.jpeg",
+          "alt": "Green_Towels(DS) in Bed 6 on Jun 26",
+          "note": "Jun 26 growth photo."
         }
       ]
     },
@@ -1707,6 +1801,13 @@ const gardenData = {
           "image": "2026_Oak_Creek Greens_Polts/21.French_Sorrel2/0625_1.jpg",
           "alt": "French_Sorrel2 in Bed 21 on Jun 25",
           "note": "Overall rating: 1/5. Field observations: Plants were in poor condition and had already started bolting."
+        },
+        {
+          "dayNumber": 81,
+          "date": "Jul 21",
+          "image": "2026_Oak_Creek Greens_Polts/21.French_Sorrel2/IMG_6528.jpeg",
+          "alt": "French_Sorrel2 in Bed 21 on Jul 21",
+          "note": "Jul 21 growth photo."
         }
       ]
     },
@@ -1785,6 +1886,38 @@ const gardenData = {
           "images": [
             "2026_Oak_Creek Greens_Polts/23.Lettuce_Blade_Seeded_Simpson2/0625_2.jpg"
           ]
+        },
+        {
+          "dayNumber": 45,
+          "date": "Jun 15",
+          "image": "2026_Oak_Creek Greens_Polts/23.Lettuce_Blade_Seeded_Simpson2/0615.jpg",
+          "alt": "Lettuce_Blade_Seeded_Simpson2 in Bed 23 on Jun 15",
+          "note": "Jun 15 growth photo."
+        },
+        {
+          "dayNumber": 59,
+          "date": "Jun 29",
+          "image": "2026_Oak_Creek Greens_Polts/23.Lettuce_Blade_Seeded_Simpson2/0629.jpeg",
+          "alt": "Lettuce_Blade_Seeded_Simpson2 in Bed 23 on Jun 29",
+          "note": "Observed 14 caterpillars on bolting lettuce flower buds and seed heads. Visible feeding damage and frass were present on the buds. Larvae were removed by hand where possible, and damage will continue to be monitored. Weather had been cooler, around 50–70°F, and flowering progression appeared to have slowed slightly."
+        },
+        {
+          "dayNumber": 62,
+          "date": "Jul 2",
+          "image": "2026_Oak_Creek Greens_Polts/23.Lettuce_Blade_Seeded_Simpson2/0702.jpg",
+          "alt": "Lettuce_Blade_Seeded_Simpson2 in Bed 23 on Jul 2",
+          "note": "Observed 6 caterpillars on another bolting lettuce flower or seed head, with low visible feeding damage on the buds. Larvae were removed by hand."
+        },
+        {
+          "dayNumber": 73,
+          "date": "Jul 13",
+          "image": "2026_Oak_Creek Greens_Polts/23.Lettuce_Blade_Seeded_Simpson2/20260713_162248106_iOS.jpg",
+          "alt": "Lettuce_Blade_Seeded_Simpson2 in Bed 23 on Jul 13",
+          "note": "Field observations: The first mature seed heads with visible white pappus were observed. Seed maturity was uneven across the plants; several heads were ready for harvest while many remained green and immature. Seed harvest will be carried out over multiple dates. One white caterpillar with minor feeding damage was removed from another bolting lettuce seed head.",
+          "images": [
+            "2026_Oak_Creek Greens_Polts/23.Lettuce_Blade_Seeded_Simpson2/Scan from 2026-07-13 09_21_05 AM.jpg",
+            "2026_Oak_Creek Greens_Polts/23.Lettuce_Blade_Seeded_Simpson2/Scan from 2026-07-13 09_21_42 AM.jpg"
+          ]
         }
       ]
     },
@@ -1828,6 +1961,16 @@ const gardenData = {
           "note": "Jun 23 growth photo.",
           "images": [
             "2026_Oak_Creek Greens_Polts/24.Lettuce_Red_Salad_Bowl1/0623_2.jpeg"
+          ]
+        },
+        {
+          "dayNumber": 62,
+          "date": "Jul 2",
+          "image": "2026_Oak_Creek Greens_Polts/24.Lettuce_Red_Salad_Bowl1/0702_1.jpg",
+          "alt": "Lettuce_Red_Salad_Bowl1 in Bed 24 on Jul 2",
+          "note": "Observed 5 out of 7 plants starting to bolt. Bolting stage was recorded based on visible stem elongation and/or flower bud development.",
+          "images": [
+            "2026_Oak_Creek Greens_Polts/24.Lettuce_Red_Salad_Bowl1/0702_2.jpg"
           ]
         }
       ]
@@ -1876,6 +2019,13 @@ const gardenData = {
           "images": [
             "2026_Oak_Creek Greens_Polts/25.Lettuce_Red_Salad_Bowl2/0623_2.jpeg"
           ]
+        },
+        {
+          "dayNumber": 73,
+          "date": "Jul 13",
+          "image": "2026_Oak_Creek Greens_Polts/25.Lettuce_Red_Salad_Bowl2/Scan from 2026-07-13 09_28_09 AM.jpg",
+          "alt": "Lettuce_Red_Salad_Bowl2 in Bed 25 on Jul 13",
+          "note": "Jul 13 growth photo."
         }
       ]
     },
@@ -1934,6 +2084,13 @@ const gardenData = {
             "2026_Oak_Creek Greens_Polts/26.Salad_Greens_LettuceMix2/0624_2.jpeg",
             "2026_Oak_Creek Greens_Polts/26.Salad_Greens_LettuceMix2/0624_3.jpeg"
           ]
+        },
+        {
+          "dayNumber": 73,
+          "date": "Jul 13",
+          "image": "2026_Oak_Creek Greens_Polts/26.Salad_Greens_LettuceMix2/Scan from 2026-07-13 09_28_35 AM.jpg",
+          "alt": "Salad_Greens_LettuceMix2 in Bed 26 on Jul 13",
+          "note": "Jul 13 growth photo."
         }
       ]
     },
@@ -2012,6 +2169,20 @@ const gardenData = {
           "images": [
             "2026_Oak_Creek Greens_Polts/28.Lettuce_Green_Towers1/0625_2.jpg"
           ]
+        },
+        {
+          "dayNumber": 59,
+          "date": "Jun 29",
+          "image": "2026_Oak_Creek Greens_Polts/28.Lettuce_Green_Towers1/0629.jpeg",
+          "alt": "Lettuce_Green_Towers1 in Bed 28 on Jun 29",
+          "note": "Jun 29 growth photo."
+        },
+        {
+          "dayNumber": 73,
+          "date": "Jul 13",
+          "image": "2026_Oak_Creek Greens_Polts/28.Lettuce_Green_Towers1/Scan from 2026-07-13 09_27_12 AM.jpg",
+          "alt": "Lettuce_Green_Towers1 in Bed 28 on Jul 13",
+          "note": "Jul 13 growth photo."
         }
       ]
     },
@@ -2062,6 +2233,23 @@ const gardenData = {
           "note": "Overall rating: 5/5. Field observations: Plants had started bolting and yellow flowers were present.",
           "images": [
             "2026_Oak_Creek Greens_Polts/29.Lettuce_Blade_Seeded_Simpson1/0625_2.jpg"
+          ]
+        },
+        {
+          "dayNumber": 59,
+          "date": "Jun 29",
+          "image": "2026_Oak_Creek Greens_Polts/29.Lettuce_Blade_Seeded_Simpson1/0629.jpeg",
+          "alt": "Lettuce_Blade_Seeded_Simpson1 in Bed 29 on Jun 29",
+          "note": "Observed 2 caterpillars on bolting lettuce flower buds and seed heads. Visible feeding damage and frass were present on the buds. Larvae were removed by hand where possible, and damage will continue to be monitored. Weather had been cooler, around 50–70°F, and flowering progression appeared to have slowed slightly."
+        },
+        {
+          "dayNumber": 73,
+          "date": "Jul 13",
+          "image": "2026_Oak_Creek Greens_Polts/29.Lettuce_Blade_Seeded_Simpson1/Scan from 2026-07-13 09_26_06 AM.jpg",
+          "alt": "Lettuce_Blade_Seeded_Simpson1 in Bed 29 on Jul 13",
+          "note": "Jul 13 growth photo.",
+          "images": [
+            "2026_Oak_Creek Greens_Polts/29.Lettuce_Blade_Seeded_Simpson1/Scan from 2026-07-13 09_26_26 AM.jpg"
           ]
         }
       ]
@@ -2249,6 +2437,16 @@ const gardenData = {
           "note": "Overall rating: 4/5. Field observations: Some leaf damage was observed.",
           "images": [
             "2026_Oak_Creek Greens_Polts/34.Lettuce_Green_Towers2/0625_2.jpg"
+          ]
+        },
+        {
+          "dayNumber": 73,
+          "date": "Jul 13",
+          "image": "2026_Oak_Creek Greens_Polts/34.Lettuce_Green_Towers2/Scan from 2026-07-13 09_24_43 AM.jpg",
+          "alt": "Lettuce_Green_Towers2 in Bed 34 on Jul 13",
+          "note": "Jul 13 growth photo.",
+          "images": [
+            "2026_Oak_Creek Greens_Polts/34.Lettuce_Green_Towers2/Scan from 2026-07-13 09_25_12 AM.jpg"
           ]
         }
       ]
@@ -2498,6 +2696,13 @@ const gardenData = {
           "image": "2026_Oak_Creek Greens_Polts/41.Salad_Greens_LettuceMix1/0622.jpg",
           "alt": "Salad_Greens_LettuceMix1 in Bed 41 on Jun 22",
           "note": "Jun 22 growth photo."
+        },
+        {
+          "dayNumber": 73,
+          "date": "Jul 13",
+          "image": "2026_Oak_Creek Greens_Polts/41.Salad_Greens_LettuceMix1/Scan from 2026-07-13 09_29_52 AM.jpg",
+          "alt": "Salad_Greens_LettuceMix1 in Bed 41 on Jul 13",
+          "note": "Jul 13 growth photo."
         }
       ]
     },
@@ -2573,6 +2778,13 @@ const gardenData = {
           "image": "2026_Oak_Creek Greens_Polts/43.Cabbage_Primax2/0625_1.jpg",
           "alt": "Cabbage_Primax2 in Bed 43 on Jun 25",
           "note": "Overall rating: 3/5. Field observations: Plant density was low and leaves appeared stressed."
+        },
+        {
+          "dayNumber": 81,
+          "date": "Jul 21",
+          "image": "2026_Oak_Creek Greens_Polts/43.Cabbage_Primax2/IMG_6529.jpg",
+          "alt": "Cabbage_Primax2 in Bed 43 on Jul 21",
+          "note": "Harvested 6 out of 7 heads. Texture was firm, with some brown outer leaves. The average weight per head was 0.43 lb."
         }
       ]
     },
@@ -2607,6 +2819,13 @@ const gardenData = {
           "image": "2026_Oak_Creek Greens_Polts/44.Cabbage_Amarant2/0625_1.jpg",
           "alt": "Cabbage_Amarant2 in Bed 44 on Jun 25",
           "note": "Overall rating: 3/5. Field observations: Plant density was low, although foliage quality remained acceptable."
+        },
+        {
+          "dayNumber": 81,
+          "date": "Jul 21",
+          "image": "2026_Oak_Creek Greens_Polts/44.Cabbage_Amarant2/IMG_6533.jpg",
+          "alt": "Cabbage_Amarant2 in Bed 44 on Jul 21",
+          "note": "Harvested 5 out of 7 heads. The heads were firm, with some brown outer leaves. The average weight per head was 0.2 lb."
         }
       ]
     },
@@ -2641,6 +2860,13 @@ const gardenData = {
           "image": "2026_Oak_Creek Greens_Polts/45.Cabbage_Charleston_Wakefield2/0625_1.jpg",
           "alt": "Cabbage_Charleston_Wakefield2 in Bed 45 on Jun 25",
           "note": "Overall rating: 4/5. Field observations: No cabbage heads had formed."
+        },
+        {
+          "dayNumber": 81,
+          "date": "Jul 21",
+          "image": "2026_Oak_Creek Greens_Polts/45.Cabbage_Charleston_Wakefield2/IMG_6534.jpeg",
+          "alt": "Cabbage_Charleston_Wakefield2 in Bed 45 on Jul 21",
+          "note": "Harvested 4 out of 6 heads. The heads were firm, with some brown outer leaves. The average weight per head was 0.7 lb."
         }
       ]
     },
@@ -2675,6 +2901,13 @@ const gardenData = {
           "image": "2026_Oak_Creek Greens_Polts/46.Cabbage_Primax1/0625_1.jpg",
           "alt": "Cabbage_Primax1 in Bed 46 on Jun 25",
           "note": "Overall rating: 3/5. Field observations: Plants remained relatively small."
+        },
+        {
+          "dayNumber": 81,
+          "date": "Jul 21",
+          "image": "2026_Oak_Creek Greens_Polts/46.Cabbage_Primax1/IMG_6530.jpg",
+          "alt": "Cabbage_Primax1 in Bed 46 on Jul 21",
+          "note": "Harvested 5 out of 7 heads. The heads were firm, with some brown outer leaves. The average weight per head was 0.46 lb."
         }
       ]
     },
@@ -2709,6 +2942,13 @@ const gardenData = {
           "image": "2026_Oak_Creek Greens_Polts/47.Cabbage_Charleston_Wakefield1/0625_1.jpg",
           "alt": "Cabbage_Charleston_Wakefield1 in Bed 47 on Jun 25",
           "note": "Overall rating: 3/5. Field observations: Moderate growth was observed."
+        },
+        {
+          "dayNumber": 81,
+          "date": "Jul 21",
+          "image": "2026_Oak_Creek Greens_Polts/47.Cabbage_Charleston_Wakefield1/IMG_6532.jpg",
+          "alt": "Cabbage_Charleston_Wakefield1 in Bed 47 on Jul 21",
+          "note": "Harvested 5 out of 7 heads. The heads were firm. The average weight per head was 0.4 lb."
         }
       ]
     },
