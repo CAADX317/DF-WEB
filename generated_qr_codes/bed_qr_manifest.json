@@ -1,0 +1,642 @@
+[
+  {
+    "number": 1,
+    "id": "bed-1",
+    "cropRaw": "Vltroacross_Okra2(DS)",
+    "cropName": "Vltroacross Okra2(DS)",
+    "timelineLink": "okra.html?bed=1",
+    "url": "https://caadx317.github.io/DF-WEB/#bed-1",
+    "qrPath": "/Users/richardlaw/Documents/DF-WEB/generated_qr_codes/Bed_01_Vltroacross_Okra2DS_QR.png",
+    "qrFilename": "Bed_01_Vltroacross_Okra2DS_QR.png"
+  },
+  {
+    "number": 2,
+    "id": "bed-2",
+    "cropRaw": "Okra_Yalova_Akkoy(DS)",
+    "cropName": "Okra Yalova Akkoy(DS)",
+    "timelineLink": "okra-bed-2.html?bed=2",
+    "url": "https://caadx317.github.io/DF-WEB/#bed-2",
+    "qrPath": "/Users/richardlaw/Documents/DF-WEB/generated_qr_codes/Bed_02_Okra_Yalova_AkkoyDS_QR.png",
+    "qrFilename": "Bed_02_Okra_Yalova_AkkoyDS_QR.png"
+  },
+  {
+    "number": 3,
+    "id": "bed-3",
+    "cropRaw": "Okra_Ciek(DS)",
+    "cropName": "Okra Ciek(DS)",
+    "timelineLink": "okra-bed-3.html?bed=3",
+    "url": "https://caadx317.github.io/DF-WEB/#bed-3",
+    "qrPath": "/Users/richardlaw/Documents/DF-WEB/generated_qr_codes/Bed_03_Okra_CiekDS_QR.png",
+    "qrFilename": "Bed_03_Okra_CiekDS_QR.png"
+  },
+  {
+    "number": 4,
+    "id": "bed-4",
+    "cropRaw": "Okra_BURNOVA_KINALI(DS)",
+    "cropName": "Okra BURNOVA KINALI(DS)",
+    "timelineLink": "okra-bed-4.html?bed=4",
+    "url": "https://caadx317.github.io/DF-WEB/#bed-4",
+    "qrPath": "/Users/richardlaw/Documents/DF-WEB/generated_qr_codes/Bed_04_Okra_BURNOVA_KINALIDS_QR.png",
+    "qrFilename": "Bed_04_Okra_BURNOVA_KINALIDS_QR.png"
+  },
+  {
+    "number": 5,
+    "id": "bed-5",
+    "cropRaw": "Okra_Bagramic_White(DS)",
+    "cropName": "Okra Bagramic White(DS)",
+    "timelineLink": "okra-bed-5.html?bed=5",
+    "url": "https://caadx317.github.io/DF-WEB/#bed-5",
+    "qrPath": "/Users/richardlaw/Documents/DF-WEB/generated_qr_codes/Bed_05_Okra_Bagramic_WhiteDS_QR.png",
+    "qrFilename": "Bed_05_Okra_Bagramic_WhiteDS_QR.png"
+  },
+  {
+    "number": 6,
+    "id": "bed-6",
+    "cropRaw": "Green_Towels(DS)",
+    "cropName": "Green Towels(DS)",
+    "timelineLink": "green-towels.html?bed=6",
+    "url": "https://caadx317.github.io/DF-WEB/#bed-6",
+    "qrPath": "/Users/richardlaw/Documents/DF-WEB/generated_qr_codes/Bed_06_Green_TowelsDS_QR.png",
+    "qrFilename": "Bed_06_Green_TowelsDS_QR.png"
+  },
+  {
+    "number": 7,
+    "id": "bed-7",
+    "cropRaw": "Red_Salad_Bowl(DS)",
+    "cropName": "Red Salad Bowl(DS)",
+    "timelineLink": "red-salad-bowl.html?bed=7",
+    "url": "https://caadx317.github.io/DF-WEB/#bed-7",
+    "qrPath": "/Users/richardlaw/Documents/DF-WEB/generated_qr_codes/Bed_07_Red_Salad_BowlDS_QR.png",
+    "qrFilename": "Bed_07_Red_Salad_BowlDS_QR.png"
+  },
+  {
+    "number": 8,
+    "id": "bed-8",
+    "cropRaw": "Black_Seed_Simpsom(DS)",
+    "cropName": "Black Seed Simpsom(DS)",
+    "timelineLink": "black-seed-simpsom.html?bed=8",
+    "url": "https://caadx317.github.io/DF-WEB/#bed-8",
+    "qrPath": "/Users/richardlaw/Documents/DF-WEB/generated_qr_codes/Bed_08_Black_Seed_SimpsomDS_QR.png",
+    "qrFilename": "Bed_08_Black_Seed_SimpsomDS_QR.png"
+  },
+  {
+    "number": 9,
+    "id": "bed-9",
+    "cropRaw": "Celosia_Lagos_Spinach1",
+    "cropName": "Celosia Lagos Spinach1",
+    "timelineLink": "chives.html?bed=9",
+    "url": "https://caadx317.github.io/DF-WEB/#bed-9",
+    "qrPath": "/Users/richardlaw/Documents/DF-WEB/generated_qr_codes/Bed_09_Celosia_Lagos_Spinach1_QR.png",
+    "qrFilename": "Bed_09_Celosia_Lagos_Spinach1_QR.png"
+  },
+  {
+    "number": 10,
+    "id": "bed-10",
+    "cropRaw": "N.2.Spinach1",
+    "cropName": "N.2.Spinach1",
+    "timelineLink": "cilantro.html?bed=10",
+    "url": "https://caadx317.github.io/DF-WEB/#bed-10",
+    "qrPath": "/Users/richardlaw/Documents/DF-WEB/generated_qr_codes/Bed_10_N2Spinach1_QR.png",
+    "qrFilename": "Bed_10_N2Spinach1_QR.png"
+  },
+  {
+    "number": 11,
+    "id": "bed-11",
+    "cropRaw": "Red_Perilla2",
+    "cropName": "Red Perilla2",
+    "timelineLink": "bok-choy.html?bed=11",
+    "url": "https://caadx317.github.io/DF-WEB/#bed-11",
+    "qrPath": "/Users/richardlaw/Documents/DF-WEB/generated_qr_codes/Bed_11_Red_Perilla2_QR.png",
+    "qrFilename": "Bed_11_Red_Perilla2_QR.png"
+  },
+  {
+    "number": 12,
+    "id": "bed-12",
+    "cropRaw": "Golden_Purslane2",
+    "cropName": "Golden Purslane2",
+    "timelineLink": "future-crop.html?bed=12",
+    "url": "https://caadx317.github.io/DF-WEB/#bed-12",
+    "qrPath": "/Users/richardlaw/Documents/DF-WEB/generated_qr_codes/Bed_12_Golden_Purslane2_QR.png",
+    "qrFilename": "Bed_12_Golden_Purslane2_QR.png"
+  },
+  {
+    "number": 13,
+    "id": "bed-13",
+    "cropRaw": "Celosia_Lagos_Spinach2",
+    "cropName": "Celosia Lagos Spinach2",
+    "timelineLink": "north-row.html?bed=13",
+    "url": "https://caadx317.github.io/DF-WEB/#bed-13",
+    "qrPath": "/Users/richardlaw/Documents/DF-WEB/generated_qr_codes/Bed_13_Celosia_Lagos_Spinach2_QR.png",
+    "qrFilename": "Bed_13_Celosia_Lagos_Spinach2_QR.png"
+  },
+  {
+    "number": 14,
+    "id": "bed-14",
+    "cropRaw": "Molokhia1",
+    "cropName": "Molokhia1",
+    "timelineLink": "north-row.html?bed=14",
+    "url": "https://caadx317.github.io/DF-WEB/#bed-14",
+    "qrPath": "/Users/richardlaw/Documents/DF-WEB/generated_qr_codes/Bed_14_Molokhia1_QR.png",
+    "qrFilename": "Bed_14_Molokhia1_QR.png"
+  },
+  {
+    "number": 15,
+    "id": "bed-15",
+    "cropRaw": "Amaranth_Miriah_Leaf2",
+    "cropName": "Amaranth Miriah Leaf2",
+    "timelineLink": "north-row.html?bed=15",
+    "url": "https://caadx317.github.io/DF-WEB/#bed-15",
+    "qrPath": "/Users/richardlaw/Documents/DF-WEB/generated_qr_codes/Bed_15_Amaranth_Miriah_Leaf2_QR.png",
+    "qrFilename": "Bed_15_Amaranth_Miriah_Leaf2_QR.png"
+  },
+  {
+    "number": 16,
+    "id": "bed-16",
+    "cropRaw": "Red_Perilla1",
+    "cropName": "Red Perilla1",
+    "timelineLink": "middle-row.html?bed=16",
+    "url": "https://caadx317.github.io/DF-WEB/#bed-16",
+    "qrPath": "/Users/richardlaw/Documents/DF-WEB/generated_qr_codes/Bed_16_Red_Perilla1_QR.png",
+    "qrFilename": "Bed_16_Red_Perilla1_QR.png"
+  },
+  {
+    "number": 17,
+    "id": "bed-17",
+    "cropRaw": "Golden_Purslane1",
+    "cropName": "Golden Purslane1",
+    "timelineLink": "middle-row.html?bed=17",
+    "url": "https://caadx317.github.io/DF-WEB/#bed-17",
+    "qrPath": "/Users/richardlaw/Documents/DF-WEB/generated_qr_codes/Bed_17_Golden_Purslane1_QR.png",
+    "qrFilename": "Bed_17_Golden_Purslane1_QR.png"
+  },
+  {
+    "number": 18,
+    "id": "bed-18",
+    "cropRaw": "N.2.Spinach2",
+    "cropName": "N.2.Spinach2",
+    "timelineLink": "middle-row.html?bed=18",
+    "url": "https://caadx317.github.io/DF-WEB/#bed-18",
+    "qrPath": "/Users/richardlaw/Documents/DF-WEB/generated_qr_codes/Bed_18_N2Spinach2_QR.png",
+    "qrFilename": "Bed_18_N2Spinach2_QR.png"
+  },
+  {
+    "number": 19,
+    "id": "bed-19",
+    "cropRaw": "Amaranth_Miriah_Leaf1",
+    "cropName": "Amaranth Miriah Leaf1",
+    "timelineLink": "south-row.html?bed=19",
+    "url": "https://caadx317.github.io/DF-WEB/#bed-19",
+    "qrPath": "/Users/richardlaw/Documents/DF-WEB/generated_qr_codes/Bed_19_Amaranth_Miriah_Leaf1_QR.png",
+    "qrFilename": "Bed_19_Amaranth_Miriah_Leaf1_QR.png"
+  },
+  {
+    "number": 20,
+    "id": "bed-20",
+    "cropRaw": "Molokhia2",
+    "cropName": "Molokhia2",
+    "timelineLink": "tomatoes.html?bed=20",
+    "url": "https://caadx317.github.io/DF-WEB/#bed-20",
+    "qrPath": "/Users/richardlaw/Documents/DF-WEB/generated_qr_codes/Bed_20_Molokhia2_QR.png",
+    "qrFilename": "Bed_20_Molokhia2_QR.png"
+  },
+  {
+    "number": 21,
+    "id": "bed-21",
+    "cropRaw": "French_Sorrel2",
+    "cropName": "French Sorrel2",
+    "timelineLink": "bitter-melon.html?bed=21",
+    "url": "https://caadx317.github.io/DF-WEB/#bed-21",
+    "qrPath": "/Users/richardlaw/Documents/DF-WEB/generated_qr_codes/Bed_21_French_Sorrel2_QR.png",
+    "qrFilename": "Bed_21_French_Sorrel2_QR.png"
+  },
+  {
+    "number": 22,
+    "id": "bed-22",
+    "cropRaw": "Lettuce_Muir1",
+    "cropName": "Lettuce Muir1",
+    "timelineLink": "carrots.html?bed=22",
+    "url": "https://caadx317.github.io/DF-WEB/#bed-22",
+    "qrPath": "/Users/richardlaw/Documents/DF-WEB/generated_qr_codes/Bed_22_Lettuce_Muir1_QR.png",
+    "qrFilename": "Bed_22_Lettuce_Muir1_QR.png"
+  },
+  {
+    "number": 23,
+    "id": "bed-23",
+    "cropRaw": "Lettuce_Blade_Seeded_Simpson2",
+    "cropName": "Lettuce Blade Seeded Simpson2",
+    "timelineLink": "beets.html?bed=23",
+    "url": "https://caadx317.github.io/DF-WEB/#bed-23",
+    "qrPath": "/Users/richardlaw/Documents/DF-WEB/generated_qr_codes/Bed_23_Lettuce_Blade_Seeded_Simpson2_QR.png",
+    "qrFilename": "Bed_23_Lettuce_Blade_Seeded_Simpson2_QR.png"
+  },
+  {
+    "number": 24,
+    "id": "bed-24",
+    "cropRaw": "Lettuce_Red_Salad_Bowl1",
+    "cropName": "Lettuce Red Salad Bowl1",
+    "timelineLink": "squash.html?bed=24",
+    "url": "https://caadx317.github.io/DF-WEB/#bed-24",
+    "qrPath": "/Users/richardlaw/Documents/DF-WEB/generated_qr_codes/Bed_24_Lettuce_Red_Salad_Bowl1_QR.png",
+    "qrFilename": "Bed_24_Lettuce_Red_Salad_Bowl1_QR.png"
+  },
+  {
+    "number": 25,
+    "id": "bed-25",
+    "cropRaw": "Lettuce_Red_Salad_Bowl2",
+    "cropName": "Lettuce Red Salad Bowl2",
+    "timelineLink": "future-crop.html?bed=25",
+    "url": "https://caadx317.github.io/DF-WEB/#bed-25",
+    "qrPath": "/Users/richardlaw/Documents/DF-WEB/generated_qr_codes/Bed_25_Lettuce_Red_Salad_Bowl2_QR.png",
+    "qrFilename": "Bed_25_Lettuce_Red_Salad_Bowl2_QR.png"
+  },
+  {
+    "number": 26,
+    "id": "bed-26",
+    "cropRaw": "Salad_Greens_LettuceMix2",
+    "cropName": "Salad Greens LettuceMix2",
+    "timelineLink": "future-crop.html?bed=26",
+    "url": "https://caadx317.github.io/DF-WEB/#bed-26",
+    "qrPath": "/Users/richardlaw/Documents/DF-WEB/generated_qr_codes/Bed_26_Salad_Greens_LettuceMix2_QR.png",
+    "qrFilename": "Bed_26_Salad_Greens_LettuceMix2_QR.png"
+  },
+  {
+    "number": 27,
+    "id": "bed-27",
+    "cropRaw": "Orach_Red_Flash2",
+    "cropName": "Orach Red Flash2",
+    "timelineLink": "future-crop.html?bed=27",
+    "url": "https://caadx317.github.io/DF-WEB/#bed-27",
+    "qrPath": "/Users/richardlaw/Documents/DF-WEB/generated_qr_codes/Bed_27_Orach_Red_Flash2_QR.png",
+    "qrFilename": "Bed_27_Orach_Red_Flash2_QR.png"
+  },
+  {
+    "number": 28,
+    "id": "bed-28",
+    "cropRaw": "Lettuce_Green_Towers1",
+    "cropName": "Lettuce Green Towers1",
+    "timelineLink": "future-crop.html?bed=28",
+    "url": "https://caadx317.github.io/DF-WEB/#bed-28",
+    "qrPath": "/Users/richardlaw/Documents/DF-WEB/generated_qr_codes/Bed_28_Lettuce_Green_Towers1_QR.png",
+    "qrFilename": "Bed_28_Lettuce_Green_Towers1_QR.png"
+  },
+  {
+    "number": 29,
+    "id": "bed-29",
+    "cropRaw": "Lettuce_Blade_Seeded_Simpson1",
+    "cropName": "Lettuce Blade Seeded Simpson1",
+    "timelineLink": "future-crop.html?bed=29",
+    "url": "https://caadx317.github.io/DF-WEB/#bed-29",
+    "qrPath": "/Users/richardlaw/Documents/DF-WEB/generated_qr_codes/Bed_29_Lettuce_Blade_Seeded_Simpson1_QR.png",
+    "qrFilename": "Bed_29_Lettuce_Blade_Seeded_Simpson1_QR.png"
+  },
+  {
+    "number": 30,
+    "id": "bed-30",
+    "cropRaw": "Spinach_American2",
+    "cropName": "Spinach American2",
+    "timelineLink": "future-crop.html?bed=30",
+    "url": "https://caadx317.github.io/DF-WEB/#bed-30",
+    "qrPath": "/Users/richardlaw/Documents/DF-WEB/generated_qr_codes/Bed_30_Spinach_American2_QR.png",
+    "qrFilename": "Bed_30_Spinach_American2_QR.png"
+  },
+  {
+    "number": 31,
+    "id": "bed-31",
+    "cropRaw": "Spinach_Bloomsdale_Longstanding2",
+    "cropName": "Spinach Bloomsdale Longstanding2",
+    "timelineLink": "future-crop.html?bed=31",
+    "url": "https://caadx317.github.io/DF-WEB/#bed-31",
+    "qrPath": "/Users/richardlaw/Documents/DF-WEB/generated_qr_codes/Bed_31_Spinach_Bloomsdale_Longstanding2_QR.png",
+    "qrFilename": "Bed_31_Spinach_Bloomsdale_Longstanding2_QR.png"
+  },
+  {
+    "number": 32,
+    "id": "bed-32",
+    "cropRaw": "Lambsquarter_Magenta_Spreen2",
+    "cropName": "Lambsquarter Magenta Spreen2",
+    "timelineLink": "future-crop.html?bed=32",
+    "url": "https://caadx317.github.io/DF-WEB/#bed-32",
+    "qrPath": "/Users/richardlaw/Documents/DF-WEB/generated_qr_codes/Bed_32_Lambsquarter_Magenta_Spreen2_QR.png",
+    "qrFilename": "Bed_32_Lambsquarter_Magenta_Spreen2_QR.png"
+  },
+  {
+    "number": 33,
+    "id": "bed-33",
+    "cropRaw": "Lettuce_Syphos2",
+    "cropName": "Lettuce Syphos2",
+    "timelineLink": "future-crop.html?bed=33",
+    "url": "https://caadx317.github.io/DF-WEB/#bed-33",
+    "qrPath": "/Users/richardlaw/Documents/DF-WEB/generated_qr_codes/Bed_33_Lettuce_Syphos2_QR.png",
+    "qrFilename": "Bed_33_Lettuce_Syphos2_QR.png"
+  },
+  {
+    "number": 34,
+    "id": "bed-34",
+    "cropRaw": "Lettuce_Green_Towers2",
+    "cropName": "Lettuce Green Towers2",
+    "timelineLink": "future-crop.html?bed=34",
+    "url": "https://caadx317.github.io/DF-WEB/#bed-34",
+    "qrPath": "/Users/richardlaw/Documents/DF-WEB/generated_qr_codes/Bed_34_Lettuce_Green_Towers2_QR.png",
+    "qrFilename": "Bed_34_Lettuce_Green_Towers2_QR.png"
+  },
+  {
+    "number": 35,
+    "id": "bed-35",
+    "cropRaw": "Lettuce_Muir2",
+    "cropName": "Lettuce Muir2",
+    "timelineLink": "future-crop.html?bed=35",
+    "url": "https://caadx317.github.io/DF-WEB/#bed-35",
+    "qrPath": "/Users/richardlaw/Documents/DF-WEB/generated_qr_codes/Bed_35_Lettuce_Muir2_QR.png",
+    "qrFilename": "Bed_35_Lettuce_Muir2_QR.png"
+  },
+  {
+    "number": 36,
+    "id": "bed-36",
+    "cropRaw": "Lambsquarter_Magenta_Spreen1",
+    "cropName": "Lambsquarter Magenta Spreen1",
+    "timelineLink": "future-crop.html?bed=36",
+    "url": "https://caadx317.github.io/DF-WEB/#bed-36",
+    "qrPath": "/Users/richardlaw/Documents/DF-WEB/generated_qr_codes/Bed_36_Lambsquarter_Magenta_Spreen1_QR.png",
+    "qrFilename": "Bed_36_Lambsquarter_Magenta_Spreen1_QR.png"
+  },
+  {
+    "number": 37,
+    "id": "bed-37",
+    "cropRaw": "Lettuce_Syphos1",
+    "cropName": "Lettuce Syphos1",
+    "timelineLink": "future-crop.html?bed=37",
+    "url": "https://caadx317.github.io/DF-WEB/#bed-37",
+    "qrPath": "/Users/richardlaw/Documents/DF-WEB/generated_qr_codes/Bed_37_Lettuce_Syphos1_QR.png",
+    "qrFilename": "Bed_37_Lettuce_Syphos1_QR.png"
+  },
+  {
+    "number": 38,
+    "id": "bed-38",
+    "cropRaw": "Spinach_American1",
+    "cropName": "Spinach American1",
+    "timelineLink": "future-crop.html?bed=38",
+    "url": "https://caadx317.github.io/DF-WEB/#bed-38",
+    "qrPath": "/Users/richardlaw/Documents/DF-WEB/generated_qr_codes/Bed_38_Spinach_American1_QR.png",
+    "qrFilename": "Bed_38_Spinach_American1_QR.png"
+  },
+  {
+    "number": 39,
+    "id": "bed-39",
+    "cropRaw": "Spinach_Bloomsdale_Longstanding1",
+    "cropName": "Spinach Bloomsdale Longstanding1",
+    "timelineLink": "future-crop.html?bed=39",
+    "url": "https://caadx317.github.io/DF-WEB/#bed-39",
+    "qrPath": "/Users/richardlaw/Documents/DF-WEB/generated_qr_codes/Bed_39_Spinach_Bloomsdale_Longstanding1_QR.png",
+    "qrFilename": "Bed_39_Spinach_Bloomsdale_Longstanding1_QR.png"
+  },
+  {
+    "number": 40,
+    "id": "bed-40",
+    "cropRaw": "French_Sorrel1",
+    "cropName": "French Sorrel1",
+    "timelineLink": "future-crop.html?bed=40",
+    "url": "https://caadx317.github.io/DF-WEB/#bed-40",
+    "qrPath": "/Users/richardlaw/Documents/DF-WEB/generated_qr_codes/Bed_40_French_Sorrel1_QR.png",
+    "qrFilename": "Bed_40_French_Sorrel1_QR.png"
+  },
+  {
+    "number": 41,
+    "id": "bed-41",
+    "cropRaw": "Salad_Greens_LettuceMix1",
+    "cropName": "Salad Greens LettuceMix1",
+    "timelineLink": "future-crop.html?bed=41",
+    "url": "https://caadx317.github.io/DF-WEB/#bed-41",
+    "qrPath": "/Users/richardlaw/Documents/DF-WEB/generated_qr_codes/Bed_41_Salad_Greens_LettuceMix1_QR.png",
+    "qrFilename": "Bed_41_Salad_Greens_LettuceMix1_QR.png"
+  },
+  {
+    "number": 42,
+    "id": "bed-42",
+    "cropRaw": "Orach_Red_Flash1",
+    "cropName": "Orach Red Flash1",
+    "timelineLink": "future-crop.html?bed=42",
+    "url": "https://caadx317.github.io/DF-WEB/#bed-42",
+    "qrPath": "/Users/richardlaw/Documents/DF-WEB/generated_qr_codes/Bed_42_Orach_Red_Flash1_QR.png",
+    "qrFilename": "Bed_42_Orach_Red_Flash1_QR.png"
+  },
+  {
+    "number": 43,
+    "id": "bed-43",
+    "cropRaw": "Cabbage_Primax2",
+    "cropName": "Cabbage Primax2",
+    "timelineLink": "future-crop.html?bed=43",
+    "url": "https://caadx317.github.io/DF-WEB/#bed-43",
+    "qrPath": "/Users/richardlaw/Documents/DF-WEB/generated_qr_codes/Bed_43_Cabbage_Primax2_QR.png",
+    "qrFilename": "Bed_43_Cabbage_Primax2_QR.png"
+  },
+  {
+    "number": 44,
+    "id": "bed-44",
+    "cropRaw": "Cabbage_Amarant2",
+    "cropName": "Cabbage Amarant2",
+    "timelineLink": "future-crop.html?bed=44",
+    "url": "https://caadx317.github.io/DF-WEB/#bed-44",
+    "qrPath": "/Users/richardlaw/Documents/DF-WEB/generated_qr_codes/Bed_44_Cabbage_Amarant2_QR.png",
+    "qrFilename": "Bed_44_Cabbage_Amarant2_QR.png"
+  },
+  {
+    "number": 45,
+    "id": "bed-45",
+    "cropRaw": "Cabbage_Charleston_Wakefield2",
+    "cropName": "Cabbage Charleston Wakefield2",
+    "timelineLink": "future-crop.html?bed=45",
+    "url": "https://caadx317.github.io/DF-WEB/#bed-45",
+    "qrPath": "/Users/richardlaw/Documents/DF-WEB/generated_qr_codes/Bed_45_Cabbage_Charleston_Wakefield2_QR.png",
+    "qrFilename": "Bed_45_Cabbage_Charleston_Wakefield2_QR.png"
+  },
+  {
+    "number": 46,
+    "id": "bed-46",
+    "cropRaw": "Cabbage_Primax1",
+    "cropName": "Cabbage Primax1",
+    "timelineLink": "future-crop.html?bed=46",
+    "url": "https://caadx317.github.io/DF-WEB/#bed-46",
+    "qrPath": "/Users/richardlaw/Documents/DF-WEB/generated_qr_codes/Bed_46_Cabbage_Primax1_QR.png",
+    "qrFilename": "Bed_46_Cabbage_Primax1_QR.png"
+  },
+  {
+    "number": 47,
+    "id": "bed-47",
+    "cropRaw": "Cabbage_Charleston_Wakefield1",
+    "cropName": "Cabbage Charleston Wakefield1",
+    "timelineLink": "future-crop.html?bed=47",
+    "url": "https://caadx317.github.io/DF-WEB/#bed-47",
+    "qrPath": "/Users/richardlaw/Documents/DF-WEB/generated_qr_codes/Bed_47_Cabbage_Charleston_Wakefield1_QR.png",
+    "qrFilename": "Bed_47_Cabbage_Charleston_Wakefield1_QR.png"
+  },
+  {
+    "number": 48,
+    "id": "bed-48",
+    "cropRaw": "Cabbage_Early_Round_Dutch1",
+    "cropName": "Cabbage Early Round Dutch1",
+    "timelineLink": "future-crop.html?bed=48",
+    "url": "https://caadx317.github.io/DF-WEB/#bed-48",
+    "qrPath": "/Users/richardlaw/Documents/DF-WEB/generated_qr_codes/Bed_48_Cabbage_Early_Round_Dutch1_QR.png",
+    "qrFilename": "Bed_48_Cabbage_Early_Round_Dutch1_QR.png"
+  },
+  {
+    "number": 49,
+    "id": "bed-49",
+    "cropRaw": "Cabbage_Amarant1",
+    "cropName": "Cabbage Amarant1",
+    "timelineLink": "future-crop.html?bed=49",
+    "url": "https://caadx317.github.io/DF-WEB/#bed-49",
+    "qrPath": "/Users/richardlaw/Documents/DF-WEB/generated_qr_codes/Bed_49_Cabbage_Amarant1_QR.png",
+    "qrFilename": "Bed_49_Cabbage_Amarant1_QR.png"
+  },
+  {
+    "number": 50,
+    "id": "bed-50",
+    "cropRaw": "56660_1",
+    "cropName": "56660 1",
+    "timelineLink": "future-crop.html?bed=50",
+    "url": "https://caadx317.github.io/DF-WEB/#bed-50",
+    "qrPath": "/Users/richardlaw/Documents/DF-WEB/generated_qr_codes/Bed_50_56660_1_QR.png",
+    "qrFilename": "Bed_50_56660_1_QR.png"
+  },
+  {
+    "number": 51,
+    "id": "bed-51",
+    "cropRaw": "Orleans1",
+    "cropName": "Orleans1",
+    "timelineLink": "future-crop.html?bed=51",
+    "url": "https://caadx317.github.io/DF-WEB/#bed-51",
+    "qrPath": "/Users/richardlaw/Documents/DF-WEB/generated_qr_codes/Bed_51_Orleans1_QR.png",
+    "qrFilename": "Bed_51_Orleans1_QR.png"
+  },
+  {
+    "number": 52,
+    "id": "bed-52",
+    "cropRaw": "Purple_Magisty1",
+    "cropName": "Purple Magisty1",
+    "timelineLink": "future-crop.html?bed=52",
+    "url": "https://caadx317.github.io/DF-WEB/#bed-52",
+    "qrPath": "/Users/richardlaw/Documents/DF-WEB/generated_qr_codes/Bed_52_Purple_Magisty1_QR.png",
+    "qrFilename": "Bed_52_Purple_Magisty1_QR.png"
+  },
+  {
+    "number": 53,
+    "id": "bed-53",
+    "cropRaw": "628761_1",
+    "cropName": "628761 1",
+    "timelineLink": "future-crop.html?bed=53",
+    "url": "https://caadx317.github.io/DF-WEB/#bed-53",
+    "qrPath": "/Users/richardlaw/Documents/DF-WEB/generated_qr_codes/Bed_53_628761_1_QR.png",
+    "qrFilename": "Bed_53_628761_1_QR.png"
+  },
+  {
+    "number": 54,
+    "id": "bed-54",
+    "cropRaw": "Ga_Jet1",
+    "cropName": "Ga Jet1",
+    "timelineLink": "future-crop.html?bed=54",
+    "url": "https://caadx317.github.io/DF-WEB/#bed-54",
+    "qrPath": "/Users/richardlaw/Documents/DF-WEB/generated_qr_codes/Bed_54_Ga_Jet1_QR.png",
+    "qrFilename": "Bed_54_Ga_Jet1_QR.png"
+  },
+  {
+    "number": 55,
+    "id": "bed-55",
+    "cropRaw": "Beauregard1",
+    "cropName": "Beauregard1",
+    "timelineLink": "future-crop.html?bed=55",
+    "url": "https://caadx317.github.io/DF-WEB/#bed-55",
+    "qrPath": "/Users/richardlaw/Documents/DF-WEB/generated_qr_codes/Bed_55_Beauregard1_QR.png",
+    "qrFilename": "Bed_55_Beauregard1_QR.png"
+  },
+  {
+    "number": 56,
+    "id": "bed-56",
+    "cropRaw": "Vardaman1",
+    "cropName": "Vardaman1",
+    "timelineLink": "future-crop.html?bed=56",
+    "url": "https://caadx317.github.io/DF-WEB/#bed-56",
+    "qrPath": "/Users/richardlaw/Documents/DF-WEB/generated_qr_codes/Bed_56_Vardaman1_QR.png",
+    "qrFilename": "Bed_56_Vardaman1_QR.png"
+  },
+  {
+    "number": 57,
+    "id": "bed-57",
+    "cropRaw": "566662",
+    "cropName": "566662",
+    "timelineLink": "future-crop.html?bed=57",
+    "url": "https://caadx317.github.io/DF-WEB/#bed-57",
+    "qrPath": "/Users/richardlaw/Documents/DF-WEB/generated_qr_codes/Bed_57_566662_QR.png",
+    "qrFilename": "Bed_57_566662_QR.png"
+  },
+  {
+    "number": 58,
+    "id": "bed-58",
+    "cropRaw": "Orleans2",
+    "cropName": "Orleans2",
+    "timelineLink": "future-crop.html?bed=58",
+    "url": "https://caadx317.github.io/DF-WEB/#bed-58",
+    "qrPath": "/Users/richardlaw/Documents/DF-WEB/generated_qr_codes/Bed_58_Orleans2_QR.png",
+    "qrFilename": "Bed_58_Orleans2_QR.png"
+  },
+  {
+    "number": 59,
+    "id": "bed-59",
+    "cropRaw": "56660_2",
+    "cropName": "56660 2",
+    "timelineLink": "future-crop.html?bed=59",
+    "url": "https://caadx317.github.io/DF-WEB/#bed-59",
+    "qrPath": "/Users/richardlaw/Documents/DF-WEB/generated_qr_codes/Bed_59_56660_2_QR.png",
+    "qrFilename": "Bed_59_56660_2_QR.png"
+  },
+  {
+    "number": 60,
+    "id": "bed-60",
+    "cropRaw": "Purple_Magisty2",
+    "cropName": "Purple Magisty2",
+    "timelineLink": "future-crop.html?bed=60",
+    "url": "https://caadx317.github.io/DF-WEB/#bed-60",
+    "qrPath": "/Users/richardlaw/Documents/DF-WEB/generated_qr_codes/Bed_60_Purple_Magisty2_QR.png",
+    "qrFilename": "Bed_60_Purple_Magisty2_QR.png"
+  },
+  {
+    "number": 61,
+    "id": "bed-61",
+    "cropRaw": "Ga_Jet2",
+    "cropName": "Ga Jet2",
+    "timelineLink": "future-crop.html?bed=61",
+    "url": "https://caadx317.github.io/DF-WEB/#bed-61",
+    "qrPath": "/Users/richardlaw/Documents/DF-WEB/generated_qr_codes/Bed_61_Ga_Jet2_QR.png",
+    "qrFilename": "Bed_61_Ga_Jet2_QR.png"
+  },
+  {
+    "number": 62,
+    "id": "bed-62",
+    "cropRaw": "Beauregard2",
+    "cropName": "Beauregard2",
+    "timelineLink": "future-crop.html?bed=62",
+    "url": "https://caadx317.github.io/DF-WEB/#bed-62",
+    "qrPath": "/Users/richardlaw/Documents/DF-WEB/generated_qr_codes/Bed_62_Beauregard2_QR.png",
+    "qrFilename": "Bed_62_Beauregard2_QR.png"
+  },
+  {
+    "number": 63,
+    "id": "bed-63",
+    "cropRaw": "Vardaman2",
+    "cropName": "Vardaman2",
+    "timelineLink": "future-crop.html?bed=63",
+    "url": "https://caadx317.github.io/DF-WEB/#bed-63",
+    "qrPath": "/Users/richardlaw/Documents/DF-WEB/generated_qr_codes/Bed_63_Vardaman2_QR.png",
+    "qrFilename": "Bed_63_Vardaman2_QR.png"
+  },
+  {
+    "number": 64,
+    "id": "bed-64",
+    "cropRaw": "628761_2",
+    "cropName": "628761 2",
+    "timelineLink": "future-crop.html?bed=64",
+    "url": "https://caadx317.github.io/DF-WEB/#bed-64",
+    "qrPath": "/Users/richardlaw/Documents/DF-WEB/generated_qr_codes/Bed_64_628761_2_QR.png",
+    "qrFilename": "Bed_64_628761_2_QR.png"
+  }
+]

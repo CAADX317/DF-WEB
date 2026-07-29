@@ -35,6 +35,7 @@
   buildFilterButtons(filtersEl, cropFilters);
   initFilters(mapRoot, filtersEl);
   initFloatingPreview(mapRoot);
+  initBedDeepLinks(mapRoot);
 
   function buildBed(bed) {
     const span = bed.colSpan || 1;
@@ -250,6 +251,166 @@
     });
   }
 
+  function initBedDeepLinks(map) {
+    const bedData = new Map(
+      beds
+        .filter((bed) => /^bed-\d+$/.test(bed.id))
+        .map((bed) => [bed.id, bed])
+    );
+    const detail = createBedDetail();
+    const frame = detail.querySelector(".bed-detail__frame");
+    const title = detail.querySelector(".bed-detail__title");
+    const loading = detail.querySelector(".bed-detail__loading");
+    const closeButton = detail.querySelector(".bed-detail__close");
+    let activeBedId = null;
+    let lastFocusedBed = null;
+    let lastWarnedInvalidHash = null;
+
+    map.addEventListener("click", (event) => {
+      const bedLink = event.target.closest(".map-bed");
+      if (!bedLink || event.defaultPrevented) return;
+
+      const bed = bedData.get(bedLink.dataset.bedId);
+      if (!bed) return;
+
+      event.preventDefault();
+      lastFocusedBed = bedLink;
+      const nextHash = `#${bed.id}`;
+      if (window.location.hash === nextHash) {
+        openBed(bed);
+      } else {
+        window.location.hash = nextHash;
+      }
+    });
+
+    closeButton.addEventListener("click", closeAndClearHash);
+    detail.addEventListener("click", (event) => {
+      if (event.target === detail) closeAndClearHash();
+    });
+    frame.addEventListener("load", () => {
+      loading.hidden = true;
+    });
+
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape" && detail.classList.contains("is-open")) {
+        closeAndClearHash();
+      }
+    });
+
+    window.addEventListener("hashchange", syncFromHash);
+    window.addEventListener("popstate", syncFromHash);
+    syncFromHash();
+
+    function syncFromHash() {
+      const hash = window.location.hash;
+      const match = hash.match(/^#bed-(\d+)$/);
+
+      if (!match) {
+        if (/^#bed-/i.test(hash) && lastWarnedInvalidHash !== hash) {
+          console.warn(
+            `[Oak Creek garden map] No bed matches the permanent URL hash "${hash}".`
+          );
+          lastWarnedInvalidHash = hash;
+        } else if (!/^#bed-/i.test(hash)) {
+          lastWarnedInvalidHash = null;
+        }
+        closeBed();
+        return;
+      }
+
+      const bed = bedData.get(`bed-${Number(match[1])}`);
+      if (!bed) {
+        if (lastWarnedInvalidHash !== hash) {
+          console.warn(
+            `[Oak Creek garden map] Bed ${match[1]} does not exist; showing the normal map view.`
+          );
+          lastWarnedInvalidHash = hash;
+        }
+        closeBed();
+        return;
+      }
+
+      lastWarnedInvalidHash = null;
+      openBed(bed);
+    }
+
+    function openBed(bed) {
+      const bedLink = map.querySelector(
+        `[data-bed-id="${escapeSelectorValue(bed.id)}"]`
+      );
+      map.querySelectorAll(".map-bed.is-deep-linked").forEach((item) => {
+        item.classList.remove("is-deep-linked");
+      });
+      if (bedLink) {
+        bedLink.classList.add("is-deep-linked");
+        bedLink.scrollIntoView({
+          behavior: "smooth",
+          block: "center",
+          inline: "center",
+        });
+      }
+
+      title.textContent = `${bed.bed} · ${formatCropNameForDisplay(bed.crop)}`;
+      frame.title = `${bed.bed} timeline`;
+      if (activeBedId !== bed.id || !detail.classList.contains("is-open")) {
+        loading.hidden = false;
+        frame.src = bed.link;
+      }
+      activeBedId = bed.id;
+      detail.classList.add("is-open");
+      detail.setAttribute("aria-hidden", "false");
+      document.body.classList.add("bed-detail-open");
+      closeButton.focus({ preventScroll: true });
+    }
+
+    function closeAndClearHash() {
+      const cleanUrl = `${window.location.pathname}${window.location.search}`;
+      history.pushState(null, "", cleanUrl);
+      closeBed();
+    }
+
+    function closeBed() {
+      if (!detail.classList.contains("is-open") && !activeBedId) return;
+      detail.classList.remove("is-open");
+      detail.setAttribute("aria-hidden", "true");
+      document.body.classList.remove("bed-detail-open");
+      map.querySelectorAll(".map-bed.is-deep-linked").forEach((item) => {
+        item.classList.remove("is-deep-linked");
+      });
+      frame.removeAttribute("src");
+      loading.hidden = false;
+      activeBedId = null;
+      if (lastFocusedBed?.isConnected) {
+        lastFocusedBed.focus({ preventScroll: true });
+      }
+    }
+  }
+
+  function createBedDetail() {
+    let detail = document.getElementById("bed-detail");
+    if (detail) return detail;
+
+    detail = document.createElement("div");
+    detail.id = "bed-detail";
+    detail.className = "bed-detail";
+    detail.setAttribute("role", "dialog");
+    detail.setAttribute("aria-modal", "true");
+    detail.setAttribute("aria-hidden", "true");
+    detail.setAttribute("aria-labelledby", "bed-detail-title");
+    detail.innerHTML = `
+      <div class="bed-detail__panel">
+        <header class="bed-detail__header">
+          <p class="bed-detail__title" id="bed-detail-title"></p>
+          <button class="bed-detail__close" type="button" aria-label="Close bed timeline">×</button>
+        </header>
+        <p class="bed-detail__loading" role="status">Loading timeline…</p>
+        <iframe class="bed-detail__frame" title="Bed timeline"></iframe>
+      </div>
+    `;
+    document.body.appendChild(detail);
+    return detail;
+  }
+
   function escapeHtml(text) {
     const d = document.createElement("div");
     d.textContent = text;
@@ -329,5 +490,10 @@
       .replace(/&/g, "&amp;")
       .replace(/"/g, "&quot;")
       .replace(/</g, "&lt;");
+  }
+
+  function escapeSelectorValue(text) {
+    if (window.CSS?.escape) return CSS.escape(text);
+    return String(text).replace(/["\\]/g, "\\$&");
   }
 })();
