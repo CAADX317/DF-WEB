@@ -925,6 +925,37 @@ const gardenData = {
       ]
     },
     {
+      "id": "dry-farm-flower-bed",
+      "crop": "Dry Farm Flower Bed",
+      "bed": "Dry Farm Flower Bed",
+      "mapRow": 8,
+      "colSpan": 15,
+      "link": "future-crop.html?crop=dry-farm-flower-bed",
+      "permanentHash": "dry-farm-flower-bed",
+      "fullWidthSection": true,
+      "filter": "Dry Farm Flower Bed",
+      "color": "#b98c96",
+      "images": [
+        "Dry_Farm_Flower_Bed/0729.jpeg"
+      ]
+    },
+    {
+      "id": "dry-land-collard",
+      "crop": "Dry Land Collard",
+      "bed": "Dry Land Collard",
+      "mapRow": 9,
+      "colSpan": 15,
+      "link": "future-crop.html?crop=dry-land-collard",
+      "permanentHash": "dry-land-collard",
+      "fullWidthSection": true,
+      "filter": "Dry Land Collard",
+      "color": "#8fa879",
+      "images": [
+        "Dry_Land_Collard/0729.jpeg",
+        "Dry_Land_Collard/0729_1.jpeg"
+      ]
+    },
+    {
       "id": "barley-row",
       "crop": "Barley",
       "cropSecondary": "2-row & 6-row",
@@ -944,6 +975,22 @@ const gardenData = {
         "Barley/6_Rows/IMG_6053.jpeg"
       ],
       "previewFit": "contain"
+    },
+    {
+      "id": "pigeon-pea",
+      "crop": "Pigeon Pea",
+      "bed": "Pigeon Pea",
+      "mapRow": 10,
+      "colSpan": 15,
+      "link": "future-crop.html?crop=pigeon-pea",
+      "permanentHash": "pigeon-pea",
+      "fullWidthSection": true,
+      "filter": "Pigeon Pea",
+      "color": "#9caf88",
+      "images": [
+        "Pigeon_Pea/0729.jpeg",
+        "Pigeon_Pea/0729_1.jpeg"
+      ]
     }
   ],
   "timelines": {
@@ -4100,6 +4147,54 @@ const gardenData = {
           "date": "Jun 25",
           "textOnly": true,
           "text": "Overall rating: 5/5. Field observations: Excellent establishment, vigor, and overall growth."
+        }
+      ]
+    },
+    "dry-farm-flower-bed": {
+      "name": "Dry Farm Flower Bed",
+      "bed": "Dry Farm Flower Bed",
+      "description": "Dry Farm Flower Bed tracked as a full-width garden section.",
+      "entries": [
+        {
+          "dayNumber": 89,
+          "date": "Jul 29",
+          "image": "Dry_Farm_Flower_Bed/0729.jpeg",
+          "alt": "Dry Farm Flower Bed on Jul 29",
+          "note": "Field photo from Jul 29."
+        }
+      ]
+    },
+    "dry-land-collard": {
+      "name": "Dry Land Collard",
+      "bed": "Dry Land Collard",
+      "description": "Dry Land Collard tracked as a full-width garden section.",
+      "entries": [
+        {
+          "dayNumber": 89,
+          "date": "Jul 29",
+          "image": "Dry_Land_Collard/0729.jpeg",
+          "images": [
+            "Dry_Land_Collard/0729_1.jpeg"
+          ],
+          "alt": "Dry Land Collard on Jul 29",
+          "note": "Field photos from Jul 29."
+        }
+      ]
+    },
+    "pigeon-pea": {
+      "name": "Pigeon Pea",
+      "bed": "Pigeon Pea",
+      "description": "Pigeon Pea tracked as a full-width garden section.",
+      "entries": [
+        {
+          "dayNumber": 89,
+          "date": "Jul 29",
+          "image": "Pigeon_Pea/0729.jpeg",
+          "images": [
+            "Pigeon_Pea/0729_1.jpeg"
+          ],
+          "alt": "Pigeon Pea on Jul 29",
+          "note": "Field photos from Jul 29."
         }
       ]
     },

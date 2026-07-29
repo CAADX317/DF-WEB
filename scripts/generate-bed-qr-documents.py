@@ -11,15 +11,18 @@ import argparse
 import json
 import re
 import subprocess
+import tempfile
 from pathlib import Path
 
-from PIL import Image
+from PIL import Image, ImageDraw, ImageFont
 from docx import Document
 from docx.enum.section import WD_ORIENT
 from docx.enum.text import WD_ALIGN_PARAGRAPH
 from docx.oxml.ns import qn
 from docx.shared import Inches, Pt, RGBColor
 from reportlab.graphics.barcode.qrencoder import QRCode, QRErrorCorrectLevel
+from reportlab.lib.pagesizes import letter
+from reportlab.pdfgen import canvas
 
 
 SITE_ROOT = "https://caadx317.github.io/DF-WEB/"
@@ -35,6 +38,11 @@ def parse_args() -> argparse.Namespace:
         default=Path(__file__).resolve().parents[1],
     )
     parser.add_argument("--node", default="node")
+    parser.add_argument(
+        "--homepage-only",
+        action="store_true",
+        help="Generate only Homepage_QR.png and Homepage_QR.pdf.",
+    )
     return parser.parse_args()
 
 
@@ -92,10 +100,16 @@ def build_qr_matrix(url: str) -> list[list[bool]]:
     return [[bool(cell) for cell in row] for row in qr.modules]
 
 
-def render_qr_png(matrix: list[list[bool]], output_path: Path) -> None:
+def render_qr_png(
+    matrix: list[list[bool]],
+    output_path: Path,
+    *,
+    border_modules: int = QR_BORDER_MODULES,
+    box_pixels: int = QR_BOX_PIXELS,
+) -> None:
     module_count = len(matrix)
-    canvas_modules = module_count + (2 * QR_BORDER_MODULES)
-    size = canvas_modules * QR_BOX_PIXELS
+    canvas_modules = module_count + (2 * border_modules)
+    size = canvas_modules * box_pixels
     image = Image.new("RGB", (size, size), "white")
     pixels = image.load()
 
@@ -103,30 +117,35 @@ def render_qr_png(matrix: list[list[bool]], output_path: Path) -> None:
         for col, is_dark in enumerate(values):
             if not is_dark:
                 continue
-            x0 = (col + QR_BORDER_MODULES) * QR_BOX_PIXELS
-            y0 = (row + QR_BORDER_MODULES) * QR_BOX_PIXELS
-            for y in range(y0, y0 + QR_BOX_PIXELS):
-                for x in range(x0, x0 + QR_BOX_PIXELS):
+            x0 = (col + border_modules) * box_pixels
+            y0 = (row + border_modules) * box_pixels
+            for y in range(y0, y0 + box_pixels):
+                for x in range(x0, x0 + box_pixels):
                     pixels[x, y] = (0, 0, 0)
 
     image.save(output_path, format="PNG", optimize=True, dpi=(300, 300))
 
 
 def validate_qr_bitmap(
-    matrix: list[list[bool]], output_path: Path, expected_url: str
+    matrix: list[list[bool]],
+    output_path: Path,
+    expected_url: str,
+    *,
+    border_modules: int = QR_BORDER_MODULES,
+    box_pixels: int = QR_BOX_PIXELS,
 ) -> None:
     with Image.open(output_path) as image:
         image = image.convert("RGB")
         module_count = len(matrix)
-        expected_size = (module_count + 2 * QR_BORDER_MODULES) * QR_BOX_PIXELS
+        expected_size = (module_count + 2 * border_modules) * box_pixels
         if image.size != (expected_size, expected_size):
             raise RuntimeError(f"Unexpected QR dimensions for {output_path.name}")
         if image.getpixel((0, 0)) != (255, 255, 255):
             raise RuntimeError(f"Missing white quiet zone in {output_path.name}")
         for row, values in enumerate(matrix):
             for col, is_dark in enumerate(values):
-                x = (col + QR_BORDER_MODULES) * QR_BOX_PIXELS + QR_BOX_PIXELS // 2
-                y = (row + QR_BORDER_MODULES) * QR_BOX_PIXELS + QR_BOX_PIXELS // 2
+                x = (col + border_modules) * box_pixels + box_pixels // 2
+                y = (row + border_modules) * box_pixels + box_pixels // 2
                 expected = (0, 0, 0) if is_dark else (255, 255, 255)
                 if image.getpixel((x, y)) != expected:
                     raise RuntimeError(f"QR module mismatch in {output_path.name}")
@@ -241,11 +260,116 @@ def build_document(beds: list[dict], project_root: Path) -> Path:
     return output_path
 
 
+def build_homepage_pdf(qr_path: Path, output_path: Path) -> None:
+    page_pixel_width = 3400
+    page_pixel_height = 4400
+    page_image = Image.new(
+        "RGB",
+        (page_pixel_width, page_pixel_height),
+        "white",
+    )
+    draw = ImageDraw.Draw(page_image)
+
+    bold_font_paths = (
+        Path("/System/Library/Fonts/Supplemental/Arial Bold.ttf"),
+        Path("/Library/Fonts/Arial Bold.ttf"),
+    )
+    regular_font_paths = (
+        Path("/System/Library/Fonts/Supplemental/Arial.ttf"),
+        Path("/Library/Fonts/Arial.ttf"),
+    )
+    bold_font_path = next((path for path in bold_font_paths if path.is_file()), None)
+    regular_font_path = next(
+        (path for path in regular_font_paths if path.is_file()),
+        None,
+    )
+    if not bold_font_path or not regular_font_path:
+        raise RuntimeError("Arial fonts required for the homepage PDF were not found")
+
+    title_font = ImageFont.truetype(str(bold_font_path), 140)
+    url_font = ImageFont.truetype(str(regular_font_path), 60)
+    title = "Oak Creek Dry Farming Greens"
+
+    title_box = draw.textbbox((0, 0), title, font=title_font)
+    title_x = (page_pixel_width - (title_box[2] - title_box[0])) // 2
+    draw.text((title_x, 300), title, fill="black", font=title_font)
+
+    with Image.open(qr_path) as qr_source:
+        qr_image = qr_source.convert("RGB").resize(
+            (1960, 1960),
+            Image.Resampling.NEAREST,
+        )
+    qr_x = (page_pixel_width - qr_image.width) // 2
+    qr_y = 920
+    page_image.paste(qr_image, (qr_x, qr_y))
+
+    url_box = draw.textbbox((0, 0), SITE_ROOT, font=url_font)
+    url_x = (page_pixel_width - (url_box[2] - url_box[0])) // 2
+    draw.text((url_x, 3100), SITE_ROOT, fill="black", font=url_font)
+
+    page_width, page_height = letter
+    with tempfile.TemporaryDirectory() as temp_dir:
+        page_image_path = Path(temp_dir) / "homepage-qr-page.png"
+        page_image.save(page_image_path, format="PNG", optimize=True, dpi=(400, 400))
+
+        pdf = canvas.Canvas(str(output_path), pagesize=letter)
+        pdf.setTitle("Oak Creek Dry Farming Greens Homepage QR Code")
+        pdf.drawImage(
+            str(page_image_path),
+            0,
+            0,
+            width=page_width,
+            height=page_height,
+        )
+        pdf.showPage()
+        pdf.save()
+
+
+def generate_homepage_assets(project_root: Path) -> dict[str, str | int]:
+    qr_dir = project_root / "generated_qr_codes"
+    qr_dir.mkdir(exist_ok=True)
+    qr_path = qr_dir / "Homepage_QR.png"
+    pdf_path = project_root / "Homepage_QR.pdf"
+    border_modules = 8
+    box_pixels = 48
+
+    matrix = build_qr_matrix(SITE_ROOT)
+    render_qr_png(
+        matrix,
+        qr_path,
+        border_modules=border_modules,
+        box_pixels=box_pixels,
+    )
+    validate_qr_bitmap(
+        matrix,
+        qr_path,
+        SITE_ROOT,
+        border_modules=border_modules,
+        box_pixels=box_pixels,
+    )
+    build_homepage_pdf(qr_path, pdf_path)
+
+    with Image.open(qr_path) as image:
+        width, height = image.size
+    return {
+        "url": SITE_ROOT,
+        "png": str(qr_path),
+        "pdf": str(pdf_path),
+        "width": width,
+        "height": height,
+        "quietZoneModules": border_modules,
+    }
+
+
 def main() -> None:
     args = parse_args()
     project_root = args.project_root.resolve()
     qr_dir = project_root / "generated_qr_codes"
     qr_dir.mkdir(exist_ok=True)
+
+    if args.homepage_only:
+        print(json.dumps(generate_homepage_assets(project_root), indent=2))
+        return
 
     beds = load_beds(project_root, args.node)
     for bed in beds:

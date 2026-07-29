@@ -3,14 +3,18 @@
 const crypto = require("crypto");
 const fs = require("fs");
 const path = require("path");
-const convertHeic = require("heic-convert");
 const sharp = require("sharp");
 
 const ROOT = path.resolve(__dirname, "..");
 const OUTPUT_ROOT = path.join(ROOT, "assets", "thumbnails");
 const MANIFEST_PATH = path.join(OUTPUT_ROOT, "manifest.json");
 const IMAGE_EXTENSIONS = new Set([".jpg", ".jpeg", ".png", ".heic"]);
-const IGNORE_DIRECTORIES = new Set([".git", "node_modules", "thumbnails"]);
+const IGNORE_DIRECTORIES = new Set([
+  ".git",
+  "node_modules",
+  "thumbnails",
+  "generated_qr_codes",
+]);
 const MAX_WIDTH = 720;
 const QUALITY = 76;
 
@@ -89,6 +93,7 @@ async function writeWebp(inputPath, outputPath) {
 async function generateHeicWithFallback(originalPath, outputPath, sharpError) {
   let jpegBuffer;
   try {
+    const convertHeic = require("heic-convert");
     jpegBuffer = await convertHeic({
       buffer: fs.readFileSync(originalPath),
       format: "JPEG",

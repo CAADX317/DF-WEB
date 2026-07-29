@@ -110,7 +110,10 @@
   margin-bottom: 28px;
 }
 
-.map-row.row-7 {
+.map-row.row-7,
+.map-row.row-8,
+.map-row.row-9,
+.map-row.row-10 {
   grid-template-columns: repeat(15, minmax(0, 1fr));
   min-height: 82px;
 }
@@ -126,7 +129,10 @@
   min-height: 72px;
 }
 
-.row-7 .map-bed {
+.row-7 .map-bed,
+.row-8 .map-bed,
+.row-9 .map-bed,
+.row-10 .map-bed {
   min-height: 82px;
 }
 

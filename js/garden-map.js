@@ -19,8 +19,8 @@
 
   if (!mapRoot || !beds?.length) return;
 
-  // Sweet potatoes lead the map; all other rows retain their existing order.
-  const rows = [6, 1, 2, 3, 4, 5, 7];
+  // Sweet potatoes lead the map; full-width crop sections follow the numbered beds.
+  const rows = [6, 1, 2, 3, 4, 5, 8, 9, 7, 10];
   mapRoot.innerHTML = rows
     .map((rowNum) => {
       const rowBeds = beds.filter((b) => b.mapRow === rowNum);
@@ -123,6 +123,10 @@
   }
 
   function initFloatingPreview(map) {
+    if (window.matchMedia("(hover: none) and (pointer: coarse)").matches) {
+      return;
+    }
+
     const floatEl = createFloat();
     const imgEl = floatEl.querySelector(".crop-preview-float__img");
     const sliderEl = floatEl.querySelector(".crop-preview-float__slider");
@@ -204,10 +208,6 @@
       clearInterval(slideTimer);
       floatEl.classList.remove("is-visible", "is-contain");
     }
-
-    if (!window.matchMedia("(hover: hover)").matches) {
-      setupTouch(map, floatEl, bedData);
-    }
   }
 
   function createFloat() {
@@ -227,35 +227,11 @@
     return el;
   }
 
-  function setupTouch(map, floatEl, bedData) {
-    map.querySelectorAll(".map-bed").forEach((bed) => {
-      let opened = false;
-      bed.addEventListener("click", (e) => {
-        if (!opened) {
-          e.preventDefault();
-          opened = true;
-          bed.dispatchEvent(new Event("mouseenter"));
-          floatEl.querySelector(".crop-preview-float__hint").textContent =
-            "Tap again for timeline";
-          const reset = (ev) => {
-            if (!bed.contains(ev.target) && !floatEl.contains(ev.target)) {
-              opened = false;
-              bed.classList.remove("is-lit");
-              floatEl.classList.remove("is-visible");
-              document.removeEventListener("click", reset);
-            }
-          };
-          setTimeout(() => document.addEventListener("click", reset), 0);
-        }
-      });
-    });
-  }
-
   function initBedDeepLinks(map) {
     const bedData = new Map(
       beds
-        .filter((bed) => /^bed-\d+$/.test(bed.id))
-        .map((bed) => [bed.id, bed])
+        .filter((bed) => /^bed-\d+$/.test(bed.id) || bed.permanentHash)
+        .map((bed) => [bed.permanentHash || bed.id, bed])
     );
     const detail = createBedDetail();
     const frame = detail.querySelector(".bed-detail__frame");
@@ -270,12 +246,13 @@
       const bedLink = event.target.closest(".map-bed");
       if (!bedLink || event.defaultPrevented) return;
 
-      const bed = bedData.get(bedLink.dataset.bedId);
-      if (!bed) return;
+      const bed = beds.find((item) => item.id === bedLink.dataset.bedId);
+      const hashKey = bed?.permanentHash || bed?.id;
+      if (!bedData.has(hashKey)) return;
 
       event.preventDefault();
       lastFocusedBed = bedLink;
-      const nextHash = `#${bed.id}`;
+      const nextHash = `#${hashKey}`;
       if (window.location.hash === nextHash) {
         openBed(bed);
       } else {
@@ -303,9 +280,10 @@
 
     function syncFromHash() {
       const hash = window.location.hash;
-      const match = hash.match(/^#bed-(\d+)$/);
+      const hashKey = decodeURIComponent(hash.slice(1));
+      const bed = bedData.get(hashKey);
 
-      if (!match) {
+      if (!bed) {
         if (/^#bed-/i.test(hash) && lastWarnedInvalidHash !== hash) {
           console.warn(
             `[Oak Creek garden map] No bed matches the permanent URL hash "${hash}".`
@@ -313,18 +291,6 @@
           lastWarnedInvalidHash = hash;
         } else if (!/^#bed-/i.test(hash)) {
           lastWarnedInvalidHash = null;
-        }
-        closeBed();
-        return;
-      }
-
-      const bed = bedData.get(`bed-${Number(match[1])}`);
-      if (!bed) {
-        if (lastWarnedInvalidHash !== hash) {
-          console.warn(
-            `[Oak Creek garden map] Bed ${match[1]} does not exist; showing the normal map view.`
-          );
-          lastWarnedInvalidHash = hash;
         }
         closeBed();
         return;
@@ -350,7 +316,8 @@
         });
       }
 
-      title.textContent = `${bed.bed} · ${formatCropNameForDisplay(bed.crop)}`;
+      const cropName = formatCropNameForDisplay(bed.crop);
+      title.textContent = bed.bed === cropName ? cropName : `${bed.bed} · ${cropName}`;
       frame.title = `${bed.bed} timeline`;
       if (activeBedId !== bed.id || !detail.classList.contains("is-open")) {
         loading.hidden = false;
@@ -462,7 +429,7 @@
   }
 
   function getColorClassFromName(bed) {
-    if (bed.id === "barley-row") return "";
+    if (bed.id === "barley-row" || bed.fullWidthSection) return "";
 
     const bedNumber = Number(String(bed.id || "").replace("bed-", ""));
     if (bedNumber <= 11) return "";

@@ -3,9 +3,13 @@
  */
 
 (function () {
-  const bedParam = new URLSearchParams(window.location.search).get("bed");
+  const params = new URLSearchParams(window.location.search);
+  const bedParam = params.get("bed");
+  const cropParam = params.get("crop");
   const bedCropId = bedParam && /^\d+$/.test(bedParam) ? `bed-${bedParam}` : null;
-  const cropId = bedCropId || document.body.dataset.crop;
+  const namedCropId =
+    cropParam && /^[a-z0-9-]+$/.test(cropParam) ? cropParam : null;
+  const cropId = bedCropId || namedCropId || document.body.dataset.crop;
   const container = document.getElementById("crop-detail");
   const source = typeof gardenData !== "undefined" ? gardenData : null;
 
